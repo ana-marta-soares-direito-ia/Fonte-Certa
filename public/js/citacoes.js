@@ -57,7 +57,10 @@ export async function verificar(c, { dataFactos = "" } = {}) {
   if (c.tipo === "tc") {
     const url = `https://www.tribunalconstitucional.pt/tc/acordaos/${c.ano}${String(c.numero).padStart(4, "0")}.html`;
     const resp = await fetch("/api/fonte?u=" + encodeURIComponent(url));
-    if (resp.ok) return { estado: "confirmada", url, nota: "Acórdão encontrado no sítio do Tribunal Constitucional." };
+    const texto = resp.ok ? normalizar(await resp.text()) : "";
+    // O sítio do Tribunal devolve uma página mesmo quando o acórdão não existe: confirma-se pelo título.
+    const existe = new RegExp(`ac[oó]rd[aã]o\\s*n\\s*\\.?\\s*${c.numero}\\s*/\\s*${c.ano}`).test(texto);
+    if (existe) return { estado: "confirmada", url, nota: "Acórdão encontrado no sítio do Tribunal Constitucional." };
     return { estado: "nao-encontrada", url, nota: "O Tribunal Constitucional não tem publicado um acórdão com este número e ano." };
   }
   if (c.tipo === "ecli") {
