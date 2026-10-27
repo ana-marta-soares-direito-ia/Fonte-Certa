@@ -156,7 +156,12 @@ export async function pesquisarTudo(pergunta, { caso = null, bases = null, progr
         return n ? p * (1 + 0.5 * (n - 1)) : p * 0.3;
       };
       // Artigos sugeridos pela IA só ficam se tratarem, de facto, da questão.
-      const pontos = lista.map(a => ({ a, p: pontuar(a) })).sort((x, y) => y.p - x.p);
+      const nEpigrafe = a => termosNorma.filter(t => epigrafes[a.indice].includes(t)).length;
+      // Exige pelo menos dois termos da questão na epígrafe (ou um termo raro no diploma).
+      // e que a epígrafe contenha um dos termos principais (os primeiros da questão ou os mais específicos).
+      const principais = [...new Set([...termosNorma.slice(0, 3), ...[...termosNorma].sort((x, y) => peso[y] - peso[x]).slice(0, 3)])];
+      const pertinente = a => principais.some(t => epigrafes[a.indice].includes(t)) && (nEpigrafe(a) >= 2 || termosNorma.some(t => peso[t] > 4 && epigrafes[a.indice].includes(t)));
+      const pontos = lista.map(a => ({ a, p: pertinente(a) ? pontuar(a) : 0 })).sort((x, y) => y.p - x.p);
       const melhor = pontos[0]?.p || 0;
       const sugeridos = c.sugeridos.map(n => encontrarArtigo(lista, n, codigo)).filter(a => a && melhor >= 30 && pontuar(a) >= Math.max(15, melhor * 0.2));
       const encontrados = melhor < 30 ? [] : pontos.filter(x => x.p >= Math.max(20, melhor * 0.55)).slice(0, 5).map(x => x.a);
