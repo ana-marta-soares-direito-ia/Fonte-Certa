@@ -10,7 +10,7 @@ jobs:
   e2e:
     runs-on: ubuntu-latest
     env:
-      BASE: ${{ github.ref_name == 'main' && 'https://fonte-certa.pages.dev' || 'https://desenvolvimento.fonte-certa.pages.dev' }}
+      BASE: ${{ github.ref_name == 'main' && 'https://fonte-certa-ana-marta-soares.pages.dev' || 'https://desenvolvimento.fonte-certa.pages.dev' }}
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
