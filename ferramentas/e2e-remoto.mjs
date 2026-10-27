@@ -43,7 +43,7 @@ for (const [k, q] of Object.entries(perguntas)) {
     return {
       consultas: r.consultas, bases: r.bases,
       juris: r.juris.slice(0, 12).map(j => ({ base: j.base, data: j.data, processo: j.processo, desc: j.descritores.slice(0, 5), sumario: (j.sumarioCurto || "").slice(0, 160) })),
-      nJuris: r.juris.length, nLeg: r.legislacao.length, normas: r.normas.map(x => x.diploma.c || x.diploma.t),
+      nJuris: r.juris.length, nLeg: r.legislacao.length, normas: r.normas.map(x => `${x.diploma.c || x.diploma.t}: ${x.artigos.map(a => a.numero).join(", ")}`),
       leg: r.legislacao.slice(0, 6).map(x => x.c || x.t.slice(0, 80)), recentes: r.recentes.slice(0, 5).map(x => `${x.d} ${(x.c || x.t).slice(0, 80)}`),
       alertas: r.alertas.map(x => `${x.d} ${x.t.slice(0, 90)}`),
     };
@@ -125,7 +125,7 @@ try {
   rel.ia.pesquisa = await p.evaluate(async () => {
     const { estado } = await import("/js/estado.js");
     const r = estado.ultimaPesquisa;
-    return { plano: r.plano, consultas: r.consultas, normas: r.normas.map(n => `${n.diploma.c || n.diploma.t} ${n.artigos.join(",")}`), primeiros: r.juris.slice(0, 6).map(j => `${j.base} ${j.data} ${j.processo} ${j.descritores.slice(0, 3).join("; ")}`) };
+    return { plano: r.plano, consultas: r.consultas, normas: r.normas.map(n => `${n.diploma.c || n.diploma.t}: ${n.artigos.map(a => a.numero + " " + a.epigrafe).join("; ")}`), primeiros: r.juris.slice(0, 6).map(j => `${j.base} ${j.data} ${j.processo} ${j.descritores.slice(0, 3).join("; ")}`) };
   });
   rel.ia.pesquisa.segundos = Math.round((Date.now() - t0) / 1000);
   await p.screenshot({ path: `${pasta}/31-pesquisa-ia.png`, fullPage: true });

@@ -127,12 +127,13 @@ export async function pesquisarTudo(pergunta, { caso = null, bases = null, progr
       if (r && !r.externo) {
         const ja = candidatos.find(c => c.diploma.p === r.p);
         if (ja) ja.sugeridos.push(...(d.artigos || []).map(String));
-        else candidatos.push({ diploma: r, sugeridos: (d.artigos || []).map(String) });
+        else candidatos.push({ diploma: r, sugeridos: (d.artigos || []).map(String), origem: "ia" });
       }
     } catch {}
   }
-  for (const r of await diplomasDeReferencia(pergunta + " " + (plano?.questao || "")).catch(() => [])) {
-    if (!candidatos.some(c => c.diploma.p === r.p)) candidatos.push({ diploma: r, sugeridos: [] });
+  for (const r of await diplomasDeReferencia(pergunta).catch(() => [])) {
+    const ja = candidatos.find(c => c.diploma.p === r.p);
+    if (ja) ja.origem = "tema"; else candidatos.push({ diploma: r, sugeridos: [], origem: "tema" });
   }
   const termosNorma = [...new Set(palavrasChave(`${pergunta} ${plano?.questao || ""}`, 12).map(t => radical(semAO(t))))];
   const normas = [];
@@ -155,7 +156,8 @@ export async function pesquisarTudo(pergunta, { caso = null, bases = null, progr
       arts = [...sugeridos, ...encontrados].filter(a => (vistos.has(a.indice) ? false : vistos.add(a.indice)))
         .sort((x, y) => x.indice - y.indice).slice(0, 6).map(a => ({ numero: a.numero, epigrafe: a.epigrafe }));
     } catch {}
-    normas.push({ diploma: c.diploma, artigos: arts });
+    // Um diploma sugerido só pela IA, sem nenhum artigo sobre a questão, não é apresentado.
+    if (arts.length || c.origem === "tema") normas.push({ diploma: c.diploma, artigos: arts });
   }
   return { pergunta, plano, consultas: porConsulta, bases: listaBases, juris, legislacao, recentes, alertas, normas, usarIA };
 }

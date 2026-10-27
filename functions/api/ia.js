@@ -2,7 +2,7 @@
 // Recebe apenas o texto já anonimizado e o texto público dos acórdãos; não guarda nada.
 const MODELOS = {
   principal: "@cf/openai/gpt-oss-120b",
-  alternativo: "@cf/google/gemma-4-26b-a4b-it",
+  alternativo: "@cf/openai/gpt-oss-20b",
 };
 const LIMITE = 140000; // caracteres por pedido
 
