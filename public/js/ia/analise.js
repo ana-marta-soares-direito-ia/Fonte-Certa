@@ -1,7 +1,7 @@
 // Análises com IA. Regra de construção: nenhuma afirmação é apresentada sem o trecho exacto
 // do acórdão que a sustenta; o que não for encontrado, palavra por palavra, no texto é descartado.
 import { pedirJSON, fornecedorIA } from "./gemini.js";
-import { normalizar } from "../util.js";
+import { normalizar, palavrasChave, radical, semAO } from "../util.js";
 import { BASES } from "../fontes/dgsi.js";
 
 const SISTEMA_BASE = `És um assistente de investigação jurídica para advogados e juristas portugueses.
@@ -197,5 +197,11 @@ O trecho tem de mostrar directamente a resposta. Responde com:
   let sustenta = ["sim", "em parte", "não"].includes(r.sustenta) ? r.sustenta : "em parte";
   // Sem trecho confirmado no texto, não se pode afirmar que o acórdão sustenta a citação.
   if (!prova && sustenta !== "não") sustenta = "por confirmar";
+  // O trecho tem de tratar do mesmo assunto que a afirmação (termos jurídicos em comum).
+  if (prova && sustenta !== "não") {
+    const termos = [...new Set(palavrasChave(frase, 14).map(t => radical(semAO(t))))].filter(t => !/^(decid|acorda|stj|proc|como|nos|termos)/.test(t));
+    const alvo = semAO(normalizar(prova.trecho + " " + (prova.ponto || "")));
+    if (termos.filter(t => alvo.includes(t)).length < 2) sustenta = "por confirmar";
+  }
   return { sustenta, explicacao: r.explicacao || "", prova };
 }

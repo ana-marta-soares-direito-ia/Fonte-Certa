@@ -158,7 +158,7 @@ export async function pesquisarTudo(pergunta, { caso = null, bases = null, progr
       // Artigos sugeridos pela IA só ficam se tratarem, de facto, da questão.
       const pontos = lista.map(a => ({ a, p: pontuar(a) })).sort((x, y) => y.p - x.p);
       const melhor = pontos[0]?.p || 0;
-      const sugeridos = c.sugeridos.map(n => encontrarArtigo(lista, n, codigo)).filter(a => a && pontuar(a) >= (melhor >= 30 ? Math.max(15, melhor * 0.2) : 25));
+      const sugeridos = c.sugeridos.map(n => encontrarArtigo(lista, n, codigo)).filter(a => a && melhor >= 30 && pontuar(a) >= Math.max(15, melhor * 0.2));
       const encontrados = melhor < 30 ? [] : pontos.filter(x => x.p >= Math.max(20, melhor * 0.55)).slice(0, 5).map(x => x.a);
       const vistos = new Set();
       arts = [...sugeridos, ...encontrados].filter(a => (vistos.has(a.indice) ? false : vistos.add(a.indice)))
