@@ -1,5 +1,5 @@
 // Verificador de citações: encontra acórdãos e artigos citados num texto e confirma-os nas fontes oficiais.
-import { procurarProcesso, basesPorProcesso, lerAcordao } from "./fontes/dgsi.js";
+import { procurarProcesso, basesPorProcesso, lerAcordao, ponte } from "./fontes/dgsi.js";
 import { encontrarDiploma, versoes, versaoNaData, textoDiploma, artigos, encontrarArtigo, designacao } from "./fontes/legislacao.js";
 import { normalizar } from "./util.js";
 
@@ -56,8 +56,8 @@ export async function verificar(c, { dataFactos = "" } = {}) {
   }
   if (c.tipo === "tc") {
     const url = `https://www.tribunalconstitucional.pt/tc/acordaos/${c.ano}${String(c.numero).padStart(4, "0")}.html`;
-    const resp = await fetch("/api/fonte?u=" + encodeURIComponent(url));
-    const texto = resp.ok ? normalizar(await resp.text()) : "";
+    const resp = await ponte(url);
+    const texto = resp.ok ? normalizar(resp.texto.replace(/<[^>]+>/g, " ")) : "";
     // O sítio do Tribunal devolve uma página mesmo quando o acórdão não existe: confirma-se pelo título.
     const existe = new RegExp(`ac[oó]rd[aã]o\\s*n\\s*\\.?\\s*${c.numero}\\s*/\\s*${c.ano}`).test(texto);
     if (existe) return { estado: "confirmada", url, nota: "Acórdão encontrado no sítio do Tribunal Constitucional." };
