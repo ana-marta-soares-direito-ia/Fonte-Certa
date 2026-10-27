@@ -1,8 +1,1 @@
-https://fonte-certa.pages.dev/?sonda=1
-https://www.dgsi.pt/robots.txt
-https://www.dgsi.pt/jstj.nsf/954f0ce6ad9dd8b980256b5f003fa814?SearchView&Query=extin%C3%A7%C3%A3o+posto+trabalho&SearchOrder=4&Count=10
-https://www.dgsi.pt/jstj.nsf/954f0ce6ad9dd8b980256b5f003fa814/089cbe5224feb4e780258e1a00325135?OpenDocument
-https://diariodarepublica.pt/robots.txt
-https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475
-https://www.tribunalconstitucional.pt/robots.txt
-https://www.tribunalconstitucional.pt/tc/acordaos/
+https://www.dgsi.pt/jtrl.nsf?OpenDatabase
