@@ -135,23 +135,30 @@ export async function pesquisarTudo(pergunta, { caso = null, bases = null, progr
     const ja = candidatos.find(c => c.diploma.p === r.p);
     if (ja) ja.origem = "tema"; else candidatos.push({ diploma: r, sugeridos: [], origem: "tema" });
   }
-  const termosNorma = [...new Set(palavrasChave(`${pergunta} ${plano?.questao || ""}`, 12).map(t => radical(semAO(t))))];
+  const termosNorma = [...new Set(palavrasChave(pergunta, 10).map(t => radical(semAO(t))))];
   const normas = [];
   for (const c of candidatos.slice(0, 5)) {
     let arts = [];
     try {
       const lista = listarArtigos(await textoDiploma(c.diploma.p));
       const codigo = /^c[oó]digo|constitui/i.test(c.diploma.c || c.diploma.t);
+      const epigrafes = lista.map(a => semAO(normalizar(a.epigrafe)));
+      const peso = Object.fromEntries(termosNorma.map(t => [t, Math.log(1 + lista.length / (1 + epigrafes.filter(e => e.includes(t)).length))]));
       const pontuar = a => {
-        const ep = semAO(normalizar(a.epigrafe)), tx = semAO(normalizar(a.texto.slice(0, 1500)));
-        let p = 0;
-        for (const t of termosNorma) { if (ep.includes(t)) p += 3; else if (tx.includes(t)) p += 1; }
-        return p;
+        const ep = epigrafes[a.indice], tx = semAO(normalizar(a.texto.slice(0, 1500))), ctx = semAO(normalizar(a.contexto));
+        let p = 0, n = 0;
+        for (const t of termosNorma) {
+          if (ep.includes(t)) { p += 3 * peso[t]; n++; }
+          else if (ctx.includes(t)) { p += 1.5 * peso[t]; n += 0.5; }
+          else if (tx.includes(t)) p += 0.6 * peso[t];
+        }
+        return n ? p * (1 + 0.5 * (n - 1)) : p * 0.3;
       };
       // Artigos sugeridos pela IA só ficam se tratarem, de facto, da questão.
-      const sugeridos = c.sugeridos.map(n => encontrarArtigo(lista, n, codigo)).filter(a => a && pontuar(a) >= 3);
-      const encontrados = lista.map(a => ({ a, p: pontuar(a) })).filter(x => x.p >= 6 || (x.p >= 4 && normalizar(x.a.epigrafe).length > 0))
-        .sort((x, y) => y.p - x.p).slice(0, 5).map(x => x.a);
+      const pontos = lista.map(a => ({ a, p: pontuar(a) })).sort((x, y) => y.p - x.p);
+      const melhor = pontos[0]?.p || 0;
+      const sugeridos = c.sugeridos.map(n => encontrarArtigo(lista, n, codigo)).filter(a => a && pontuar(a) >= Math.max(8, melhor * 0.15));
+      const encontrados = melhor < 30 ? [] : pontos.filter(x => x.p >= Math.max(20, melhor * 0.55)).slice(0, 5).map(x => x.a);
       const vistos = new Set();
       arts = [...sugeridos, ...encontrados].filter(a => (vistos.has(a.indice) ? false : vistos.add(a.indice)))
         .sort((x, y) => x.indice - y.indice).slice(0, 6).map(a => ({ numero: a.numero, epigrafe: a.epigrafe }));

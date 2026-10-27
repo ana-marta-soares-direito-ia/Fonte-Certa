@@ -87,20 +87,34 @@ Responde com:
  "sintese": "duas a três frases com a apreciação global"
 }`;
   const r = await pedirJSON({ sistema: SISTEMA_BASE, mensagem, temperatura: 0.1, maxTokens: 4096 });
-  return verificarParecer(r, ac);
+  const v = verificarParecer(r, ac);
+  if (v.perdidos.length) {
+    try {
+      const reparados = await repararTrechos(v.perdidos, ac);
+      const segunda = verificarParecer({ favoravel: reparados.filter(x => x.lado === "favoravel"), desfavoravel: reparados.filter(x => x.lado === "desfavoravel") }, ac);
+      v.favoravel.push(...segunda.favoravel);
+      v.desfavoravel.push(...segunda.desfavoravel);
+      v.descartados -= segunda.favoravel.length + segunda.desfavoravel.length;
+    } catch { /* mantém só os pontos já confirmados */ }
+  }
+  return v;
 }
 
 // Confirma que cada trecho existe literalmente no acórdão; corrige a referência se estiver noutro parágrafo.
+// Comparação tolerante a hífenes tipográficos, aspas e pontuação, mas não a palavras diferentes.
+const comparavel = t => normalizar(String(t || "").normalize("NFKC").replace(/[\u2010-\u2015\u2212-]/g, " ")).replace(/[.]/g, " ").replace(/\s+/g, " ").trim();
+
 export function verificarParecer(r, ac) {
   const fontes = [
-    ...ac.sumario.map((p, i) => ({ ref: `S${i + 1}`, n: normalizar(p), i, tipo: "sumario" })),
-    ...ac.texto.map((p, i) => ({ ref: `§${i + 1}`, n: normalizar(p), i, tipo: "texto" })),
+    ...ac.sumario.map((p, i) => ({ ref: `S${i + 1}`, n: comparavel(p), i, tipo: "sumario" })),
+    ...ac.texto.map((p, i) => ({ ref: `§${i + 1}`, n: comparavel(p), i, tipo: "texto" })),
   ];
   let descartados = 0;
-  const confirmar = item => {
+  const perdidos = [];
+  const confirmar = (item, lado) => {
     if (!item || !item.trecho) { descartados++; return null; }
-    const alvo = normalizar(item.trecho).replace(/\s*\.\.\.\s*/g, " ");
-    if (alvo.split(" ").length < 4) { descartados++; return null; }
+    const alvo = comparavel(item.trecho).replace(/\s*\.\.\.\s*/g, " ");
+    if (alvo.split(" ").length < 4) { descartados++; perdidos.push({ ...item, lado }); return null; }
     let fonte = fontes.find(f => f.ref === item.ref && f.n.includes(alvo)) || fontes.find(f => f.n.includes(alvo));
     if (!fonte) {
       // Aceita pequenas diferenças de pontuação: procura os primeiros e últimos termos.
@@ -108,11 +122,11 @@ export function verificarParecer(r, ac) {
       const inicio = pal.slice(0, 6).join(" "), fim = pal.slice(-6).join(" ");
       fonte = fontes.find(f => f.n.includes(inicio) && f.n.includes(fim));
     }
-    if (!fonte) { descartados++; return null; }
+    if (!fonte) { descartados++; perdidos.push({ ...item, lado }); return null; }
     return { ...item, ref: fonte.ref, indice: fonte.i, tipo: fonte.tipo, verificado: true };
   };
-  const favoravel = (r.favoravel || []).map(confirmar).filter(Boolean);
-  const desfavoravel = (r.desfavoravel || []).map(confirmar).filter(Boolean);
+  const favoravel = (r.favoravel || []).map(x => confirmar(x, "favoravel")).filter(Boolean);
+  const desfavoravel = (r.desfavoravel || []).map(x => confirmar(x, "desfavoravel")).filter(Boolean);
   const classificacoes = ["favorável", "neutro", "desfavorável"];
   return {
     semelhanca: r.semelhanca || { grau: "baixa", coincidencias: [], diferencas: [] },
@@ -121,7 +135,21 @@ export function verificarParecer(r, ac) {
     classificacao: classificacoes.includes(r.classificacao) ? r.classificacao : "neutro",
     sintese: r.sintese || "",
     descartados,
+    perdidos,
   };
+}
+
+// Segunda oportunidade: pede ao modelo que transcreva literalmente os trechos que não foram encontrados.
+async function repararTrechos(perdidos, ac) {
+  const texto = ref => (ref?.startsWith("S") ? ac.sumario[Number(ref.slice(1)) - 1] : ac.texto[Number(String(ref).replace("§", "")) - 1]) || "";
+  const itens = perdidos.slice(0, 6).map((p, i) => `[${i}] Ponto: ${p.ponto}\nReferência indicada: ${p.ref}\nTexto desse parágrafo: """${texto(p.ref).slice(0, 2500)}"""`).join("\n\n");
+  const mensagem = `Para cada ponto, copia do "Texto desse parágrafo" um trecho de 8 a 35 palavras que o fundamente, LETRA A LETRA, sem alterar nem resumir nada.
+Se o parágrafo não contiver nenhum trecho que fundamente o ponto, devolve "trecho": "".
+${itens}
+
+Responde com: {"trechos": [{"i": 0, "trecho": "..."}]}`;
+  const r = await pedirJSON({ sistema: SISTEMA_BASE, mensagem, maxTokens: 1500 });
+  return (r.trechos || []).map(t => (perdidos[t.i] && t.trecho ? { ...perdidos[t.i], trecho: t.trecho } : null)).filter(Boolean);
 }
 
 // 4. Mapa de correntes jurisprudenciais.

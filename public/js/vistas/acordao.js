@@ -132,19 +132,28 @@ function marcarTrechos(ac, p) {
   }
 }
 
-// Localiza o trecho no parágrafo, tolerando diferenças de espaços e acentuação.
+// Localiza o trecho no parágrafo, tolerando diferenças de espaços, hífenes, pontuação e acentuação.
+const limparCar = ch => normalizar(ch.normalize("NFKC").replace(/[\u2010-\u2015\u2212.\-]/g, " "));
 function localizar(texto, trecho) {
   const mapa = [];
   let norm = "";
   for (let i = 0; i < texto.length; i++) {
-    const c = normalizar(texto[i]);
+    const c = limparCar(texto[i]);
     if (!c) { if (norm && norm[norm.length - 1] !== " ") { norm += " "; mapa.push(i); } continue; }
     for (const ch of c) { norm += ch; mapa.push(i); }
   }
-  const alvo = normalizar(trecho);
-  const i = norm.indexOf(alvo);
-  if (i < 0) return null;
-  return [mapa[i], (mapa[i + alvo.length - 1] ?? texto.length - 1) + 1];
+  const alvo = trecho.split("").map(limparCar).map(c => c || " ").join("").replace(/\s+/g, " ").trim();
+  let i = norm.indexOf(alvo);
+  let comprimento = alvo.length;
+  if (i < 0) {
+    // Marca do início ao fim do trecho quando só a pontuação interior difere.
+    const pal = alvo.split(" ");
+    const ini = pal.slice(0, 5).join(" "), fim = pal.slice(-5).join(" ");
+    const a = norm.indexOf(ini), b = a >= 0 ? norm.indexOf(fim, a) : -1;
+    if (a < 0 || b < 0) return null;
+    i = a; comprimento = b + fim.length - a;
+  }
+  return [mapa[i], (mapa[i + comprimento - 1] ?? texto.length - 1) + 1];
 }
 
 function irPara(item, ac) {
