@@ -172,6 +172,12 @@ try {
   const tc = Date.now();
   await p.click("text=Confirmar se sustenta a afirmação >> nth=0");
   await p.waitForSelector(".confirmacao, .aviso-erro", { timeout: 180000 });
+  const botoes = p.locator("text=Confirmar se sustenta a afirmação");
+  if (await botoes.count()) {
+    await botoes.first().click();
+    await p.waitForSelector(".confirmacao >> nth=1, .aviso-erro", { timeout: 180000 }).catch(() => {});
+  }
+  rel.ia.confirmacoes = await p.locator(".confirmacao").allTextContents();
   rel.ia.confirmacao = { segundos: Math.round((Date.now() - tc) / 1000), texto: (await p.textContent(".confirmacao").catch(() => ""))?.slice(0, 800), erro: await p.textContent(".aviso-erro").catch(() => null) };
   await p.screenshot({ path: `${pasta}/35-confirmacao.png`, fullPage: true });
 } catch (e) { rel.erros.push("ia: " + e.message); await p.screenshot({ path: `${pasta}/39-ia-erro.png`, fullPage: true }).catch(() => {}); }
