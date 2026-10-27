@@ -1,6 +1,7 @@
 name: Sonda de fontes
 on:
   push:
+    branches: [main]
     paths: ['ferramentas/sonda-pedido.txt', 'ferramentas/explorar.mjs']
 permissions:
   contents: write

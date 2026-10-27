@@ -1,1 +1,50 @@
-<!doctype html><html lang="pt"><meta charset="utf-8"><title>Fonte Certa</title><p>Fonte Certa: em construção.</p></html>
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fonte Certa</title>
+<meta name="description" content="Pesquisa de jurisprudência e legislação portuguesas nas fontes oficiais, com análise de cada acórdão face ao seu caso.">
+<meta name="theme-color" content="#1F5A4B">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icones/icone.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icones/icone-180.png">
+<link rel="preload" href="fontes/instrument-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="estilos.css?v=1">
+</head>
+<body>
+<a class="saltar" href="#principal">Saltar para o conteúdo</a>
+
+<header class="topo">
+  <a class="marca" href="#/" aria-label="Fonte Certa, início">
+    <svg class="marca-simbolo" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3.5c-4 6-9.5 10-9.5 15.8a9.5 9.5 0 0 0 19 0C25.5 13.5 20 9.5 16 3.5z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M11.6 19.4l3.1 3.1 5.9-6.4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span>Fonte Certa</span>
+  </a>
+  <nav class="navegacao" aria-label="Secções">
+    <a href="#/" data-rota="pesquisa">Pesquisar</a>
+    <a href="#/verificar" data-rota="verificar">Verificar citações</a>
+    <a href="#/guardados" data-rota="guardados">Guardados</a>
+    <a href="#/definicoes" data-rota="definicoes">Definições</a>
+  </nav>
+</header>
+
+<main id="principal" tabindex="-1"></main>
+
+<footer class="rodape">
+  <p class="rodape-autora">Ana Marta Soares, Especialista em IA aplicada ao Direito</p>
+  <p class="rodape-nota">A Fonte Certa não guarda o que pesquisa nem os dados do seu caso. Os textos vêm das fontes oficiais e não dispensam a confirmação na publicação oficial.</p>
+  <p class="rodape-nota"><a href="#/sobre">Fontes, metodologia e limitações</a></p>
+</footer>
+
+<nav class="barra-movel" aria-label="Secções">
+  <a href="#/" data-rota="pesquisa"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg><span>Pesquisar</span></a>
+  <a href="#/verificar" data-rota="verificar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>Verificar</span></a>
+  <a href="#/guardados" data-rota="guardados"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.5h12v17l-6-4-6 4z"/></svg><span>Guardados</span></a>
+  <a href="#/definicoes" data-rota="definicoes"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/><path d="M12 2.8v3M12 18.2v3M2.8 12h3M18.2 12h3M5.5 5.5l2.1 2.1M16.4 16.4l2.1 2.1M5.5 18.5l2.1-2.1M16.4 7.6l2.1-2.1"/></svg><span>Definições</span></a>
+</nav>
+
+<div id="avisos" class="avisos" role="status" aria-live="polite"></div>
+<noscript><p class="sem-js">A Fonte Certa precisa de JavaScript activo no navegador.</p></noscript>
+<script type="module" src="js/app.js?v=1"></script>
+</body>
+</html>

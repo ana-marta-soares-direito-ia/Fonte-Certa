@@ -3,6 +3,7 @@ on:
   schedule:
     - cron: "17 4 * * *"   # todos os dias às 04:17 UTC
   push:
+    branches: [main]
     paths: ['ferramentas/indice-legislacao.mjs', '.github/workflows/legislacao.yml']
 permissions:
   contents: write

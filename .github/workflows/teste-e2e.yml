@@ -1,0 +1,38 @@
+name: Teste completo da app
+on:
+  push:
+    branches: [desenvolvimento]
+    paths: ['public/**', 'functions/**', 'ferramentas/e2e-remoto.mjs', '.github/workflows/teste-e2e.yml']
+permissions:
+  contents: write
+concurrency: { group: e2e, cancel-in-progress: true }
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Preparar navegador
+        run: |
+          mkdir -p /tmp/pw && cd /tmp/pw && npm init -y >/dev/null && npm i playwright@1.49.1 >/dev/null && npx playwright install --with-deps chromium >/dev/null
+      - name: Esperar pela publicação de teste
+        run: |
+          for i in $(seq 1 40); do
+            v=$(curl -s "https://desenvolvimento.fonte-certa.pages.dev/versao.txt?t=$RANDOM" || true)
+            echo "versão publicada: $v"
+            if [ "$v" = "$(cat public/versao.txt)" ]; then exit 0; fi
+            sleep 15
+          done
+          echo "A publicação de teste não ficou disponível a tempo"; exit 1
+      - name: Executar o teste
+        run: NODE_PATH=/tmp/pw/node_modules node ferramentas/e2e-remoto.mjs https://desenvolvimento.fonte-certa.pages.dev saida-e2e || true
+      - name: Guardar resultados
+        run: |
+          git config user.name "teste"; git config user.email "teste@users.noreply.github.com"
+          git checkout --orphan resultados-e2e
+          git rm -rfq --cached . >/dev/null
+          git add saida-e2e
+          git commit -qm "Resultados do teste completo"
+          git push -f origin resultados-e2e

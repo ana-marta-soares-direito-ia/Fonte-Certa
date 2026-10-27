@@ -1,0 +1,16 @@
+{
+  "name": "Fonte Certa",
+  "short_name": "Fonte Certa",
+  "description": "Jurisprudência e legislação portuguesas, tiradas das fontes oficiais, com análise de cada acórdão face ao seu caso.",
+  "lang": "pt-PT",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F5F6F3",
+  "theme_color": "#1F5A4B",
+  "icons": [
+    { "src": "/icones/icone-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icones/icone-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icones/icone-mascara-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -79,6 +79,12 @@
    "nome": "jurisprudencia-dr.json",
    "n": 758,
    "mb": 0.62
+  },
+  {
+   "grupo": "recentes",
+   "nome": "recentes.json",
+   "n": 8890,
+   "mb": 7.96
   }
  ],
  "porTipoEstado": {

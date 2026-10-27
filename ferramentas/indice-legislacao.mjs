@@ -86,7 +86,10 @@ for (let i = 0, parte = 1; i < principais.length; i += 15000, parte++)
 const outros = registos.filter(r => !PRIMARIOS.has(r.k) && r.v !== 1 && r.s === "in_force");
 for (let i = 0, parte = 1; i < outros.length; i += 15000, parte++)
   ficheirosGerados.push({ grupo: "outros", ...escrever(`outros-${parte}.json`, outros.slice(i, i + 15000)) });
-// 3. Jurisprudência publicada na 1.ª série (força obrigatória geral, uniformização).
+// 3. Publicações dos últimos 30 meses (todos os tipos), para o separador do Diário da República.
+const limite = new Date(Date.now() - 913 * 86400000).toISOString().slice(0, 10);
+ficheirosGerados.push({ grupo: "recentes", ...escrever("recentes.json", registos.filter(r => r.d >= limite)) });
+// 4. Jurisprudência publicada na 1.ª série (força obrigatória geral, uniformização).
 ficheirosGerados.push({ grupo: "juris", ...escrever("jurisprudencia-dr.json", registos.filter(ehJuris)) });
 const manifesto = { gerado: new Date().toISOString(), total: registos.length, ficheiros: ficheirosGerados, porTipoEstado: estat };
 fs.writeFileSync(path.join(destino, "manifesto.json"), JSON.stringify(manifesto, null, 1));
