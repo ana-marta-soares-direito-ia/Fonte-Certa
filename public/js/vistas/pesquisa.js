@@ -295,8 +295,8 @@ function listaLegislacao(res) {
       caso?.dataFactos && el("p", { class: "nota" }, `Os artigos abrem na versão em vigor a ${dataPT(caso.dataFactos)}, data dos factos.`),
       el("ul", { class: "lista-normas" }, res.normas.map(n => el("li", {},
         el("span", { class: "norma-diploma" }, n.diploma.c ? n.diploma.c.replace(/\s*-\s*[A-Z]{2,6}$/, "") : designacao(n.diploma)),
-        n.artigos.length ? n.artigos.map(a => el("a", { href: ligarDiploma(n.diploma.p, a), class: "norma-artigo" }, `art. ${a}.º`)) : el("a", { href: ligarDiploma(n.diploma.p), class: "norma-artigo" }, "abrir")))),
-      el("p", { class: "nota" }, "Identificados a partir da questão e confirmados no índice oficial do Diário da República.")));
+        n.artigos.length ? n.artigos.map(a => el("a", { href: ligarDiploma(n.diploma.p, a.numero), class: "norma-artigo", title: a.epigrafe || "" }, `art. ${a.numero}.º`, a.epigrafe ? el("span", { class: "norma-epigrafe" }, ` ${a.epigrafe}`) : null)) : el("a", { href: ligarDiploma(n.diploma.p), class: "norma-artigo" }, "abrir o diploma")))),
+      el("p", { class: "nota" }, "Diplomas confirmados no índice oficial do Diário da República; os artigos indicados são os que, no próprio diploma, tratam desta questão.")));
   }
   const outros = res.legislacao.filter(r => !res.normas.some(n => n.diploma.p === r.p));
   if (outros.length) blocos.push(el("h3", { class: "subtitulo-lista" }, "Outros diplomas sobre o tema"), el("ol", { class: "lista-diplomas" }, outros.map(r => itemDiploma(r))));

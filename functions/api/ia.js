@@ -29,7 +29,7 @@ export async function onRequestPost({ request, env }) {
       r = await env.AI.run(modelo, entrada);
     }
     const texto = extrairTexto(r);
-    if (!texto) return resposta({ erro: "O modelo não devolveu resposta." }, 502);
+    if (!texto) return resposta({ erro: "O modelo não devolveu resposta.", detalhe: JSON.stringify(r).slice(0, 400) }, 502);
     return resposta({ texto, modelo });
   } catch (e) {
     const msg = String(e?.message || e);

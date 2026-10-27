@@ -103,3 +103,6 @@ export async function emParalelo(itens, limite, fn) {
 }
 
 export function plural(n, um, varios) { return `${n} ${n === 1 ? um : varios}`; }
+
+// Neutraliza as diferenças entre a grafia anterior e posterior ao Acordo Ortográfico (acção/ação, selecção/seleção).
+export const semAO = s => s.replace(/cc(?=[aoi])/g, "c").replace(/c(?=t)/g, "").replace(/p(?=[ct])/g, "");

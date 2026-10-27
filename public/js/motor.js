@@ -1,9 +1,9 @@
 // Motor de pesquisa: transforma a pergunta em consultas, interroga as fontes e ordena os resultados.
 import { BASES, GRUPOS_BASES, ORDEM, pesquisar, lerAcordao } from "./fontes/dgsi.js";
-import { pesquisarLegislacao, publicacoesRecentes, alertasJurisprudencia, encontrarDiploma, diplomasDeReferencia } from "./fontes/legislacao.js";
+import { pesquisarLegislacao, publicacoesRecentes, alertasJurisprudencia, encontrarDiploma, diplomasDeReferencia, textoDiploma, artigos as listarArtigos, encontrarArtigo } from "./fontes/legislacao.js";
 import { planearPesquisa, ordenarPorPertinencia } from "./ia/analise.js";
 import { temIA as temChave, fornecedorIA } from "./ia/gemini.js";
-import { palavrasChave, radical, normalizar, emParalelo } from "./util.js";
+import { palavrasChave, radical, normalizar, emParalelo, semAO } from "./util.js";
 
 let descritoresOficiais = null;
 async function descritores() {
@@ -69,7 +69,8 @@ export async function pesquisarTudo(pergunta, { caso = null, bases = null, progr
   consultas.push(...heuristicas.slice(1));
   const unicas = [...new Set(consultas.map(c => c.replace(/[()]/g, " ").replace(/\s+/g, " ").trim()))].slice(0, 5);
 
-  const listaBases = bases?.length ? bases : (plano?.tribunais?.filter(t => BASES[t]).length >= 2 ? plano.tribunais.filter(t => BASES[t]) : basesSugeridas(pergunta + " " + (plano?.area || ""), plano?.jurisdicao));
+  const sugeridasIA = (plano?.tribunais || []).filter(t => BASES[t]);
+  const listaBases = bases?.length ? bases : [...new Set([...basesSugeridas(pergunta + " " + (plano?.area || ""), plano?.jurisdicao), ...sugeridasIA])];
 
   // Jurisprudência: corre as consultas até reunir resultados suficientes.
   progresso("A pesquisar na DGSI");
@@ -116,16 +117,45 @@ export async function pesquisarTudo(pergunta, { caso = null, bases = null, progr
     publicacoesRecentes(textoLeg).catch(() => []),
     alertasJurisprudencia(textoLeg).catch(() => []),
   ]);
-  // Normas indicadas pela IA: só aparecem se o diploma existir no índice oficial.
-  const normas = [];
+  // Normas: diplomas indicados pela IA ou de referência para o tema, sempre confirmados no índice oficial.
+  // Os artigos mostrados são os que, no próprio diploma, tratam da questão (epígrafe e texto).
+  progresso("A localizar os artigos aplicáveis");
+  const candidatos = [];
   for (const d of plano?.diplomas || []) {
     try {
       const r = await encontrarDiploma(d.designacao || "");
-      if (r && !r.externo) normas.push({ diploma: r, artigos: (d.artigos || []).map(String).slice(0, 6) });
+      if (r && !r.externo) {
+        const ja = candidatos.find(c => c.diploma.p === r.p);
+        if (ja) ja.sugeridos.push(...(d.artigos || []).map(String));
+        else candidatos.push({ diploma: r, sugeridos: (d.artigos || []).map(String) });
+      }
     } catch {}
   }
   for (const r of await diplomasDeReferencia(pergunta + " " + (plano?.questao || "")).catch(() => [])) {
-    if (!normas.some(n => n.diploma.p === r.p)) normas.push({ diploma: r, artigos: [] });
+    if (!candidatos.some(c => c.diploma.p === r.p)) candidatos.push({ diploma: r, sugeridos: [] });
+  }
+  const termosNorma = [...new Set(palavrasChave(`${pergunta} ${plano?.questao || ""}`, 12).map(t => radical(semAO(t))))];
+  const normas = [];
+  for (const c of candidatos.slice(0, 5)) {
+    let arts = [];
+    try {
+      const lista = listarArtigos(await textoDiploma(c.diploma.p));
+      const codigo = /^c[oó]digo|constitui/i.test(c.diploma.c || c.diploma.t);
+      const pontuar = a => {
+        const ep = semAO(normalizar(a.epigrafe)), tx = semAO(normalizar(a.texto.slice(0, 1500)));
+        let p = 0;
+        for (const t of termosNorma) { if (ep.includes(t)) p += 3; else if (tx.includes(t)) p += 1; }
+        return p;
+      };
+      // Artigos sugeridos pela IA só ficam se tratarem, de facto, da questão.
+      const sugeridos = c.sugeridos.map(n => encontrarArtigo(lista, n, codigo)).filter(a => a && pontuar(a) >= 3);
+      const encontrados = lista.map(a => ({ a, p: pontuar(a) })).filter(x => x.p >= 6 || (x.p >= 4 && normalizar(x.a.epigrafe).length > 0))
+        .sort((x, y) => y.p - x.p).slice(0, 5).map(x => x.a);
+      const vistos = new Set();
+      arts = [...sugeridos, ...encontrados].filter(a => (vistos.has(a.indice) ? false : vistos.add(a.indice)))
+        .sort((x, y) => x.indice - y.indice).slice(0, 6).map(a => ({ numero: a.numero, epigrafe: a.epigrafe }));
+    } catch {}
+    normas.push({ diploma: c.diploma, artigos: arts });
   }
   return { pergunta, plano, consultas: porConsulta, bases: listaBases, juris, legislacao, recentes, alertas, normas, usarIA };
 }

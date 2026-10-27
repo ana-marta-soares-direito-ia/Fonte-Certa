@@ -160,9 +160,14 @@ ${sumario}
 TEXTO:
 ${texto}
 
-O acórdão sustenta a afirmação? Responde com:
+O acórdão sustenta a afirmação? Responde "sim" apenas se o acórdão decidir ou afirmar exactamente o que a peça lhe atribui; se tratar de outra questão, responde "não".
+O trecho tem de mostrar directamente a resposta. Responde com:
 {"sustenta": "sim" | "em parte" | "não", "explicacao": "uma a duas frases", "ref": "§n ou Sn", "trecho": "trecho exacto que fundamenta a resposta, 8 a 35 palavras"}`;
   const r = await pedirJSON({ sistema: SISTEMA_BASE, mensagem, maxTokens: 1024 });
   const v = verificarParecer({ favoravel: [{ ponto: r.explicacao, ref: r.ref, trecho: r.trecho }] }, ac);
-  return { sustenta: ["sim", "em parte", "não"].includes(r.sustenta) ? r.sustenta : "em parte", explicacao: r.explicacao || "", prova: v.favoravel[0] || null };
+  const prova = v.favoravel[0] || null;
+  let sustenta = ["sim", "em parte", "não"].includes(r.sustenta) ? r.sustenta : "em parte";
+  // Sem trecho confirmado no texto, não se pode afirmar que o acórdão sustenta a citação.
+  if (!prova && sustenta !== "não") sustenta = "por confirmar";
+  return { sustenta, explicacao: r.explicacao || "", prova };
 }
