@@ -18,11 +18,11 @@ jobs:
       - name: Obter legislação (legalize-pt)
         run: git clone --depth 1 https://github.com/legalize-dev/legalize-pt.git /tmp/legalize && du -sh /tmp/legalize
       - name: Construir índice
-        run: node ferramentas/indice-legislacao.mjs /tmp/legalize public/dados/leg && ls -la public/dados/leg && gzip -k -9 -c public/dados/leg/em-vigor.json | wc -c
+        run: rm -rf public/dados/leg && node ferramentas/indice-legislacao.mjs /tmp/legalize public/dados/leg && ls -la public/dados/leg
       - name: Publicar se houver alterações
         run: |
           git config user.name "Fonte Certa"; git config user.email "fonte-certa@users.noreply.github.com"
-          git add public/dados/leg
+          git add -A public/dados/leg
           if git diff --cached --quiet; then echo "Sem alterações"; exit 0; fi
           git commit -qm "Actualização do índice de legislação"
           git pull -q --rebase origin main || true

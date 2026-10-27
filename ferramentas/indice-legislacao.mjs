@@ -64,14 +64,30 @@ for (const pasta of ["pt", "pt-20", "pt-30"]) {
   }
 }
 registos.sort((a, b) => (b.d || "").localeCompare(a.d || ""));
-// Índice principal: diplomas em vigor (ou sem estado) — pesquisa de legislação aplicável.
-const emVigor = registos.filter(r => r.s !== "repealed" && r.s !== "revoked" && r.s !== "expired");
-const recentes = registos.filter(r => r.d >= "2024-01-01");
-const enxuto = r => ({ i: r.i, p: r.p, t: r.t, c: r.c, k: r.k, n: r.n, d: r.d, a: r.a, s: r.s, v: r.v, r: r.r, m: r.m, e: r.e, x: r.x });
-fs.writeFileSync(path.join(destino, "em-vigor.json"), JSON.stringify(emVigor.map(enxuto)));
-fs.writeFileSync(path.join(destino, "recentes.json"), JSON.stringify(recentes.map(enxuto)));
-// Acórdãos com força obrigatória geral e de uniformização publicados na 1.ª série.
-const juris = registos.filter(r => /acordao|acórdão|ac-?tc|tribunal|uniformiz/i.test(r.k + " " + r.t));
-fs.writeFileSync(path.join(destino, "jurisprudencia-dr.json"), JSON.stringify(juris.map(enxuto)));
-fs.writeFileSync(path.join(destino, "estatisticas.json"), JSON.stringify({ total: registos.length, emVigor: emVigor.length, recentes: recentes.length, juris: juris.length, porTipoEstado: estat, gerado: new Date().toISOString() }, null, 1));
-console.log(JSON.stringify({ total: registos.length, emVigor: emVigor.length, recentes: recentes.length, juris: juris.length }));
+// Os ficheiros publicados têm de ficar abaixo de 20 MB (limite do alojamento).
+const PRIMARIOS = new Set(["lei", "lei-organica", "lei-constitucional", "decreto-lei", "decreto-legislativo-regional",
+  "decreto-regulamentar", "decreto-regulamentar-regional", "decreto-aprovacao-constituicao", "decreto", "regimento",
+  "acordao-doutrinario", "assento", "acordao"]);
+const ehJuris = r => /acordao|assento|tribunal|uniformiz/i.test(r.k) || /^Acórdão|Tribunal Constitucional|uniformiza/i.test(r.t);
+const enxuto = r => ({ i: r.i, p: r.p, t: r.t, c: r.c, k: r.k, n: r.n, d: r.d, a: r.a, s: r.s, v: r.v,
+  r: (r.r || "").slice(0, 280), m: (r.m || []).slice(0, 12), e: r.e, x: r.x });
+const escrever = (nome, lista) => {
+  const json = JSON.stringify(lista.map(enxuto));
+  fs.writeFileSync(path.join(destino, nome), json);
+  return { nome, n: lista.length, mb: +(json.length / 1e6).toFixed(2) };
+};
+const ficheirosGerados = [];
+// 1. Diplomas principais (leis, decretos-leis, códigos), em vigor ou revogados.
+const principais = registos.filter(r => PRIMARIOS.has(r.k) || r.v === 1);
+// Divide em partes de até 15 000 registos.
+for (let i = 0, parte = 1; i < principais.length; i += 15000, parte++)
+  ficheirosGerados.push({ grupo: "principal", ...escrever(`principal-${parte}.json`, principais.slice(i, i + 15000)) });
+// 2. Restantes actos (portarias, despachos, resoluções, declarações) em vigor, por partes.
+const outros = registos.filter(r => !PRIMARIOS.has(r.k) && r.v !== 1 && r.s === "in_force");
+for (let i = 0, parte = 1; i < outros.length; i += 15000, parte++)
+  ficheirosGerados.push({ grupo: "outros", ...escrever(`outros-${parte}.json`, outros.slice(i, i + 15000)) });
+// 3. Jurisprudência publicada na 1.ª série (força obrigatória geral, uniformização).
+ficheirosGerados.push({ grupo: "juris", ...escrever("jurisprudencia-dr.json", registos.filter(ehJuris)) });
+const manifesto = { gerado: new Date().toISOString(), total: registos.length, ficheiros: ficheirosGerados, porTipoEstado: estat };
+fs.writeFileSync(path.join(destino, "manifesto.json"), JSON.stringify(manifesto, null, 1));
+console.log(JSON.stringify(ficheirosGerados));
