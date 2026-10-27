@@ -1,24 +1,24 @@
 {
- "gerado": "2026-10-27T11:06:05.814Z",
+ "gerado": "2026-10-27T12:02:39.085Z",
  "total": 172003,
  "ficheiros": [
   {
    "grupo": "principal",
    "nome": "principal-1.json",
    "n": 15000,
-   "mb": 12.59
+   "mb": 12.61
   },
   {
    "grupo": "principal",
    "nome": "principal-2.json",
    "n": 15000,
-   "mb": 9.77
+   "mb": 9.78
   },
   {
    "grupo": "principal",
    "nome": "principal-3.json",
    "n": 15000,
-   "mb": 9.34
+   "mb": 9.36
   },
   {
    "grupo": "principal",
@@ -30,61 +30,61 @@
    "grupo": "outros",
    "nome": "outros-1.json",
    "n": 15000,
-   "mb": 10.94
+   "mb": 10.96
   },
   {
    "grupo": "outros",
    "nome": "outros-2.json",
    "n": 15000,
-   "mb": 10.33
+   "mb": 10.35
   },
   {
    "grupo": "outros",
    "nome": "outros-3.json",
    "n": 15000,
-   "mb": 9.65
+   "mb": 9.66
   },
   {
    "grupo": "outros",
    "nome": "outros-4.json",
    "n": 15000,
-   "mb": 8.42
+   "mb": 8.43
   },
   {
    "grupo": "outros",
    "nome": "outros-5.json",
    "n": 15000,
-   "mb": 9.61
+   "mb": 9.63
   },
   {
    "grupo": "outros",
    "nome": "outros-6.json",
    "n": 15000,
-   "mb": 10.37
+   "mb": 10.39
   },
   {
    "grupo": "outros",
    "nome": "outros-7.json",
    "n": 15000,
-   "mb": 8.85
+   "mb": 8.86
   },
   {
    "grupo": "outros",
    "nome": "outros-8.json",
    "n": 10793,
-   "mb": 6.78
+   "mb": 6.79
+  },
+  {
+   "grupo": "recentes",
+   "nome": "recentes.json",
+   "n": 8932,
+   "mb": 6.63
   },
   {
    "grupo": "juris",
    "nome": "jurisprudencia-dr.json",
    "n": 758,
    "mb": 0.62
-  },
-  {
-   "grupo": "recentes",
-   "nome": "recentes.json",
-   "n": 8890,
-   "mb": 7.96
   },
   {
    "grupo": "versoes",
