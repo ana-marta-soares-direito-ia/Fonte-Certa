@@ -1,14 +1,16 @@
 name: Teste completo da app
 on:
   push:
-    branches: [desenvolvimento]
-    paths: ['public/**', 'functions/**', 'ferramentas/e2e-remoto.mjs', '.github/workflows/teste-e2e.yml']
+    branches: [desenvolvimento, main]
+    paths: ['public/js/**', 'public/index.html', 'public/estilos.css', 'functions/**', 'ferramentas/e2e-remoto.mjs', '.github/workflows/teste-e2e.yml', 'wrangler.toml']
 permissions:
   contents: write
 concurrency: { group: e2e, cancel-in-progress: true }
 jobs:
   e2e:
     runs-on: ubuntu-latest
+    env:
+      BASE: ${{ github.ref_name == 'main' && 'https://fonte-certa.pages.dev' || 'https://desenvolvimento.fonte-certa.pages.dev' }}
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
@@ -20,14 +22,14 @@ jobs:
       - name: Esperar pela publicação de teste
         run: |
           for i in $(seq 1 40); do
-            v=$(curl -s "https://desenvolvimento.fonte-certa.pages.dev/versao.txt?t=$RANDOM" || true)
+            v=$(curl -s "$BASE/versao.txt?t=$RANDOM" || true)
             echo "versão publicada: $v"
             if [ "$v" = "$(cat public/versao.txt)" ]; then exit 0; fi
             sleep 15
           done
           echo "A publicação de teste não ficou disponível a tempo"; exit 1
       - name: Executar o teste
-        run: NODE_PATH=/tmp/pw/node_modules node ferramentas/e2e-remoto.mjs https://desenvolvimento.fonte-certa.pages.dev saida-e2e || true
+        run: node ferramentas/e2e-remoto.mjs "$BASE" saida-e2e || true
       - name: Guardar resultados
         run: |
           git config user.name "teste"; git config user.email "teste@users.noreply.github.com"
@@ -35,4 +37,4 @@ jobs:
           git rm -rfq --cached . >/dev/null
           git add saida-e2e
           git commit -qm "Resultados do teste completo"
-          git push -f origin resultados-e2e
+          git push -f origin HEAD:resultados-e2e-${{ github.ref_name }}
