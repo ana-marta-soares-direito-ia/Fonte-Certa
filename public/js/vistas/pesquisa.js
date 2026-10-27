@@ -214,7 +214,15 @@ function listaJuris(res) {
   if (!casoPreenchido(caso)) blocos.push(el("p", { class: "dica" }, "Preencha a ficha do caso para ver, em cada acórdão, onde o favorece e onde o prejudica."));
   else if (!temChave()) blocos.push(el("p", { class: "dica" }, "Para a análise face ao caso, active a chave gratuita do Gemini nas ", el("a", { href: "#/definicoes" }, "Definições"), "."));
   blocos.push(el("div", { id: "mapa-correntes" }));
-  blocos.push(el("ol", { class: "lista-acordaos" }, res.juris.map(r => itemAcordao(r))));
+  const lista = el("ol", { class: "lista-acordaos" }, res.juris.slice(0, 15).map(r => itemAcordao(r)));
+  blocos.push(lista);
+  if (res.juris.length > 15) {
+    const mais = el("button", { type: "button", class: "botao mais-resultados", onclick: () => {
+      lista.append(...res.juris.slice(15).map(r => itemAcordao(r)));
+      mais.remove();
+    } }, `Mostrar os restantes ${res.juris.length - 15} acórdãos`);
+    blocos.push(mais);
+  }
   return blocos;
 }
 

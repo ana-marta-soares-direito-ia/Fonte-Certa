@@ -11,15 +11,18 @@ concurrency: { group: legislacao, cancel-in-progress: false }
 jobs:
   indice:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
       - name: Obter legislação (legalize-pt)
-        run: git clone --depth 1 https://github.com/legalize-dev/legalize-pt.git /tmp/legalize && du -sh /tmp/legalize
+        run: |
+          git clone --filter=blob:none https://github.com/legalize-dev/legalize-pt.git /tmp/legalize
+          git -C /tmp/legalize log --format='@%H %ad' --date=short --name-only --no-renames -- pt pt-20 pt-30 > /tmp/historico.txt
+          wc -l /tmp/historico.txt; du -sh /tmp/legalize
       - name: Construir índice
-        run: rm -rf public/dados/leg && node ferramentas/indice-legislacao.mjs /tmp/legalize public/dados/leg && ls -la public/dados/leg
+        run: rm -rf public/dados/leg && node ferramentas/indice-legislacao.mjs /tmp/legalize public/dados/leg /tmp/historico.txt && ls -la public/dados/leg
       - name: Publicar se houver alterações
         run: |
           git config user.name "Fonte Certa"; git config user.email "fonte-certa@users.noreply.github.com"

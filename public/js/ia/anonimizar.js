@@ -28,7 +28,7 @@ const PADROES = [
   { tipo: "CODIGO_POSTAL", re: /\b\d{4}-\d{3}\b(?:\s+[A-ZÀ-Ü][\wÀ-ü]+(?:\s+[A-ZÀ-Ü][\wÀ-ü]+)*)?/g },
   { tipo: "MORADA", re: /\b(?:Rua|R\.|Avenida|Av\.|Travessa|Tv\.|Largo|Praça|Pç\.|Estrada|Alameda|Beco|Calçada|Urbanização|Lugar|Quinta|Bairro)\s+[^,.;\n]{2,60}?(?:,?\s*n\.?\s*º?\s*\d+[A-Za-z]?(?:[,\s]+\d+\.?\s*º?\s*(?:andar|esq\.?|dto\.?|direito|esquerdo)?)?)?(?=[,.;\n]|$)/g },
   { tipo: "PROCESSO", re: /\b\d{1,6}\/\d{2}\.\d[A-Z0-9]{2,}(?:\.[A-Z0-9-]+)*\b/g },
-  { tipo: "EMPRESA", re: /\b(?:[A-ZÀ-Ü][\wÀ-ü&'-]*\s+){1,5}(?:Lda|Ltda|S\.?A|Unipessoal|SGPS|S\.?\s?A\.?)\.?(?=[\s,;.]|$)/g },
+  { tipo: "EMPRESA", re: /\b(?:[A-ZÀ-Ü][\wÀ-ü&'-]*\s+){0,4}[A-ZÀ-Ü][\wÀ-ü&'-]*,?\s+(?:Lda|Ltda|Unipessoal|SGPS|S\.\s?A|SA)\b\.?/g },
 ];
 
 export function anonimizar(texto) {

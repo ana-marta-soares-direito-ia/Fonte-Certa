@@ -20,7 +20,7 @@ export function apagarCaso() {
   try { sessionStorage.removeItem(CHAVE_CASO); } catch {}
   estado.pareceres.clear();
 }
-export const casoPreenchido = c => !!(c && (c.factos || "").trim().length > 20);
+export const casoPreenchido = c => !!(c && (c.anonimizado || "").trim().length > 20);
 
 // Guardados: ficam neste navegador.
 export const guardados = {

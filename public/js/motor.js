@@ -22,7 +22,7 @@ export async function descritoresNaPergunta(texto) {
     .sort((a, b) => b.n.length - a.n.length).slice(0, 4);
 }
 
-const AREAS_ADMIN = /administrativ|contrata[cç][aã]o p[uú]blica|concurso p[uú]blico|ato administrativo|acto administrativo|autarquia|munic[ií]pio|funcion[aá]rio p[uú]blico|fun[cç][oõ]es p[uú]blicas|tribut|imposto|iva\b|irs\b|irc\b|fiscal|urbanismo|expropria/i;
+const AREAS_ADMIN = /proposta|concorrente|adjudica|j[uú]ri do|caderno de encargos|anormalmente baix|empreitada de obras p[uú]blicas|administrativ|contrata[cç][aã]o p[uú]blica|concurso p[uú]blico|ato administrativo|acto administrativo|autarquia|munic[ií]pio|funcion[aá]rio p[uú]blico|fun[cç][oõ]es p[uú]blicas|tribut|imposto|iva\b|irs\b|irc\b|fiscal|urbanismo|expropria/i;
 
 // Consultas sem IA: palavras-chave reduzidas ao radical, do mais exigente para o mais amplo.
 export function consultasHeuristicas(texto) {
@@ -61,10 +61,12 @@ export async function pesquisarTudo(pergunta, { caso = null, bases = null, progr
   }
   const descPergunta = await descritoresNaPergunta(pergunta);
   const consultas = [];
+  const heuristicas = consultasHeuristicas(pergunta);
   if (plano?.consultas?.length) consultas.push(...plano.consultas.slice(0, 4));
+  else if (heuristicas[0]) consultas.push(heuristicas[0]);
   for (const d of descPergunta.slice(0, 2)) consultas.push(`[DESCRITORES] CONTAINS "${d.variantes[0] || d.nome.toUpperCase()}"`);
   if (plano?.descritores?.length) for (const d of plano.descritores.slice(0, 2)) consultas.push(`[DESCRITORES] CONTAINS "${String(d).toUpperCase().replace(/"/g, "")}"`);
-  consultas.push(...consultasHeuristicas(pergunta));
+  consultas.push(...heuristicas.slice(1));
   const unicas = [...new Set(consultas.map(c => c.replace(/[()]/g, " ").replace(/\s+/g, " ").trim()))].slice(0, 5);
 
   const listaBases = bases?.length ? bases : (plano?.tribunais?.filter(t => BASES[t]).length >= 2 ? plano.tribunais.filter(t => BASES[t]) : basesSugeridas(pergunta + " " + (plano?.area || ""), plano?.jurisdicao));

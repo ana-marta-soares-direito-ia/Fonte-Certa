@@ -92,8 +92,8 @@ Responde com:
 // Confirma que cada trecho existe literalmente no acórdão; corrige a referência se estiver noutro parágrafo.
 export function verificarParecer(r, ac) {
   const fontes = [
-    ...ac.texto.map((p, i) => ({ ref: `§${i + 1}`, n: normalizar(p), i, tipo: "texto" })),
     ...ac.sumario.map((p, i) => ({ ref: `S${i + 1}`, n: normalizar(p), i, tipo: "sumario" })),
+    ...ac.texto.map((p, i) => ({ ref: `§${i + 1}`, n: normalizar(p), i, tipo: "texto" })),
   ];
   let descartados = 0;
   const confirmar = item => {

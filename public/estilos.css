@@ -383,3 +383,9 @@ mark { color: inherit; padding: 1px 0; border-radius: 2px; }
 }
 .subtitulo-lista { font-size: 16px; margin: 18px 0 10px; }
 .coluna-pesquisa { display: grid; gap: 16px; }
+
+/* Evita que conteúdos longos alarguem a página em ecrãs estreitos */
+.pagina-pesquisa > *, .coluna-pesquisa > *, .pagina-acordao > *, .resultados, .painel-resultados { min-width: 0; }
+.pesquisa-accoes select { min-width: 0; }
+.descritores, .processo, .acordao-ligacao, .relator, .nota-campo, .citacao-alvo, .metadados dd, .titulo-resultados { overflow-wrap: anywhere; }
+.mais-resultados { margin-top: 12px; width: 100%; }

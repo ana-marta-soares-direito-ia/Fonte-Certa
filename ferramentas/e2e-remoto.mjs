@@ -14,6 +14,7 @@ async function nova(largura = 1360, altura = 900) {
   const p = await ctx.newPage();
   p.on("console", m => { if (m.type() === "error") rel.erros.push("consola: " + m.text().slice(0, 300)); });
   p.on("pageerror", e => rel.erros.push("página: " + e.message));
+  p.on("response", r => { if (r.status() >= 400) rel.erros.push(`resposta ${r.status()}: ${r.url().slice(0, 220)}`); });
   p.on("requestfailed", r => rel.erros.push("pedido falhado: " + r.url().slice(0, 160) + " " + (r.failure()?.errorText || "")));
   return p;
 }

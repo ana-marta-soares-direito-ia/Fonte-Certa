@@ -85,6 +85,12 @@
    "nome": "recentes.json",
    "n": 8890,
    "mb": 7.96
+  },
+  {
+   "grupo": "versoes",
+   "nome": "versoes/",
+   "n": 172003,
+   "pastas": 179
   }
  ],
  "porTipoEstado": {

@@ -253,7 +253,7 @@ export async function pesquisarLegislacao(texto, { incluirOutros = false, max = 
       if (enc.length >= Math.min(2, termos.length)) res.push({ ...r, _p: enc.length * 2, _t: enc.length });
     }
   }
-  const minimo = Math.max(Math.min(2, total), Math.ceil(total * 0.5));
+  const minimo = Math.max(Math.min(2, total), Math.ceil(total * 0.6));
   return res.filter(r => r._t >= minimo).sort((a, b) => b._p - a._p).slice(0, max);
 }
 
@@ -267,11 +267,11 @@ export async function publicacoesRecentes(texto, meses = 24) {
   const desde = d.toISOString().slice(0, 10);
   const termos = palavrasChave(texto, 10).map(t => (t.length > 6 ? t.slice(0, -2) : t));
   if (!termos.length) return [];
-  const minimo = Math.max(Math.min(2, termos.length), Math.ceil(termos.length * 0.5));
+  const minimo = Math.max(Math.min(2, termos.length), Math.ceil(termos.length * 0.6));
   return recentes.filter(r => r.d >= desde && r.k !== "declaracao-rectificacao").map(r => {
     const alvo = `${r._n} ${r._m} ${r._r}`;
-    return { ...r, _t: termos.filter(t => alvo.includes(t)).length };
-  }).filter(r => r._t >= minimo).sort((a, b) => b._t - a._t || b.d.localeCompare(a.d)).slice(0, 25).sort((a, b) => b.d.localeCompare(a.d));
+    return { ...r, _t: termos.filter(t => alvo.includes(t)).length, _titulo: termos.some(t => r._n.includes(t)) };
+  }).filter(r => r._t >= minimo && r._titulo).sort((a, b) => b._t - a._t || b.d.localeCompare(a.d)).slice(0, 25).sort((a, b) => b.d.localeCompare(a.d));
 }
 
 // Acórdãos publicados na 1.ª série: uniformização de jurisprudência e força obrigatória geral.
@@ -291,13 +291,26 @@ export async function alertasJurisprudencia(texto) {
 
 const cacheVersoes = new Map();
 
-// Lista as versões de um diploma (cada versão = data de entrada em vigor).
+// Lista as versões de um diploma (cada versão = data de entrada em vigor), a partir do índice diário.
+const cachePastas = new Map();
 export async function versoes(caminho) {
   if (cacheVersoes.has(caminho)) return cacheVersoes.get(caminho);
-  const r = await fetch(`${API}/commits?path=${encodeURIComponent(caminho)}&per_page=100`, { headers: { Accept: "application/vnd.github+json" } });
-  if (r.status === 403 || r.status === 429) throw new Error("O limite de consultas de versões foi atingido. Tente novamente dentro de alguns minutos.");
-  if (!r.ok) throw new Error("Não foi possível obter as versões do diploma.");
-  const lista = (await r.json()).map(c => ({ sha: c.sha, data: c.commit.author.date.slice(0, 10), nota: c.commit.message.split("\n")[0] }));
+  const pasta = caminho.split("/").slice(0, -1).join("-");
+  let lista = null;
+  try {
+    if (!cachePastas.has(pasta)) {
+      const m = await carregarManifesto();
+      cachePastas.set(pasta, json(`/dados/leg/versoes/${pasta}.json?g=${encodeURIComponent(m.gerado)}`));
+    }
+    const dados = await cachePastas.get(pasta);
+    if (dados[caminho]) lista = dados[caminho].map(([data, sha]) => ({ data, sha }));
+  } catch { lista = null; }
+  if (!lista) {
+    // Alternativa: consulta directa ao GitHub (limitada a 60 pedidos por hora).
+    const r = await fetch(`${API}/commits?path=${encodeURIComponent(caminho)}&per_page=100`, { headers: { Accept: "application/vnd.github+json" } });
+    if (!r.ok) throw new Error("Não foi possível obter as versões do diploma.");
+    lista = (await r.json()).map(c => ({ sha: c.sha, data: c.commit.author.date.slice(0, 10) }));
+  }
   cacheVersoes.set(caminho, lista);
   return lista;
 }

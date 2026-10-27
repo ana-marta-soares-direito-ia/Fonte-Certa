@@ -3,7 +3,7 @@
 // Uso: node indice-legislacao.mjs <pasta-legalize> <pasta-saida>
 import fs from "node:fs";
 import path from "node:path";
-const [, , origem, destino] = process.argv;
+const [, , origem, destino, ficheiroHistorico] = process.argv;
 fs.mkdirSync(destino, { recursive: true });
 
 function frontmatter(txt) {
@@ -91,6 +91,26 @@ const limite = new Date(Date.now() - 913 * 86400000).toISOString().slice(0, 10);
 ficheirosGerados.push({ grupo: "recentes", ...escrever("recentes.json", registos.filter(r => r.d >= limite)) });
 // 4. Jurisprudência publicada na 1.ª série (força obrigatória geral, uniformização).
 ficheirosGerados.push({ grupo: "juris", ...escrever("jurisprudencia-dr.json", registos.filter(ehJuris)) });
+// 5. Versões de cada diploma (data de entrada em vigor e commit), divididas por pasta de ano.
+if (ficheiroHistorico && fs.existsSync(ficheiroHistorico)) {
+  const versoes = new Map();
+  let sha = "", data = "";
+  for (const linha of fs.readFileSync(ficheiroHistorico, "utf8").split("\n")) {
+    if (!linha) continue;
+    if (linha.startsWith("@")) { [sha, data] = linha.slice(1).split(" "); continue; }
+    if (!versoes.has(linha)) versoes.set(linha, []);
+    versoes.get(linha).push([data, sha]);
+  }
+  const pastaVersoes = path.join(destino, "versoes");
+  fs.mkdirSync(pastaVersoes, { recursive: true });
+  const porPasta = {};
+  for (const [p, lista] of versoes) {
+    const chave = p.split("/").slice(0, -1).join("-");
+    (porPasta[chave] ||= {})[p] = lista.sort((a, b) => b[0].localeCompare(a[0]));
+  }
+  for (const [chave, obj] of Object.entries(porPasta)) fs.writeFileSync(path.join(pastaVersoes, chave + ".json"), JSON.stringify(obj));
+  ficheirosGerados.push({ grupo: "versoes", nome: "versoes/", n: versoes.size, pastas: Object.keys(porPasta).length });
+}
 const manifesto = { gerado: new Date().toISOString(), total: registos.length, ficheiros: ficheirosGerados, porTipoEstado: estat };
 fs.writeFileSync(path.join(destino, "manifesto.json"), JSON.stringify(manifesto, null, 1));
 console.log(JSON.stringify(ficheirosGerados));
