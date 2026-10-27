@@ -1,0 +1,29 @@
+name: Índice de legislação
+on:
+  schedule:
+    - cron: "17 4 * * *"   # todos os dias às 04:17 UTC
+  push:
+    paths: ['ferramentas/indice-legislacao.mjs', '.github/workflows/legislacao.yml']
+permissions:
+  contents: write
+concurrency: { group: legislacao, cancel-in-progress: false }
+jobs:
+  indice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Obter legislação (legalize-pt)
+        run: git clone --depth 1 https://github.com/legalize-dev/legalize-pt.git /tmp/legalize && du -sh /tmp/legalize
+      - name: Construir índice
+        run: node ferramentas/indice-legislacao.mjs /tmp/legalize public/dados/leg && ls -la public/dados/leg && gzip -k -9 -c public/dados/leg/em-vigor.json | wc -c
+      - name: Publicar se houver alterações
+        run: |
+          git config user.name "Fonte Certa"; git config user.email "fonte-certa@users.noreply.github.com"
+          git add public/dados/leg
+          if git diff --cached --quiet; then echo "Sem alterações"; exit 0; fi
+          git commit -qm "Actualização do índice de legislação"
+          git pull -q --rebase origin main || true
+          git push -q origin HEAD:main
