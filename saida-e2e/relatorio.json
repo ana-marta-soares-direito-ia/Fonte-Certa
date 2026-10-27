@@ -1,0 +1,867 @@
+{
+ "inicio": "2026-10-27T13:08:33.184Z",
+ "erros": [],
+ "pesquisas": {
+  "laboral": {
+   "pergunta": "Despedimento por extinção do posto de trabalho sem critérios de selecção",
+   "segundos": 10,
+   "consultas": [
+    {
+     "consulta": "despedim* AND extinção AND posto",
+     "n": 180,
+     "erros": []
+    }
+   ],
+   "bases": [
+    "jstj",
+    "jtrl",
+    "jtrp",
+    "jtrc",
+    "jtrg",
+    "jtre"
+   ],
+   "juris": [
+    {
+     "base": "jtrg",
+     "data": "2025-01-09",
+     "processo": "2495/23.5T8VNF.G1",
+     "desc": [
+      "DIREITO À SEGURANÇA NO EMPREGO",
+      "DESPEDIMENTO POR EXTINÇÃO DO POSTO DE TRABALHO"
+     ],
+     "sumario": "O despedimento por extinção do posto de trabalho, assenta na autonomia da vontade do empregador, designadamente contratual, relativa à vida da empresa. A legali"
+    },
+    {
+     "base": "jtrc",
+     "data": "2024-05-16",
+     "processo": "3291/23.5T8CBR.C1",
+     "desc": [
+      "DESPEDIMENTO POR EXTINÇÃO DO POSTO DE TRABALHO",
+      "APRESENTAÇÃO DE DOCUMENTOS",
+      "PRAZO PERENTÓRIO E IMPRORROGÁVEL",
+      "TUTELA JURISDICIONAL EFETIVA",
+      "PRINCÍPIO DA PROPORCIONALIDADE"
+     ],
+     "sumario": "I – É perentório e insuscetível de prorrogação o prazo de quinze dias fixado no artigo 98º-I/4/a do CPT para apresentação dos documentos comprovativos do cumpri"
+    },
+    {
+     "base": "jstj",
+     "data": "2026-04-08",
+     "processo": "1333/20.5T8LRA.C3.S1",
+     "desc": [
+      "PRINCÍPIO DA PRECLUSÃO",
+      "GRUPO DE EMPRESAS",
+      "SOCIEDADES EM RELAÇÃO DE GRUPO",
+      "EXTINÇÃO DE POSTO DE TRABALHO",
+      "DESPEDIMENTO"
+     ],
+     "sumario": "I - O princípio da preclusão impede as partes de praticar actos inseríveis numa fase adjectiva já ultrapassada. II - Para efeitos da atribuição de responsabilid"
+    },
+    {
+     "base": "jstj",
+     "data": "2025-10-03",
+     "processo": "4048/22.6T8GMR.G1.S1",
+     "desc": [
+      "DESPEDIMENTO",
+      "EXTINÇÃO DO POSTO DE TRABALHO",
+      "REQUISITOS"
+     ],
+     "sumario": "I. O fundamento invocado pela ré na comunicação prevista no art. 369º, do CT, bem como na decisão de despedimento, não foi a extinção do posto de trabalho de ch"
+    },
+    {
+     "base": "jstj",
+     "data": "2025-07-14",
+     "processo": "4048/22.6T8GMR.G1.S2",
+     "desc": [
+      "RECURSO DE REVISTA EXCECIONAL",
+      "DESPEDIMENTO",
+      "EXTINÇÃO DE POSTO DE TRABALHO"
+     ],
+     "sumario": "É claramente necessária para uma melhor aplicação do direito a resposta à questão de saber se, por um lado, é suficiente que algumas das funções desempenhadas p"
+    },
+    {
+     "base": "jtrl",
+     "data": "2026-05-27",
+     "processo": "13152/24.5T8LRS.L1-4",
+     "desc": [
+      "DESPEDIMENTO",
+      "EXTINÇÃO DO POSTO DE TRABALHO",
+      "SEGURANÇA NO EMPREGO",
+      "INDEMNIZAÇÃO POR DANOS NÃO PATRIMONIAIS"
+     ],
+     "sumario": "Sumário (da responsabilidade do Relator) I. Num despedimento por extinção do posto de trabalho, atentas as normas do artigo 368, n.º 1, alínea b) e n.º 4, do Có"
+    },
+    {
+     "base": "jtrg",
+     "data": "2025-04-02",
+     "processo": "4048/22.6T8GMR.G1",
+     "desc": [
+      "DESPEDIMENTO",
+      "EXTINÇÃO DO POSTO DE TRABALHO",
+      "MOTIVO FUNDAMENTADOR",
+      "COMUNICAÇÃO"
+     ],
+     "sumario": "I – Se é a própria Direcção da ré que, através da designada Comissão Permanente, chama a si o exercício das funções em questão (chefe dos serviços administrativ"
+    },
+    {
+     "base": "jtrg",
+     "data": "2025-03-06",
+     "processo": "6905/23.3T8BRG.G1",
+     "desc": [
+      "DESPEDIMENTO",
+      "EXTINÇÃO DO POSTO DE TRABALHO",
+      "FALTA DE DISCRIMINAÇÃO DE FACTOS",
+      "ILICITUDE"
+     ],
+     "sumario": "A comunicação ao trabalhador da decisão de despedimento por extinção de posto de trabalho tem de conter obrigatoriamente a discriminação dos factos tendentes a "
+    },
+    {
+     "base": "jtre",
+     "data": "2026-03-25",
+     "processo": "5376/23.9T8STB.E1",
+     "desc": [
+      "ERRO NA FORMA DE PROCESSO",
+      "ACÇÃO DE IMPUGNAÇÃO JUDICIAL DA REGULARIDADE E LICITUDE DO DESPEDIMENTO",
+      "ACÇÃO COMUM",
+      "DESPEDIMENTO POR EXTINÇÃO DE POSTO DE TRABALHO",
+      "CADUCIDADE DO CONTRATO DE TRABALHO"
+     ],
+     "sumario": "Sumário: 1. O erro na forma de processo só determina a anulação de todo o processo se os actos praticados não puderem ser aproveitados, ou se desse aproveitamen"
+    },
+    {
+     "base": "jtre",
+     "data": "2025-01-16",
+     "processo": "509/21.2T8BJA.E1",
+     "desc": [
+      "EXTINÇÃO DO POSTO DE TRABALHO",
+      "DESPEDIMENTO",
+      "RETRIBUIÇÕES INTERCALARES"
+     ],
+     "sumario": "I. Um dos requisitos para a licitude do despedimento por extinção do posto de trabalho é a inexistência, na estrutura de organização da empregadora, de outro po"
+    },
+    {
+     "base": "jtre",
+     "data": "2024-12-16",
+     "processo": "55/24.2T8STR.E1",
+     "desc": [
+      "EXTINÇÃO DO POSTO DE TRABALHO",
+      "DESPEDIMENTO SEM JUSTA CAUSA",
+      "VALOR DA CAUSA"
+     ],
+     "sumario": ""
+    },
+    {
+     "base": "jtre",
+     "data": "2024-11-07",
+     "processo": "1235/23.3T8BJA.E1",
+     "desc": [
+      "CONTRATO DE TRABALHO A TERMO",
+      "DESPEDIMENTO POR EXTINÇÃO DE POSTO DE TRABALHO",
+      "DESPEDIMENTO ABUSIVO"
+     ],
+     "sumario": ""
+    }
+   ],
+   "nJuris": 40,
+   "nLeg": 1,
+   "normas": [
+    "Código do Trabalho - CT: 367, 368, 369, 370, 371",
+    "Código de Processo do Trabalho - CPT: "
+   ],
+   "leg": [
+    "Altera o regime jurídico aplicável à transmissão de empresa ou estabelecimento…"
+   ],
+   "recentes": [],
+   "alertas": []
+  },
+  "arrendamento": {
+   "pergunta": "Resolução do contrato de arrendamento por falta de pagamento de rendas",
+   "segundos": 11,
+   "consultas": [
+    {
+     "consulta": "arrendamento AND resoluç* AND pagamento",
+     "n": 210,
+     "erros": []
+    }
+   ],
+   "bases": [
+    "jstj",
+    "jtrl",
+    "jtrp",
+    "jtrc",
+    "jtrg",
+    "jtre",
+    "jsta"
+   ],
+   "juris": [
+    {
+     "base": "jtre",
+     "data": "2026-09-17",
+     "processo": "2050/25.5T8LLE.E1",
+     "desc": [
+      "CONTRATO DE ARRENDAMENTO",
+      "FORMALIDADES AD PROBATIONEM",
+      "CONFISSÃO",
+      "FALTA DE PAGAMENTO DE RENDAS",
+      "RESOLUÇÃO DO ARRENDAMENTO"
+     ],
+     "sumario": "I. Por constituir uma exigência ad probationem, a prova em juízo pelo senhorio, da existência do contrato de arrendamento urbano pode, em caso de incumprimento "
+    },
+    {
+     "base": "jtrl",
+     "data": "2026-10-08",
+     "processo": "2301/25.6YLPRT.L1-2",
+     "desc": [
+      "ARRENDAMENTO",
+      "CAUSAS DE RESOLUÇÃO",
+      "PONDERAÇÃO CASUÍSTICA",
+      "FALTA DE PAGAMENTO DE RENDA",
+      "MORA DO LOCATÁRIO"
+     ],
+     "sumario": "Sumário (da responsabilidade da relatora nos termos do artigo 663º nº 7 do Código de Processo Civil): I. Contrariamente ao que sucedia no regime anterior, em qu"
+    },
+    {
+     "base": "jstj",
+     "data": "2026-09-29",
+     "processo": "1787/25.3YLPRT.L1.S1",
+     "desc": [
+      "CONTRATO DE ARRENDAMENTO",
+      "ARRENDAMENTO PARA FINS NÃO HABITACIONAIS",
+      "RENDAS VENCIDAS",
+      "MORA",
+      "RESOLUÇÃO"
+     ],
+     "sumario": "I – O locatário pode pôr fim à mora oferecendo ao locador o pagamento das rendas ou alugueres em atraso, bem como uma indemnização de 20% sobre o valor em dívid"
+    },
+    {
+     "base": "jtrc",
+     "data": "2026-02-10",
+     "processo": "1896/23.3T8CLD.C1",
+     "desc": [
+      "CONTRATO DE ARRENDAMENTO",
+      "RESOLUÇÃO PELO NÃO USO DO LOCADO",
+      "REALIZAÇÃO DE OBRAS NO LOCADO",
+      "ABUSO DO DIREITO"
+     ],
+     "sumario": "I – O uso efetivo do locado pelo arrendatário destina-se a proteger o interesse do senhorio, de modo a evitar a desvalorização do locado, associada ao seu não u"
+    },
+    {
+     "base": "jtrg",
+     "data": "2026-10-15",
+     "processo": "1374/23.0T8FAF.G1",
+     "desc": [
+      "CONTRATO DE ARRENDAMENTO URBANO",
+      "FIM DO CONTRATO",
+      "RESOLUÇÃO DO CONTRATO",
+      "LICENÇA DE UTILIZAÇÃO",
+      "FIADOR"
+     ],
+     "sumario": "I - O artigo 5.º, n.º 7, do Decreto-Lei n.º 160/2006, de 8 de agosto, consagrou um direito potestativo de resolução, por banda do arrendatário, nas situações em"
+    },
+    {
+     "base": "jstj",
+     "data": "2026-07-09",
+     "processo": "1055/22.2T8PTG.E1.S1",
+     "desc": [
+      "RESPONSABILIDADE CONTRATUAL",
+      "CONTRATO DE ARRENDAMENTO",
+      "ARRENDAMENTO PARA COMÉRCIO OU INDÚSTRIA",
+      "DIREITO À INDEMNIZAÇÃO",
+      "NORMA SUPLETIVA"
+     ],
+     "sumario": "O direito de o locatário ser compensado pela valorização do imóvel decorrente de realização de benfeitorias só existe se as partes não tiverem acordado afastar "
+    },
+    {
+     "base": "jstj",
+     "data": "2026-06-25",
+     "processo": "2270/22.4T8GDM.S1",
+     "desc": [
+      "CONTRATO DE ARRENDAMENTO",
+      "PLURALIDADE",
+      "SENHORIO",
+      "COMPROPRIETÁRIO",
+      "PRÉDIO INDIVISO"
+     ],
+     "sumario": "Em caso de pluralidade de senhorios, comproprietários do prédio dado de arrendamento, com quotas iguais, a legitimidade substantiva para pedir a resolução do co"
+    },
+    {
+     "base": "jtrl",
+     "data": "2026-09-23",
+     "processo": "177/19.1 T9ALM.L1-3",
+     "desc": [
+      "CRIME DE ABUSO DE CONFIANÇA",
+      "CONTRATO DE ARRENDAMENTO",
+      "HERANÇA"
+     ],
+     "sumario": "SUMÁRIO (da responsabilidade da relatora): I- O crime de abuso de confiança, previsto no artigo 205.º do Código Penal, exige a apropriação ilegítima de coisa mó"
+    },
+    {
+     "base": "jtrc",
+     "data": "2026-07-09",
+     "processo": "2014/25.9T8LRA.C1",
+     "desc": [
+      "CONTRATO DE ARRENDAMENTO",
+      "OPOSIÇÃO À RENOVAÇÃO",
+      "PRAZO",
+      "EFICÁCIA"
+     ],
+     "sumario": "Na avaliação da regularidade e produção de efeitos da comunicação da oposição ao contrato de arrendamento feita pelo senhorio à inquilina, através de carta regi"
+    },
+    {
+     "base": "jtrc",
+     "data": "2026-06-23",
+     "processo": "102667/21.0YIPRT.C1",
+     "desc": [
+      "ARRENDAMENTO CONJUNTO DE PARTE RÚSTICA E PARTE",
+      "QUALIFICAÇÃO DO CONTRATO DE ARRENDAMENTO COMO RURAL OU URBANO",
+      "FORMA DO CONTRATO",
+      "FORMALIDADE AD PROBATIONEM",
+      "ÓNUS DA PROVA"
+     ],
+     "sumario": "I - Nos termos das disposições conjugadas do n.º 3 art.º 2.º do Dec. Lei n.º 294/2009 de 13/10 e do art.º 1066.º do CC, o arrendamento conjunto de uma parte rús"
+    },
+    {
+     "base": "jtrc",
+     "data": "2026-03-10",
+     "processo": "388/25.0T8SRE-A.C1",
+     "desc": [
+      "CONTRATO DE ARRENDAMENTO",
+      "AÇÃO EXECUTIVA",
+      "TÍTULO EXECUTIVO COMPLEXO",
+      "RENDAS VINCENDAS",
+      "INDEMNIZAÇÃO CORRESPONDENTE AO VALOR MENSAL PELA NÃO DESOCUPAÇÃO DO LOCADO"
+     ],
+     "sumario": ""
+    },
+    {
+     "base": "jtrc",
+     "data": "2026-02-24",
+     "processo": "398/21.7T8PBL.C1",
+     "desc": [
+      "CONTRATO DE ARRENDAMENTO",
+      "BENFEITORIAS"
+     ],
+     "sumario": ""
+    }
+   ],
+   "nJuris": 40,
+   "nLeg": 0,
+   "normas": [
+    "Código Civil - CC: 1048",
+    "Novo Regime do Arrendamento Urbano - NRAU: "
+   ],
+   "leg": [],
+   "recentes": [],
+   "alertas": []
+  },
+  "publica": {
+   "pergunta": "Exclusão de proposta por preço anormalmente baixo sem audiência prévia do concorrente",
+   "segundos": 12,
+   "consultas": [
+    {
+     "consulta": "PROPOSTA AND PREÇO ANORMALMENTE BAIXO",
+     "n": 110,
+     "erros": []
+    }
+   ],
+   "bases": [
+    "jsta",
+    "jtca",
+    "jtcn",
+    "jstj",
+    "jtrl",
+    "jcon"
+   ],
+   "juris": [
+    {
+     "base": "jsta",
+     "data": "2026-02-12",
+     "processo": "02178/25.1BEPRT",
+     "desc": [
+      "CONTENCIOSO PRÉ-CONTRATUAL",
+      "PREÇO ANORMALMENTE BAIXO",
+      "EXCLUSÃO DE PROPOSTAS"
+     ],
+     "sumario": "I - A exclusão de uma proposta com fundamento em preço anormalmente baixo rege-se pelos artigos 70.º, n.º 2, al. e), e 71.º do CCP, sendo determinante não o pre"
+    },
+    {
+     "base": "jtcn",
+     "data": "2026-06-03",
+     "processo": "02087/25.4BEPRT",
+     "desc": [
+      "CONTENCIOSO PRÉ-CONTRATUAL",
+      "DISPENSA DE AUDIÊNCIA PRÉVIA",
+      "CONCURSO PÚBLICO",
+      "ANÚNCIO",
+      "PRAZO"
+     ],
+     "sumario": "I - No quadro normativo constante do art.º 87.º-B do CPTA, na redação que lhe foi dada pela Lei n.º 118/2019, de 17/09, o Tribunal pode dispensar a realização d"
+    },
+    {
+     "base": "jsta",
+     "data": "2026-09-09",
+     "processo": "01377/25.0BEPRT.CN1.SA1",
+     "desc": [
+      "CONTENCIOSO PRÉ-CONTRATUAL",
+      "PREÇO ANORMALMENTE BAIXO",
+      "ADMISSÃO DE PROPOSTAS"
+     ],
+     "sumario": "I - A decisão de aceitação das justificações apresentadas relativamente ao preço anormalmente baixo está sujeita ao dever de fundamentação, nos termos do art. 1"
+    },
+    {
+     "base": "jtcn",
+     "data": "2026-07-03",
+     "processo": "02984/25.7BEPRT",
+     "desc": [
+      "PRÉ-CONTRATUAL",
+      "FUNDAMENTAÇÃO",
+      "AUDIÊNCIA PRÉVIA, ESCLARECIMENTOS"
+     ],
+     "sumario": ""
+    },
+    {
+     "base": "jsta",
+     "data": "2026-06-25",
+     "processo": "01377/25.0BEPRT.CN1.SA1",
+     "desc": [
+      "APRECIAÇÃO PRELIMINAR",
+      "CONTRATAÇÃO PÚBLICA",
+      "PREÇO ANORMALMENTE BAIXO"
+     ],
+     "sumario": "É de admitir a revista onde se colocam questões relativas ao dever de fundamentação na aceitação de justificações para um preço anormalmente baixo, as quais ass"
+    },
+    {
+     "base": "jsta",
+     "data": "2026-06-25",
+     "processo": "0258/25.2BEMDL.CN1.SA1",
+     "desc": [
+      "APRECIAÇÃO PRELIMINAR",
+      "CONTRATAÇÃO PÚBLICA",
+      "PREÇO ANORMALMENTE BAIXO"
+     ],
+     "sumario": "Quando a questão recursiva corresponde a uma matéria recentemente analisada e decidida pelo Supremo Tribunal Administrativo em sentido que foi acolhido na decis"
+    },
+    {
+     "base": "jsta",
+     "data": "2026-01-15",
+     "processo": "045/24.5BECTB.SA1",
+     "desc": [
+      "APRECIAÇÃO PRELIMINAR",
+      "CONTRATAÇÃO PÚBLICA",
+      "PREÇO ANORMALMENTE BAIXO"
+     ],
+     "sumario": "Não se justifica a admissão da revista para a apreciação da questão do fundamento da exclusão da proposta em procedimento pré-contratual, por preço anormalmente"
+    },
+    {
+     "base": "jsta",
+     "data": "2025-04-10",
+     "processo": "01603/24.3BELSB",
+     "desc": [
+      "APRECIAÇÃO PRELIMINAR",
+      "CONTRATAÇÃO PÚBLICA",
+      "PREÇO ANORMALMENTE BAIXO"
+     ],
+     "sumario": "Não é de admitir a revista que não respeita a uma questão jurídica a propósito da qual se conheça litigiosidade significativa nem reveste uma elevada complexida"
+    },
+    {
+     "base": "jsta",
+     "data": "2024-05-02",
+     "processo": "01172/23.1BELSB",
+     "desc": [
+      "APRECIAÇÃO PRELIMINAR",
+      "PREÇO",
+      "EXCLUSÃO DE PROPOSTAS"
+     ],
+     "sumario": "É de admitir a revista onde se coloca a questão fundamental, de cariz inovador neste STA, da conjugação das normas dos artºs. 69.º, da Directiva n.º 2014/24/EU,"
+    },
+    {
+     "base": "jtca",
+     "data": "2026-10-01",
+     "processo": "32/26.9BECTB.CS1",
+     "desc": [
+      "CONTRATAÇÃO PÚBLICA",
+      "PREÇO ANORMALMENTE BAIXO"
+     ],
+     "sumario": "I.A cláusula 21ª do Convite fixa o limiar do preço anormalmente baixo em 50% abaixo da média dos preços das propostas admitidas. II.Apesar do preço da proposta "
+    },
+    {
+     "base": "jtca",
+     "data": "2026-07-15",
+     "processo": "84140/25.1BELSB.CS1",
+     "desc": [
+      "PREÇO ANORMALMENTE BAIXO",
+      "CUSTOS INERENTES À EXECUÇÃO DO CONTRATO."
+     ],
+     "sumario": ""
+    },
+    {
+     "base": "jtca",
+     "data": "2025-10-23",
+     "processo": "45/24.5BECTB",
+     "desc": [
+      "IMPUGNAÇÃO DA MATÉRIA DE FACTO",
+      "FALTA DE FUNDAMENTAÇÃO",
+      "PREÇO ANORMALMENTE BAIXO"
+     ],
+     "sumario": ""
+    }
+   ],
+   "nJuris": 40,
+   "nLeg": 0,
+   "normas": [
+    "Código dos Contratos Públicos - CCP: 71",
+    "Código de Processo nos Tribunais Administrativos - CPTA: ",
+    "Código do Procedimento Administrativo - CPA: "
+   ],
+   "leg": [],
+   "recentes": [],
+   "alertas": []
+  },
+  "civil": {
+   "pergunta": "Responsabilidade do empreiteiro por defeitos da obra",
+   "segundos": 9,
+   "consultas": [
+    {
+     "consulta": "empreiteiro AND defeitos",
+     "n": 180,
+     "erros": []
+    }
+   ],
+   "bases": [
+    "jstj",
+    "jtrl",
+    "jtrp",
+    "jtrc",
+    "jtrg",
+    "jtre"
+   ],
+   "juris": [
+    {
+     "base": "jstj",
+     "data": "2025-10-02",
+     "processo": "69471/23.3YLPRT.P1.S1",
+     "desc": [
+      "RESPONSABILIDADE CONTRATUAL",
+      "CONTRATO DE EMPREITADA",
+      "CUMPRIMENTO DEFEITUOSO",
+      "DONO DA OBRA",
+      "DIREITOS DO DONO DA OBRA"
+     ],
+     "sumario": "I. Não tendo o empreiteiro eliminado os defeitos da obra no prazo indicado e adequado à urgência da reparação, tem o dono da obra o poder de recorrer a terceiro"
+    },
+    {
+     "base": "jstj",
+     "data": "2025-05-13",
+     "processo": "2732/22.3T8VCT.G1.S1",
+     "desc": [
+      "RESPONSABILIDADE CONTRATUAL",
+      "CONTRATO DE EMPREITADA",
+      "RESOLUÇÃO",
+      "INCUMPRIMENTO DEFINITIVO",
+      "DEFEITO DA OBRA"
+     ],
+     "sumario": "I - Não se verifica a nulidade da sentença por violação da al. d), do n.º 1, do art. 615.º, do CPC, (apreciar questões de que não podia conhecer), quando o acór"
+    },
+    {
+     "base": "jstj",
+     "data": "2026-09-17",
+     "processo": "15952/17.3T8LSB.L2.S1",
+     "desc": [
+      "CONTRATO DE SEGURO",
+      "DANO CAUSADO POR EDIFÍCIOS OU OUTRAS OBRAS",
+      "RISCO",
+      "SINISTRO",
+      "EXCLUSÃO DE RESPONSABILIDADE"
+     ],
+     "sumario": "I - Sendo o risco o elemento essencial ou típico do contrato de seguro, traduzindo-se na ocorrência de um evento futuro incerto, de natureza fortuita, daqui dec"
+    },
+    {
+     "base": "jstj",
+     "data": "2025-07-09",
+     "processo": "3708/19.3T8FAR.E1.S1",
+     "desc": [
+      "CONTRATO DE EMPREITADA",
+      "ABANDONO",
+      "OBRA",
+      "CUMPRIMENTO DEFEITUOSO",
+      "REPARAÇÃO"
+     ],
+     "sumario": "O dono da obra tem o direito de resolver o contrato de empreitada, com base em incumprimento definitivo, se o empreiteiro abandona a obra, deixando-a inacabada "
+    },
+    {
+     "base": "jstj",
+     "data": "2025-04-23",
+     "processo": "3064/20.7T8VCT.G1.S1",
+     "desc": [
+      "CONTRATO DE EMPREITADA",
+      "RESPONSABILIDADE CONTRATUAL",
+      "RESPONSABILIDADE DO PRODUTOR",
+      "PRESUNÇÃO DE CULPA",
+      "CUMPRIMENTO DEFEITUOSO"
+     ],
+     "sumario": "I. Incorre em responsabilidade contratual por incumprimento da obrigação de realização da obra sem defeito o empreiteiro que escolheu e aplicou painéis de cober"
+    },
+    {
+     "base": "jtrl",
+     "data": "2026-06-18",
+     "processo": "116923/24.2YIPRT.L1-8",
+     "desc": [
+      "CONTRATO DE EMPREITADA",
+      "DEFEITOS DA OBRA",
+      "EXCEPÇÃO DE NÃO CUMPRIMENTO DO CONTRATO",
+      "EXCEPTIO NON ADIMPLETI CONTRACTUS",
+      "PROPORCIONALIDADE"
+     ],
+     "sumario": "I – No contrato de empreitada, a existência de defeitos ou desconformidades na obra não legitima, por si só, a retenção integral do preço ainda em dívida, impon"
+    },
+    {
+     "base": "jtrc",
+     "data": "2026-02-24",
+     "processo": "558/22.3T8CLD.C1",
+     "desc": [
+      "CONTRATO DE EMPREITADA",
+      "CUMPRIMENTO DEFEITUOSO",
+      "DEFEITOS",
+      "DONO DA OBRA",
+      "EXERCÍCIO DOS DIREITOS"
+     ],
+     "sumario": "1. O empreiteiro deve realizar a obra em conformidade com o que foi ajustado pelas partes, sem imperfeições que eliminem ou diminuam o seu valor, ou a capacidad"
+    },
+    {
+     "base": "jtrc",
+     "data": "2025-12-10",
+     "processo": "1700/20.4T8CLD.C1",
+     "desc": [
+      "CONTRATO DE EMPREITADA",
+      "DEFEITOS DA OBRA",
+      "DIREITOS DO DONO DA OBRA",
+      "INCUMPRIMENTO DEFINITIVO DA OBRIGAÇÃO DE REPARAR",
+      "REGRAS GERAIS DO INCUMPRIMENTO CONTRATUAL"
+     ],
+     "sumario": "I – O contrato de empreitada, a propósito do incumprimento consubstanciado na realização da obra com defeitos, estabeleceu um regime específico plasmado nos art"
+    },
+    {
+     "base": "jtrg",
+     "data": "2026-07-02",
+     "processo": "2669/23.9T8VCT.G1",
+     "desc": [
+      "EMPREITADA",
+      "EMPREITADA DE CONSUMO",
+      "DEFEITOS DA OBRA",
+      "FALTA DE CONFORMIDADE",
+      "PREJUÍZOS COLATERAIS"
+     ],
+     "sumario": "I - Os prejuízos sofridos pelo dono da obra em consequência da prestação defeituosa integram a responsabilidade contratual, uma vez que esta tem origem na viola"
+    },
+    {
+     "base": "jtrg",
+     "data": "2026-04-23",
+     "processo": "1116/23.0T8VCT.G1",
+     "desc": [
+      "CONTRATO DE EMPREITADA",
+      "DEFEITOS DA OBRA",
+      "EXCEÇÃO DE INCUMPRIMENTO DO CONTRATO"
+     ],
+     "sumario": "I. Havendo diversidade de prazos de cumprimento das obrigações recíprocas num contrato bilateral, apenas pode o credor-devedor cujo prazo de cumprimento da sua "
+    },
+    {
+     "base": "jtrg",
+     "data": "2026-03-12",
+     "processo": "58988/23.0YIPRT.G1",
+     "desc": [
+      "CONTRATO DE EMPREITADA",
+      "CUMPRIMENTO DEFEITUOSO",
+      "DEFEITO DA OBRA",
+      "ELIMINAÇÃO DE DEFEITOS",
+      "DIREITO À INDEMNIZAÇÃO"
+     ],
+     "sumario": ""
+    },
+    {
+     "base": "jtrg",
+     "data": "2026-02-12",
+     "processo": "3766/23.6T8GMR.G1",
+     "desc": [
+      "CONTRATO DE EMPREITADA",
+      "DEFEITOS DA OBRA",
+      "ÓNUS DA PROVA",
+      "PROVA POR DECLARAÇÕES DE PARTE",
+      "FACTOS DO FORO INTERNO"
+     ],
+     "sumario": ""
+    }
+   ],
+   "nJuris": 40,
+   "nLeg": 0,
+   "normas": [
+    "Código Civil - CC: 1219, 1226"
+   ],
+   "leg": [],
+   "recentes": [],
+   "alertas": []
+  }
+ },
+ "acordao": {
+  "url": "#/acordao?u=https%3A%2F%2Fwww.dgsi.pt%2Fjtrg.nsf%2F86c25a698e4e7cb7802579ec004d3832%2F7e7480bcd09cebd780258c1500404665%3FOpenDocument",
+  "sumario": 4,
+  "texto": 211,
+  "titulo": "Acórdão de 09/01/2025",
+  "meta": "Processo2495/23.5T8VNF.G1 | RelatorANTERO VEIGA | VotaçãoUNANIMIDADE | Meio processualAPELAÇÃO | DecisãoAPELAÇÃO IMPROCEDENTE"
+ },
+ "diploma": {
+  "versao": "Versão em vigor a 01/01/2015: redacção iniciada em 01/09/2014. Este diploma foi alterado depois dessa data (última versão: 26/04/2025).",
+  "artigos": 585,
+  "pedido": "Artigo 368.ºRequisitos de despedimento por extinção de posto de trabalho",
+  "texto": "Artigo 368.ºRequisitos de despedimento por extinção de posto de trabalhoTítulo II — Contrato de trabalho, Capítulo VII — Cessação de contrato de trabalho, Secção IV — Despedimento por iniciativa do empregador, Divisão III — Despedimento por extinção de posto de trabalho1 - O despedimento por extinção de posto de trabalho só pode ter lugar desde que se verifiquem os seguintes requisitos:a) Os motiv",
+  "versoes": 20
+ },
+ "verificar": [
+  {
+   "classe": "citacao confirmada",
+   "alvo": "ConfirmadaAcórdão, processo 4048/22.6T8GMR.G1.S1",
+   "detalhe": "Existem 2 decisões com este número de processo.STJ, 12/11/2025, proc. 4048/22.6T8GMR.G1.S1, relator MÁRIO BELO MORGADOConfirmar se sustenta a afirmaçãoSTJ, 03/10/2025, proc. 4048/22.6T8GMR.G1.S1, relator MÁRIO BELO MORGA"
+  },
+  {
+   "classe": "citacao confirmada",
+   "alvo": "ConfirmadaArtigo 368.º, Código do Trabalho",
+   "detalhe": "Lei n.º 7/2009, Artigo 368.º (Requisitos de despedimento por extinção de posto de trabalho), na redacção em vigor desde 04/04/20231 - O despedimento por extinção de posto de trabalho só pode ter lugar desde que se verifi"
+  },
+  {
+   "classe": "citacao confirmada",
+   "alvo": "ConfirmadaArtigo 798.º, CC",
+   "detalhe": "Decreto-Lei n.º 47344/1966, Artigo 798.º (Responsabilidade do devedor), na redacção em vigor desde 17/01/2023O devedor que falta culposamente ao cumprimento da obrigação torna-se responsável pelo prejuízo que causa ao cr"
+  },
+  {
+   "classe": "citacao confirmada",
+   "alvo": "ConfirmadaAcórdão do Tribunal Constitucional n.º 1/2024",
+   "detalhe": "Acórdão encontrado no sítio do Tribunal Constitucional.Abrir a fonte oficial"
+  },
+  {
+   "classe": "citacao nao-encontrada",
+   "alvo": "Não encontradaAcórdão do Tribunal Constitucional n.º 9876/2024",
+   "detalhe": "O Tribunal Constitucional não tem publicado um acórdão com este número e ano.Abrir a fonte oficial"
+  },
+  {
+   "classe": "citacao nao-encontrada",
+   "alvo": "Não encontradaAcórdão, processo 9999/99.9TBXYZ.L1-4",
+   "detalhe": "Não existe nas bases da DGSI nenhum acórdão com este número de processo. Pode não estar publicado na DGSI ou o número pode estar errado."
+  },
+  {
+   "classe": "citacao nao-encontrada",
+   "alvo": "Não encontradaArtigo 9999.º, Código Civil",
+   "detalhe": "O Decreto-Lei n.º 47344/1966 não tem artigo 9999.º na versão em vigor à data indicada."
+  }
+ ],
+ "guardados": {
+  "itens": 1,
+  "citacao": "Ac. do TRG de 09.01.2025, proc. 2495/23.5T8VNF.G1, relator Antero Veiga, disponível em www.dgsi.pt"
+ },
+ "sobre": "Fontes, metodologia e limitaçõesDe onde vêm os resultadosJurisprudência: bases jurídico-documentais da DGSI, geridas pelo IGFEJ (Supremo Tribunal de Justiça, Supremo Tribunal Administrativo, Tribunais da Relação, Tribunais Centrais Administrativos, Tribunal dos Conflitos, Julgados de Paz e Tribunal ",
+ "manifesto": {
+  "nome": "Fonte Certa",
+  "icones": 3,
+  "sw": true
+ },
+ "ia": {
+  "sondaModelos": {
+   "principal": {
+    "estado": 200,
+    "ms": 777,
+    "corpo": "{\"texto\":\"{\\n  \\\"ok\\\": true,\\n  \\\"lingua\\\": \\\"português europeu\\\",\\n  \\\"frase\\\": \\\"O princípio da boa‑fé exige agir com lealdade e transparência nas relações.\\\"\\n}\",\"modelo\":\"@cf/openai/gpt-oss-120b\"}"
+   },
+   "alternativo": {
+    "estado": 200,
+    "ms": 23997,
+    "corpo": "{\"texto\":\"{\\\"ok\\\": true, \\\"lingua\\\": \\\"português europeu\\\", \\\"frase\\\": \\\"Garante que as partes cumpram suas obrigações com honestidade e lealdade.\\\"}\",\"modelo\":\"@cf/openai/gpt-oss-20b\"}"
+   }
+  },
+  "anonimizado": "A trabalhadora [PESSOA 1], [NIF 1], residente na [MORADA 1], [CODIGO POSTAL 1], era uma de três técnicas administrativas da empresa [EMPRESA 1], com funções idênticas. A empresa extinguiu o posto de trabalho dela alegando redução de encomendas, mas na comunicação não indicou os critérios usados para escolher o seu posto e não o das outras duas colegas, uma das quais tinha menor antiguidade. A compensação foi paga e devolvida pela trabalhadora no prazo de dez dias.\nPretensão: declaração de ilicitude do despedimento, reintegração e retribuições intercalares",
+  "pesquisa": {
+   "plano": {
+    "consultas": [
+     "despediment* AND extinção AND critério*",
+     "despediment* AND extinção AND seleção AND trabalhador*",
+     "despediment* AND extinção AND posto de trabalho AND igualdade",
+     "despediment* AND extinção AND funções idênticas",
+     "despediment* AND extinção AND critério* AND antiguidade"
+    ],
+    "descritores": [
+     "DESPEDIMENTO POR EXTINÇÃO DO PUTO DE TRABALHO",
+     "CRITÉRIOS DE SELEÇÃO",
+     "IGUALDADE DE TRATAMENTO",
+     "ANTIGUIDADE"
+    ],
+    "jurisdicao": "comum",
+    "tribunais": [
+     "jstj",
+     "jtrl"
+    ],
+    "area": "laboral",
+    "diplomas": [
+     {
+      "designacao": "Código do Trabalho",
+      "artigos": [
+       "14.º",
+       "21.º",
+       "227.º",
+       "231.º"
+      ]
+     },
+     {
+      "designacao": "Lei n.º 7/2009, de 12 de Fevereiro",
+      "artigos": [
+       "163.º",
+       "164.º"
+      ]
+     }
+    ],
+    "termos_legislacao": "despedimento por extinção do posto de trabalho, critérios de seleção, igualdade de tratamento, antiguidade, Código do Trabalho, Artigo 14.º, Artigo 21.º, Artigo 227.º, Artigo 231.º",
+    "questao": "É ilícito o despedimento por extinção do posto de trabalho quando a empresa não indica os critérios de seleção aplicados entre trabalhadores com funções idênticas, violando os princípios de igualdade de tratamento e antiguidade, devendo ser declarada a nulidade do despedimento e ordenada a reintegração da trabalhadora com pagamento de retribuições intercalares?"
+   },
+   "consultas": [
+    {
+     "consulta": "despediment* AND extinção AND critério*",
+     "n": 180,
+     "erros": []
+    }
+   ],
+   "normas": [
+    "Código do Trabalho - CT: 368 Requisitos de despedimento por extinção de posto de trabalho; 369 Comunicações em caso de despedimento por extinção de posto de trabalho; 370 Consultas em caso de despedimento por extinção de posto de trabalho; 371 Decisão de despedimento por extinção de posto de trabalho; 372 Direitos de trabalhador em caso de despedimento por extinção de posto de trabalho",
+    "Código de Processo do Trabalho - CPT: "
+   ],
+   "primeiros": [
+    "jstj 2026-04-08 1333/20.5T8LRA.C3.S1 PRINCÍPIO DA PRECLUSÃO; GRUPO DE EMPRESAS; SOCIEDADES EM RELAÇÃO DE GRUPO",
+    "jstj 2025-10-03 4048/22.6T8GMR.G1.S1 DESPEDIMENTO; EXTINÇÃO DO POSTO DE TRABALHO; REQUISITOS",
+    "jstj 2025-07-14 4048/22.6T8GMR.G1.S2 RECURSO DE REVISTA EXCECIONAL; DESPEDIMENTO; EXTINÇÃO DE POSTO DE TRABALHO",
+    "jtrl 2026-05-27 13152/24.5T8LRS.L1-4 DESPEDIMENTO; EXTINÇÃO DO POSTO DE TRABALHO; SEGURANÇA NO EMPREGO",
+    "jtrg 2025-04-02 4048/22.6T8GMR.G1 DESPEDIMENTO; EXTINÇÃO DO POSTO DE TRABALHO; MOTIVO FUNDAMENTADOR",
+    "jtrg 2025-03-06 6905/23.3T8BRG.G1 DESPEDIMENTO; EXTINÇÃO DO POSTO DE TRABALHO; FALTA DE DISCRIMINAÇÃO DE FACTOS"
+   ],
+   "segundos": 11
+  },
+  "mapa": {
+   "segundos": 5,
+   "texto": "Mapa de correntesO despedimento por extinção do posto de trabalho é ilícito quando o empregador não indica, de forma clara e fundamentada, os critérios de seleção aplicados, violando os princípios de igualdade de tratamento e antiguidade, devendo ser declarada a nulidade do despedimento e ordenada a reintegração com pagamento de retribuições intercalares.A lei exige a discriminação dos factos e dos critérios de escolha na comunicação do despedimento; a ausência ou a insuficiência desses elementos constitui violação dos princípios de igualdade e antiguidade, tornando o despedimento ilícito.STJ 03/10/2025STJ 14/07/2025TRG 06/03/2025TRE 16/12/202420242026STJ, 03/10/2025, proc. 4048/22.6T8GMR.G1.S1STJ, 14/07/2025, proc. 4048/22.6T8GMR.G1.S2TRG, 06/03/2025, proc. 6905/23.3T8BRG.G1TRE, 16/12/2024, proc. 55/24.2T8STR.E1A jurisprudência recente (2024‑2025) consolida o entendimento de que a indicação dos critérios de seleção é condição essencial de licitude do despedimento por extinção do posto, refletindo uma evolução em direção a maior proteção da segurança no emprego.Agrupamento feito a partir dos sumários. Confirme a tese de cada acórdão no respectivo texto.",
+   "erro": null
+  },
+  "parecer": {
+   "segundos": 22,
+   "acordao": "Acórdão de 08/04/2026",
+   "texto": "Para o seu caso: favorávelO acórdão oferece argumentos fortes para provar a licitude do despedimento por extinção de posto, ao afirmar que o empregador só deve comprovar a impossibilidade de encontrar posto compatível na própria empresa e não no grupo. Contudo, a diferença factual quanto à motivação (redução de encomendas vs impossibilidade estrutural) e a falta de critérios de escolha podem ser exploradas pela parte contrária.Semelhança dos factos: altaO empregador não tem obrigação de procurar posto em todo o grupo empresarial (§132‑§134)Despedimento por extinção de posto requer comprovar inexistência de posto compatível (art. 368.º, §§126‑129)DiferençasNo caso do utilizador o empregador alegou redução de encomendas sem indicar critérios de escolha (parágrafo 48)O trabalhador devolveu a compensação antes de impugnação, cenário ausente no acórdãoOnde o favoreceFundamenta a inexistência de obrigação de reclassificação em outras empresas do grupo, reforçando a licitude do despedimento“A recorrida não estava obrigada a pesquisar em todo o contexto do grupo empresarial, um posto de trabalho com a categoria profissional e conteúdo funcional compatível”§ 132Onde o prejudicaO acórdão admite que a análise deve limitar‑se à empresa onde ocorreu a extinção, não ao grupo, podendo ser usado contra o trabalhador ao argumentar que a Planitec não verificou alternativamente dentro da própria empresa“A subsistência da relação de trabalho torna‑se praticamente inviável se o empregador não dispuser de outro posto de trabalho compatível com a categoria do trabalhador”§ 131A decisão de revisão foi negada com base no princípio da preclusão, limitando a possibilidade de rediscutir fatos já decididos“O princípio da preclusão impede as partes de praticar actos inseríveis numa fase adjectiva já ultrapassada”Sumário, S1Como afastá-lo, se for invocado contra siNo presente caso a empresa alegou extinção por redução de encomendas, não por impossibilidade estrutural, o que o acórdão não cobre explicitamenteA comunicação ao trabalhador não especificou critérios de escolha, ao passo que no acórdão se assume que o empregador demonstra a impossibilidade de reclassificaçãoCada trecho foi confirmado, palavra por palavra, no texto do acórdão. Foram descartados 2 pontos cujo trecho não constava do texto.",
+   "favoraveis": 1,
+   "desfavoraveis": 2,
+   "marcas": 3,
+   "erro": null
+  },
+  "confirmacoes": [
+   "Sustenta a afirmação: por confirmar. O acórdão declara que as nulidades de sentença sancionam apenas vícios formais, não erros de julgamento no mérito, e define quando se verifica omissão ou excesso de pronúncia.",
+   "Sustenta a afirmação: por confirmar. O acórdão declara a ilicitude do despedimento por extinção do posto de trabalho e revoga a decisão recorrida."
+  ],
+  "confirmacao": {
+   "segundos": 187,
+   "texto": "Sustenta a afirmação: por confirmar. O acórdão declara que as nulidades de sentença sancionam apenas vícios formais, não erros de julgamento no mérito, e define quando se verifica omissão ou excesso de pronúncia.",
+   "erro": null
+  }
+ },
+ "fim": "2026-10-27T13:15:32.420Z"
+}
