@@ -10,12 +10,15 @@ const ALVOS = {
   curia_robots: "https://curia.europa.eu/robots.txt",
   eurlex_robots: "https://eur-lex.europa.eu/robots.txt",
 }
-export async function onRequest({ request: req }) {
+export async function onRequest(ctx) {
+  const req = ctx.request;
+  const q = new URL(req.url).searchParams;
+  if (!q.has("sonda")) return ctx.next();
   const u = new URL(req.url);
   const so = u.searchParams.get("alvo");
   const url = u.searchParams.get("url");
   const lista = url ? { livre: url } : so ? { [so]: ALVOS[so] } : ALVOS;
-  const full = false;
+  const full = u.searchParams.get("full") === "1";
   const out = {};
   await Promise.all(Object.entries(lista).map(async ([k, v]) => {
     const t = Date.now();
