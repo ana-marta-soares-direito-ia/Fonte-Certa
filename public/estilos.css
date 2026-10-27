@@ -396,3 +396,7 @@ mark { color: inherit; padding: 1px 0; border-radius: 2px; }
 .lista-normas li { align-items: flex-start; }
 .norma-artigo { display: inline-block; border-radius: var(--raio-pequeno); line-height: 1.35; padding: 4px 10px; }
 .sustenta-por-confirmar { background: var(--ambar-claro); }
+
+.marca-texto { display: flex; flex-direction: column; gap: 3px; }
+.marca-nome { font: 600 19px/1 var(--serifa); }
+.marca-autora { font: 500 12.5px/1 var(--sans); color: var(--tinta-2); letter-spacing: .01em; }

@@ -23,7 +23,7 @@ export async function vistaAcordao(raiz, params) {
     raiz.replaceChildren(el("div", { class: "vazio" }, el("p", {}, e.message), el("p", {}, el("a", { href: url, target: "_blank", rel: "noopener" }, "Abrir directamente na DGSI"))));
     return;
   }
-  document.title = `${BASES[ac.base]?.curto || ""} ${dataPT(ac.data)}, proc. ${ac.processo} · Fonte Certa`;
+  document.title = `${BASES[ac.base]?.curto || ""} ${dataPT(ac.data)}, proc. ${ac.processo} | Fonte Certa Ana Marta Soares`;
   const caso = lerCaso();
   const id = "ac:" + url;
   const leitor = el("article", { class: "leitor" });

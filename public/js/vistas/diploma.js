@@ -12,7 +12,7 @@ export async function vistaDiploma(raiz, params) {
   let meta = (await carregarPrincipais()).find(r => r.p === caminho);
   if (!meta) meta = (await carregarOutros()).find(r => r.p === caminho);
   if (!meta) { raiz.replaceChildren(el("p", { class: "erro" }, "Diploma não encontrado no índice do Diário da República.")); return; }
-  document.title = `${meta.c || designacao(meta)} · Fonte Certa`;
+  document.title = `${meta.c || designacao(meta)} | Fonte Certa Ana Marta Soares`;
 
   let lista = [];
   try { lista = await versoes(caminho); } catch (e) { aviso(e.message, "erro", 8000); }

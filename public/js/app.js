@@ -25,7 +25,7 @@ async function navegar() {
   document.querySelectorAll("[data-rota]").forEach(a => {
     if (a.dataset.rota === seccao) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
   });
-  if (caminho === "/") document.title = "Fonte Certa";
+  if (caminho === "/") document.title = "Fonte Certa Ana Marta Soares";
   document.body.dataset.vista = caminho.replace("/", "") || "pesquisa";
   try {
     await vista(raiz, params);
