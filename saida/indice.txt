@@ -1,0 +1,3 @@
+1 200 0.094103s text/plain; charset=utf-8 https://fonte-certa-ana-marta-soares.pages.dev/versao.txt
+2 200 0.195989s text/html; charset=utf-8 https://fonte-certa.pages.dev/
+3 200 0.088982s text/plain; charset=utf-8 https://fonte-certa.pages.dev/versao.txt

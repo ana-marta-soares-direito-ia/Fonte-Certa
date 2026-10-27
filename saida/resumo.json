@@ -1,0 +1,122 @@
+{
+ "ponte_pesq": {
+  "status": 200,
+  "ms": 1175,
+  "ct": "text/html; charset=UTF-8",
+  "found": [
+   "5",
+   "500"
+  ],
+  "bytes": 3617,
+  "inicio": " Search Results search results for \"despedimento\" 5 documents returned; 500 found SESSÃO PROCESSO RELATOR DESCRITOR 01-10-2026 629/19.3T9ESP-F.S1 JOSÉ MANUEL BRANCO RECURSO DE REVISÃO CASO JULGADO FACTO NOVO NOVOS MEIOS DE PROVA INIMPUTABILIDADE 20-10-2026 1655/24.6T8PTM.E1.S2 ANTERO VEIGA RECURSO D"
+ },
+ "ponte_doc": {
+  "status": 200,
+  "ms": 1102,
+  "ct": "text/html; charset=ISO-8859-1",
+  "bytes": 188719,
+  "inicio": " Acórdão do Supremo Tribunal de Justiça Acórdãos STJ Acórdão do Supremo Tribunal de Justiça Processo: 3764/22.7JAPRT.P1.S1 Nº Convencional: 5.ª SECÇÃO Relator: ERNESTO NASCIMENTO Descritores: RECURSO DE ACÓRDÃO DA RELAÇÃO FALTA FUNDAMENTAÇÃO NULIDADE DE SENTENÇA ABUSO SEXUAL CRIANÇA MEDIDA CONCRETA "
+ },
+ "ponte_proibido": {
+  "status": 403,
+  "ms": 51,
+  "ct": "text/plain;charset=UTF-8",
+  "bytes": 21,
+  "inicio": "Fonte não autorizada."
+ },
+ "ordem2": {
+  "status": 200,
+  "ms": 1740,
+  "ct": "text/html; charset=UTF-8",
+  "found": [
+   "5",
+   "500"
+  ],
+  "bytes": 3162,
+  "inicio": " Search Results search results for \"abuso do direito\" 5 documents returned; 500 found SESSÃO PROCESSO RELATOR DESCRITOR 03/13/2001 00S3513 AZAMBUJA DA FONSECA 03/20/2002 02P361 ARMANDO LEANDRO 04/10/2002 02P478 LOURENÇO MARTINS 04/10/2002 02P228 PIRES SALPICO 04/10/2002 02P154 LEAL HENRIQUES "
+ },
+ "ordem3": {
+  "status": 200,
+  "ms": 1910,
+  "ct": "text/html; charset=UTF-8",
+  "found": [
+   "5",
+   "500"
+  ],
+  "bytes": 3958,
+  "inicio": " Search Results search results for \"abuso do direito\" 5 documents returned; 500 found SESSÃO PROCESSO RELATOR DESCRITOR 10/01/2026 629/19.3T9ESP-F.S1 JOSÉ MANUEL BRANCO RECURSO DE REVISÃO CASO JULGADO FACTO NOVO NOVOS MEIOS DE PROVA INIMPUTABILIDADE 10/15/2026 184/12.5TELSB.L1.S2 VASQUES OSÓRIO RECU"
+ },
+ "ordem3_frase": {
+  "status": 404,
+  "ms": 92,
+  "ct": "text/html",
+  "bytes": 775,
+  "inicio": " html, body { margin: 0; padding: 0; font-family: Verdana, Arial, sans-serif; font-size: 16pt; background-color: #ffffff; } Something Went Wrong Something Went Wrong Please check information submitted You tried to reach www.dgsi.pt/jstj.nsf/954f0ce6ad9dd8b980256b5f003fa814 Your IP: 57.151.123.241 Su"
+ },
+ "ou_sem_parenteses": {
+  "status": 200,
+  "ms": 487,
+  "ct": "text/html; charset=UTF-8",
+  "found": [
+   "5",
+   "500"
+  ],
+  "bytes": 4041,
+  "inicio": " Search Results search results for \"arrendamento OR locação\" 5 documents returned; 500 found SESSÃO PROCESSO RELATOR DESCRITOR 01/28/2025 2032/22.9T8CSC.L1.S1 MARIA CLARA SOTTOMAYOR CONTRATO DE LOCAÇÃO FINANCEIRA OPÇÃO DE COMPRA PACTO DE PREFERÊNCIA DIREITO DE PREFERÊNCIA INTERPRETAÇÃO DO NEGÓCIO JU"
+ },
+ "e_minusculo": {
+  "status": 200,
+  "ms": 588,
+  "ct": "text/html; charset=UTF-8",
+  "found": [
+   "5",
+   "500"
+  ],
+  "bytes": 3977,
+  "inicio": " Search Results search results for \"arrendamento and despejo\" 5 documents returned; 500 found SESSÃO PROCESSO RELATOR DESCRITOR 09/10/2026 103/25.9GAMGL.C1.S1 PEDRO DONAS BOTTO RECURSO PER SALTUM FURTO QUALIFICADO MEDIDA CONCRETA DA PENA PENA ÚNICA IMPROCEDÊNCIA 09/29/2026 1787/25.3YLPRT.L1.S1 MARIA"
+ },
+ "count250": {
+  "status": 200,
+  "ms": 1775,
+  "ct": "text/html; charset=UTF-8",
+  "found": [
+   "250",
+   "500"
+  ],
+  "bytes": 139866,
+  "inicio": " Search Results search results for \"contrato\" 250 documents returned; 500 found SESSÃO PROCESSO RELATOR DESCRITOR 10/01/2026 3295/09.0TDLSB-E.S1 JOSÉ MANUEL BRANCO RECURSO DE REVISÃO FUNDAMENTOS ADMISSIBILIDADE CASO JULGADO NOVOS FACTOS 10/15/2026 184/12.5TELSB.L1.S2 VASQUES OSÓRIO RECURSO PARA O SU"
+ },
+ "start300": {
+  "status": 200,
+  "ms": 1627,
+  "ct": "text/html; charset=UTF-8",
+  "found": [
+   "50",
+   "500"
+  ],
+  "bytes": 28623,
+  "inicio": " Search Results search results for \"contrato\" 50 documents returned; 500 found SESSÃO PROCESSO RELATOR DESCRITOR 03/12/2026 523-23.3T8EVR.E1.S1 EMIDIO SANTOS DUPLICAÇÃO DESCRIÇÃO PREDIAL PRÉDIO RÚSTICO CONSTRUÇÃO PRÉDIO URBANO 03/12/2026 4526/22.7T8ALM.L1.S1 EMÍDIO SANTOS PROCEDIMENTO EXTRAJUDICIAL "
+ },
+ "searchmax": {
+  "status": 200,
+  "ms": 1545,
+  "ct": "text/html; charset=UTF-8",
+  "found": [
+   "10",
+   "1000"
+  ],
+  "bytes": 6695,
+  "inicio": " Search Results search results for \"contrato\" 10 documents returned; 1000 found SESSÃO PROCESSO RELATOR DESCRITOR 10/01/2026 3295/09.0TDLSB-E.S1 JOSÉ MANUEL BRANCO RECURSO DE REVISÃO FUNDAMENTOS ADMISSIBILIDADE CASO JULGADO NOVOS FACTOS 10/15/2026 184/12.5TELSB.L1.S2 VASQUES OSÓRIO RECURSO PARA O SU"
+ },
+ "campo_sumario": {
+  "status": 200,
+  "ms": 109,
+  "ct": "text/html; charset=UTF-8",
+  "found": [
+   "0",
+   null
+  ],
+  "bytes": 728,
+  "inicio": " Search Results search results for \"[SUMÁRIO] CONTAINS &quot;justa causa&quot;\" 0 documents found "
+ }
+}

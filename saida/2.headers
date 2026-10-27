@@ -1,0 +1,23 @@
+HTTP/2 301 
+date: Tue, 27 Oct 2026 21:05:36 GMT
+content-length: 0
+location: https://fonte-certa-ana-marta-soares.pages.dev/
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=a9UsJMYbR2qxGYn9lm4fbCLYVmJTNTDuSYdYMVy3IbSQ2yoV545aiitQL5760Z3fDxxjV0pRwxXSbm6dXUHmu9iHC3JtGqWrEVKWDXpMY%2BUYTC7DJKNGEiJ98Usjx43oGmKWibm0U0k%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+server: cloudflare
+cf-ray: a514a8eb9caa9e01-IAD
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 200 
+date: Tue, 27 Oct 2026 21:05:36 GMT
+content-type: text/html; charset=utf-8
+access-control-allow-origin: *
+cache-control: public, max-age=0, must-revalidate
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=yugSBrrOSV1FuJYMoUWivl4pYGkgzwxG4ngcGIf9%2FSShVIg2zwemhbnxca9%2BAqabsZ4nojFHj2Eoo4767J22WJtQ5fd5Gdmn%2Fa2sMsdTZmqtd8%2BIGWFTCWcRIp6vTnYADHtAZjC15ja9ZlSFezal0rAU5UyDMmW5KQ%3D%3D"}]}
+server: cloudflare
+cf-ray: a514a8ec1a50d650-IAD
+alt-svc: h3=":443"; ma=86400
+
