@@ -79,7 +79,7 @@ function lerTabelaResultados(html, base) {
     // Os descritores vêm separados por quebras de linha na célula própria.
     const iDesc = cabecalho ? cabecalho.findIndex(c => c.startsWith("DESCRITOR")) : -1;
     if (iDesc >= 0 && tr.cells[iDesc]) {
-      r.descritores = tr.cells[iDesc].innerHTML.split(/<br\s*\/?>|\n/i).map(html2txt).filter(Boolean);
+      r.descritores = tr.cells[iDesc].innerHTML.split(/<br\s*\/?>|\n/i).flatMap(h => html2txt(h).split(";")).map(d => d.trim()).filter(Boolean);
     }
     resultados.push(r);
   }
@@ -142,7 +142,7 @@ export async function lerAcordao(url) {
     meio: campos["Meio Processual"] || "",
     decisao: campos["Decisão"] || "",
     seccao: campos["Nº Convencional"] && /SEC/i.test(campos["Nº Convencional"]) ? campos["Nº Convencional"] : (campos["Secção"] || campos["Tribunal"] || ""),
-    descritores: (camposHtml["Descritores"] || "").split(/<br\s*\/?>|\n/i).map(h => html2txt(h)).filter(Boolean),
+    descritores: (camposHtml["Descritores"] || "").split(/<br\s*\/?>|\n/i).flatMap(h => html2txt(h).split(";")).map(d => d.trim()).filter(Boolean),
     legislacao: campos["Legislação Nacional"] || "",
     jurisprudenciaCitada: campos["Jurisprudência Nacional"] || "",
     tribunalRecorrido: campos["Tribunal Recurso"] || campos["Tribunal Recorrido"] || campos["Objecto"] || "",

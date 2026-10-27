@@ -26,7 +26,7 @@ export function vistaPesquisa(raiz) {
   campo.addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); form.requestSubmit(); } });
 
   const seletorBases = el("select", { id: "bases", "aria-label": "Tribunais a pesquisar" },
-    el("option", { value: "" }, "Tribunais escolhidos automaticamente"),
+    el("option", { value: "" }, "Escolha automática dos tribunais"),
     el("option", { value: "comum" }, "Tribunais judiciais (STJ e Relações)"),
     el("option", { value: "administrativa" }, "Tribunais administrativos e fiscais (STA e TCA)"),
     el("option", { value: "todas" }, "Todos os tribunais superiores"),
@@ -174,10 +174,10 @@ function desenharResultados(zona, res) {
   painel.id = "painel-resultados";
   painel.setAttribute("role", "tabpanel");
 
-  zona.replaceChildren(
+  zona.replaceChildren(...[
     el("h2", { class: "titulo-resultados", tabindex: "-1" }, res.plano?.questao || res.pergunta),
     res.alertas.length ? blocoAlertas(res.alertas) : null,
-    lista, painel);
+    lista, painel].filter(Boolean));
   escolher("juris", lista.children[0]);
 
   function escolher(id, botao) {

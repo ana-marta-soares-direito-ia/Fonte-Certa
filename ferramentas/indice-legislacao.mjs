@@ -71,8 +71,10 @@ const PRIMARIOS = new Set(["lei", "lei-organica", "lei-constitucional", "decreto
 const ehJuris = r => /acordao|assento|tribunal|uniformiz/i.test(r.k) || /^Acórdão|Tribunal Constitucional|uniformiza/i.test(r.t);
 const enxuto = r => ({ i: r.i, p: r.p, t: r.t, c: r.c, k: r.k, n: r.n, d: r.d, a: r.a, s: r.s, v: r.v,
   r: (r.r || "").slice(0, 280), m: (r.m || []).slice(0, 12), e: r.e, x: r.x });
+// Um registo por linha: o histórico do git guarda só as linhas alteradas em cada actualização.
+const jsonPorLinhas = lista => "[\n" + lista.map(x => JSON.stringify(x)).join(",\n") + "\n]\n";
 const escrever = (nome, lista) => {
-  const json = JSON.stringify(lista.map(enxuto));
+  const json = jsonPorLinhas(lista.map(enxuto));
   fs.writeFileSync(path.join(destino, nome), json);
   return { nome, n: lista.length, mb: +(json.length / 1e6).toFixed(2) };
 };
@@ -108,7 +110,10 @@ if (ficheiroHistorico && fs.existsSync(ficheiroHistorico)) {
     const chave = p.split("/").slice(0, -1).join("-");
     (porPasta[chave] ||= {})[p] = lista.sort((a, b) => b[0].localeCompare(a[0]));
   }
-  for (const [chave, obj] of Object.entries(porPasta)) fs.writeFileSync(path.join(pastaVersoes, chave + ".json"), JSON.stringify(obj));
+  for (const [chave, obj] of Object.entries(porPasta)) {
+    const linhas = Object.keys(obj).sort().map(k => JSON.stringify(k) + ":" + JSON.stringify(obj[k]));
+    fs.writeFileSync(path.join(pastaVersoes, chave + ".json"), "{\n" + linhas.join(",\n") + "\n}\n");
+  }
   ficheirosGerados.push({ grupo: "versoes", nome: "versoes/", n: versoes.size, pastas: Object.keys(porPasta).length });
 }
 const manifesto = { gerado: new Date().toISOString(), total: registos.length, ficheiros: ficheirosGerados, porTipoEstado: estat };

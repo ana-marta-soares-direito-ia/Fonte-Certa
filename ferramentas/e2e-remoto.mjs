@@ -2,12 +2,12 @@
 import { createRequire } from "node:module";
 import fs from "node:fs";
 const require = createRequire("/tmp/pw/node_modules/");
-const { chromium } = require("playwright");
+const { chromium } = require("playwright-core");
 
 const [, , base, pasta] = process.argv;
 fs.mkdirSync(pasta, { recursive: true });
 const rel = { inicio: new Date().toISOString(), erros: [], pesquisas: {}, acordao: null, diploma: null, verificar: null };
-const browser = await chromium.launch();
+const browser = await chromium.launch({ channel: "chrome" });
 
 async function nova(largura = 1360, altura = 900) {
   const ctx = await browser.newContext({ viewport: { width: largura, height: altura }, locale: "pt-PT" });
@@ -83,7 +83,7 @@ try {
 // Verificador de citações.
 try {
   await p.goto(base + "/#/verificar", { waitUntil: "networkidle" });
-  await p.fill("#texto-peca", "Como decidiu o Ac. do STJ de 10.03.2025, proc. 4048/22.6T8GMR.G1.S1, o despedimento por extinção do posto de trabalho exige critérios objectivos, nos termos do artigo 368.º do Código do Trabalho e do art. 798.º do CC. O Acórdão do Tribunal Constitucional n.º 1/2024 é aqui irrelevante. Invoca a ré o Ac. da Relação de Lisboa no proc. 9999/99.9TBXYZ.L1-4, bem como o artigo 9999.º do Código Civil.");
+  await p.fill("#texto-peca", "Como decidiu o Ac. do STJ de 10.03.2025, proc. 4048/22.6T8GMR.G1.S1, o despedimento por extinção do posto de trabalho exige critérios objectivos, nos termos do artigo 368.º do Código do Trabalho e do art. 798.º do CC. O Acórdão do Tribunal Constitucional n.º 1/2024 é aqui irrelevante, tal como o Acórdão do Tribunal Constitucional n.º 9876/2024. Invoca a ré o Ac. da Relação de Lisboa no proc. 9999/99.9TBXYZ.L1-4, bem como o artigo 9999.º do Código Civil.");
   await p.fill("#data-factos", "2023-05-10");
   await p.click(".form-verificar button[type=submit]");
   await p.waitForFunction(() => !document.querySelector(".citacao.a-verificar"), null, { timeout: 120000 });
