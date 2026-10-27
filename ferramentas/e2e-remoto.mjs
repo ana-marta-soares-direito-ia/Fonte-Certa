@@ -64,6 +64,14 @@ try {
   await p.screenshot({ path: `${pasta}/10-acordao.png`, fullPage: false });
   await p.evaluate(() => window.scrollTo(0, 1400));
   await p.screenshot({ path: `${pasta}/11-acordao-texto.png`, fullPage: false });
+  // Guardar e ver na lista de guardados
+  await p.evaluate(() => window.scrollTo(0, 0));
+  await p.click(".accoes-acordao button:has-text('Guardar')");
+  await p.goto(base + "/#/guardados", { waitUntil: "networkidle" });
+  rel.guardados = { itens: await p.locator(".lista-guardados > li").count(), citacao: await p.textContent(".citacao-guardada").catch(() => "") };
+  await p.goto(base + "/#/sobre", { waitUntil: "networkidle" });
+  rel.sobre = (await p.textContent(".pagina-texto"))?.slice(0, 300);
+  rel.manifesto = await p.evaluate(async () => { const r = await fetch("/manifest.webmanifest"); const m = await r.json(); const sw = await navigator.serviceWorker.getRegistration(); return { nome: m.name, icones: m.icons.length, sw: !!sw }; });
 } catch (e) { rel.erros.push("acórdão: " + e.message); }
 
 // Diploma: Código do Trabalho, art. 368.º, na versão de 1 de Janeiro de 2015.

@@ -137,6 +137,7 @@ export async function pesquisarTudo(pergunta, { caso = null, bases = null, progr
   }
   const termosNorma = [...new Set(palavrasChave(pergunta, 10).map(t => radical(semAO(t))))];
   const normas = [];
+  const jaMostrados = new Set();
   for (const c of candidatos.slice(0, 5)) {
     let arts = [];
     try {
@@ -157,11 +158,13 @@ export async function pesquisarTudo(pergunta, { caso = null, bases = null, progr
       // Artigos sugeridos pela IA só ficam se tratarem, de facto, da questão.
       const pontos = lista.map(a => ({ a, p: pontuar(a) })).sort((x, y) => y.p - x.p);
       const melhor = pontos[0]?.p || 0;
-      const sugeridos = c.sugeridos.map(n => encontrarArtigo(lista, n, codigo)).filter(a => a && pontuar(a) >= Math.max(8, melhor * 0.15));
+      const sugeridos = c.sugeridos.map(n => encontrarArtigo(lista, n, codigo)).filter(a => a && pontuar(a) >= (melhor >= 30 ? Math.max(15, melhor * 0.2) : 25));
       const encontrados = melhor < 30 ? [] : pontos.filter(x => x.p >= Math.max(20, melhor * 0.55)).slice(0, 5).map(x => x.a);
       const vistos = new Set();
       arts = [...sugeridos, ...encontrados].filter(a => (vistos.has(a.indice) ? false : vistos.add(a.indice)))
-        .sort((x, y) => x.indice - y.indice).slice(0, 6).map(a => ({ numero: a.numero, epigrafe: a.epigrafe }));
+        .sort((x, y) => x.indice - y.indice).slice(0, 6).map(a => ({ numero: a.numero, epigrafe: a.epigrafe }))
+        // Alguns diplomas republicam artigos de outros (ex.: o NRAU e o Código Civil): mostra-se cada artigo uma vez.
+        .filter(a => { const k = `${a.numero}|${normalizar(a.epigrafe)}`; return jaMostrados.has(k) ? false : jaMostrados.add(k); });
     } catch {}
     // Um diploma sugerido só pela IA, sem nenhum artigo sobre a questão, não é apresentado.
     if (arts.length || c.origem === "tema") normas.push({ diploma: c.diploma, artigos: arts });
