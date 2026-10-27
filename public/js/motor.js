@@ -2,7 +2,7 @@
 import { BASES, GRUPOS_BASES, ORDEM, pesquisar, lerAcordao } from "./fontes/dgsi.js";
 import { pesquisarLegislacao, publicacoesRecentes, alertasJurisprudencia, encontrarDiploma, diplomasDeReferencia } from "./fontes/legislacao.js";
 import { planearPesquisa, ordenarPorPertinencia } from "./ia/analise.js";
-import { temChave } from "./ia/gemini.js";
+import { temIA as temChave, fornecedorIA } from "./ia/gemini.js";
 import { palavrasChave, radical, normalizar, emParalelo } from "./util.js";
 
 let descritoresOficiais = null;
@@ -87,7 +87,7 @@ export async function pesquisarTudo(pergunta, { caso = null, bases = null, progr
 
   // Sumários dos primeiros resultados (para a lista e para a ordenação com IA).
   progresso("A ler os sumários");
-  const aLer = juris.slice(0, usarIA ? 16 : 10);
+  const aLer = juris.slice(0, usarIA && fornecedorIA() === "gemini" ? 16 : 10);
   await emParalelo(aLer, 4, async r => {
     try {
       const ac = await lerAcordao(r.url);
@@ -98,7 +98,8 @@ export async function pesquisarTudo(pergunta, { caso = null, bases = null, progr
       r.temTexto = ac.textoIntegral;
     } catch { /* fica sem sumário */ }
   });
-  if (usarIA && aLer.length) {
+  // A ordenação por pertinência consome muito do limite diário do modelo incluído: só com chave própria.
+  if (usarIA && fornecedorIA() === "gemini" && aLer.length) {
     progresso("A ordenar por pertinência");
     try {
       const pts = await ordenarPorPertinencia(plano?.questao || pergunta, aLer);

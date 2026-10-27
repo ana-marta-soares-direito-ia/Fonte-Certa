@@ -1,0 +1,8 @@
+name = "fonte-certa"
+pages_build_output_dir = "./public"
+compatibility_date = "2026-10-20"
+
+# Modelo de linguagem incluído (Cloudflare Workers AI): permite a análise sem chave própria,
+# dentro do limite gratuito diário da conta.
+[ai]
+binding = "AI"

@@ -1,6 +1,6 @@
 // Análises com IA. Regra de construção: nenhuma afirmação é apresentada sem o trecho exacto
 // do acórdão que a sustenta; o que não for encontrado, palavra por palavra, no texto é descartado.
-import { pedirJSON } from "./gemini.js";
+import { pedirJSON, fornecedorIA } from "./gemini.js";
 import { normalizar } from "../util.js";
 import { BASES } from "../fontes/dgsi.js";
 
@@ -57,8 +57,9 @@ export async function parecerAcordao(caso, ac) {
   const origem = ac.texto.length ? "texto integral" : "sumário";
   // Limita a dimensão: sumário completo e até cerca de 60 000 caracteres do texto.
   let total = 0;
+  const limite = fornecedorIA() === "gemini" ? 60000 : 32000;
   const numerados = [];
-  paragrafos.forEach((p, i) => { if (total < 60000) { numerados.push(`§${i + 1}: ${p}`); total += p.length; } });
+  paragrafos.forEach((p, i) => { if (total < limite) { numerados.push(`§${i + 1}: ${p}`); total += p.length; } });
   const sumario = ac.sumario.map((p, i) => `S${i + 1}: ${p}`).join("\n");
   const mensagem = `CASO DO UTILIZADOR (anonimizado):
 """${caso.texto}"""

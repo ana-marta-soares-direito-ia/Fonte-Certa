@@ -41,9 +41,27 @@ export async function escolherModelo(forcar = false) {
 
 export const modeloAtual = () => local.ler("gemini.modelo")?.nome || "";
 
+// A análise está sempre disponível: com a chave do Gemini, se existir; sem chave, com o modelo incluído.
+export const temIA = () => true;
+export const fornecedorIA = () => (temChave() ? "gemini" : "incluido");
+
+async function pedirIncluido({ sistema, mensagem, temperatura, maxTokens }) {
+  let ultimoErro = null;
+  for (const modelo of ["principal", "alternativo"]) {
+    const r = await fetch("/api/ia", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ sistema, mensagem, temperatura, maxTokens, modelo }) });
+    const dados = await r.json().catch(() => ({}));
+    if (r.status === 429) throw new Error("Foi atingido o limite diário da análise incluída na Fonte Certa. Para continuar hoje, active a sua chave gratuita do Gemini nas Definições.");
+    if (r.ok && dados.texto) {
+      try { return lerJSON(dados.texto); } catch (e) { ultimoErro = e; continue; }
+    }
+    ultimoErro = new Error(dados.erro || "A análise incluída não respondeu.");
+  }
+  throw ultimoErro || new Error("A análise incluída não respondeu.");
+}
+
 // Pede uma resposta em JSON. Repete em caso de limite temporário de pedidos.
 export async function pedirJSON({ sistema, mensagem, temperatura = 0.1, maxTokens = 8192 }) {
-  if (!temChave()) throw new Error("Para esta análise é necessária a chave gratuita do Gemini (Definições).");
+  if (!temChave()) return pedirIncluido({ sistema: sistema + "\nResponde apenas com um objecto JSON, sem texto antes nem depois.", mensagem, temperatura, maxTokens: Math.min(maxTokens, 4000) });
   let modelo = await escolherModelo();
   const corpo = {
     systemInstruction: { parts: [{ text: sistema }] },

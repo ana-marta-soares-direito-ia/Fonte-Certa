@@ -91,6 +91,83 @@ try {
   await p.screenshot({ path: `${pasta}/13-verificar.png`, fullPage: true });
 } catch (e) { rel.erros.push("verificar: " + e.message); }
 
+// ---------- Análise com IA (modelo incluído) ----------
+rel.ia = {};
+try {
+  await p.goto(base + "/#/", { waitUntil: "networkidle" });
+  rel.ia.sondaModelos = await p.evaluate(async () => {
+    const out = {};
+    for (const modelo of ["principal", "alternativo"]) {
+      const t0 = performance.now();
+      const r = await fetch("/api/ia", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ sistema: "Responde só com JSON.", mensagem: 'Devolve {"ok": true, "lingua": "português europeu", "frase": "uma frase curta sobre o princípio da boa-fé"}', maxTokens: 300, modelo }) });
+      out[modelo] = { estado: r.status, ms: Math.round(performance.now() - t0), corpo: (await r.text()).slice(0, 400) };
+    }
+    return out;
+  });
+  // Ficha do caso
+  await p.click(".caso-detalhes summary");
+  await p.selectOption("#c-posicao", "Trabalhador");
+  await p.selectOption("#c-instancia", "1.ª instância");
+  await p.fill("#c-meio", "acção de impugnação judicial da regularidade e licitude do despedimento");
+  await p.fill("#c-data", "2024-02-15");
+  await p.fill("#c-factos", "A trabalhadora Maria Fernanda Costa, NIF 234567890, residente na Rua do Carmo, n.º 5, 1200-093 Lisboa, era uma de três técnicas administrativas da empresa Logística Atlântica, Lda., com funções idênticas. A empresa extinguiu o posto de trabalho dela alegando redução de encomendas, mas na comunicação não indicou os critérios usados para escolher o seu posto e não o das outras duas colegas, uma das quais tinha menor antiguidade. A compensação foi paga e devolvida pela trabalhadora no prazo de dez dias.");
+  await p.fill("#c-pretensao", "declaração de ilicitude do despedimento, reintegração e retribuições intercalares");
+  await p.click(".form-caso button[type=submit]");
+  await p.waitForSelector("#c-anonimizado");
+  rel.ia.anonimizado = await p.inputValue("#c-anonimizado");
+  await p.screenshot({ path: `${pasta}/30-anonimizacao.png`, fullPage: true });
+  await p.click("text=Confirmar texto");
+  // Pesquisa com plano feito pela IA
+  const t0 = Date.now();
+  await p.fill("#pergunta", "Despedimento por extinção do posto de trabalho sem indicação dos critérios de selecção entre trabalhadores com funções idênticas");
+  await p.click("#botao-pesquisar");
+  await p.waitForSelector(".titulo-resultados", { timeout: 180000 });
+  rel.ia.pesquisa = await p.evaluate(async () => {
+    const { estado } = await import("/js/estado.js");
+    const r = estado.ultimaPesquisa;
+    return { plano: r.plano, consultas: r.consultas, normas: r.normas.map(n => `${n.diploma.c || n.diploma.t} ${n.artigos.join(",")}`), primeiros: r.juris.slice(0, 6).map(j => `${j.base} ${j.data} ${j.processo} ${j.descritores.slice(0, 3).join("; ")}`) };
+  });
+  rel.ia.pesquisa.segundos = Math.round((Date.now() - t0) / 1000);
+  await p.screenshot({ path: `${pasta}/31-pesquisa-ia.png`, fullPage: true });
+  // Mapa de correntes
+  const tm = Date.now();
+  await p.click("text=Mapa de correntes");
+  await p.waitForSelector(".mapa, .aviso-erro", { timeout: 180000 });
+  rel.ia.mapa = { segundos: Math.round((Date.now() - tm) / 1000), texto: (await p.textContent("#mapa-correntes"))?.slice(0, 1500), erro: await p.textContent(".aviso-erro").catch(() => null) };
+  await p.screenshot({ path: `${pasta}/32-mapa.png`, fullPage: false });
+  // Parecer do primeiro acórdão com texto integral
+  await p.click(".acordao-ligacao >> nth=0");
+  await p.waitForSelector(".cabecalho-acordao", { timeout: 60000 });
+  const tp = Date.now();
+  await p.click("text=Analisar face ao caso");
+  await p.waitForSelector(".parecer, .aviso-erro", { timeout: 240000 });
+  rel.ia.parecer = {
+    segundos: Math.round((Date.now() - tp) / 1000),
+    acordao: await p.textContent(".cabecalho-acordao h1"),
+    texto: (await p.textContent(".lateral-parecer"))?.slice(0, 3000),
+    favoraveis: await p.locator(".ponto-favoravel").count(),
+    desfavoraveis: await p.locator(".ponto-desfavoravel").count(),
+    marcas: await p.locator("mark").count(),
+    erro: await p.textContent(".aviso-erro").catch(() => null),
+  };
+  await p.screenshot({ path: `${pasta}/33-parecer.png`, fullPage: false });
+  if (rel.ia.parecer.favoraveis + rel.ia.parecer.desfavoraveis) {
+    await p.click(".ponto .ref >> nth=0");
+    await p.waitForTimeout(900);
+    await p.screenshot({ path: `${pasta}/34-parecer-salto.png`, fullPage: false });
+  }
+  // Confirmação de uma citação
+  await p.goto(base + "/#/verificar", { waitUntil: "networkidle" });
+  await p.fill("#texto-peca", "Como decidiu o STJ no proc. 4048/22.6T8GMR.G1.S1, a comunicação do despedimento por extinção do posto de trabalho tem de indicar os motivos e os critérios de selecção, sob pena de ilicitude.");
+  await p.click(".form-verificar button[type=submit]");
+  await p.waitForSelector("text=Confirmar se sustenta a afirmação", { timeout: 120000 });
+  const tc = Date.now();
+  await p.click("text=Confirmar se sustenta a afirmação >> nth=0");
+  await p.waitForSelector(".confirmacao, .aviso-erro", { timeout: 180000 });
+  rel.ia.confirmacao = { segundos: Math.round((Date.now() - tc) / 1000), texto: (await p.textContent(".confirmacao").catch(() => ""))?.slice(0, 800), erro: await p.textContent(".aviso-erro").catch(() => null) };
+  await p.screenshot({ path: `${pasta}/35-confirmacao.png`, fullPage: true });
+} catch (e) { rel.erros.push("ia: " + e.message); await p.screenshot({ path: `${pasta}/39-ia-erro.png`, fullPage: true }).catch(() => {}); }
+
 // Telemóvel.
 const m = await nova(390, 844);
 await m.goto(base + "/#/", { waitUntil: "networkidle" });

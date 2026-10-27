@@ -4,7 +4,7 @@ import { extrairCitacoes, verificar } from "../citacoes.js";
 import { lerAcordao, BASES } from "../fontes/dgsi.js";
 import { designacao } from "../fontes/legislacao.js";
 import { confirmarCitacao } from "../ia/analise.js";
-import { temChave } from "../ia/gemini.js";
+import { temIA as temChave } from "../ia/gemini.js";
 import { ligarAcordao, ligarDiploma } from "../rotas.js";
 
 let ultimoTexto = "";

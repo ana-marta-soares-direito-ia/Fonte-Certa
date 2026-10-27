@@ -2,7 +2,7 @@ import { el, $, aviso, dataPT, escapar, normalizar } from "../util.js";
 import { estado, lerCaso, casoPreenchido, guardados } from "../estado.js";
 import { lerAcordao, BASES } from "../fontes/dgsi.js";
 import { parecerAcordao } from "../ia/analise.js";
-import { temChave } from "../ia/gemini.js";
+import { temIA as temChave } from "../ia/gemini.js";
 import { repor } from "../ia/anonimizar.js";
 
 export function citacao(ac) {
@@ -77,12 +77,6 @@ function desenharLateral(lateral, ac, caso) {
     lateral.replaceChildren(el("div", { class: "cartao-lateral" }, el("h2", {}, "Este acórdão serve o seu caso?"),
       el("p", {}, "Preencha a ficha do caso na página de pesquisa para obter a análise: semelhança dos factos, onde o acórdão o favorece, onde o prejudica e como o afastar se for invocado contra si."),
       el("a", { class: "botao", href: "#/" }, "Preencher a ficha do caso")));
-    return;
-  }
-  if (!temChave()) {
-    lateral.replaceChildren(el("div", { class: "cartao-lateral" }, el("h2", {}, "Análise face ao caso"),
-      el("p", {}, "A análise usa o Gemini, com uma chave gratuita que fica só neste navegador."),
-      el("a", { class: "botao", href: "#/definicoes" }, "Activar a chave do Gemini")));
     return;
   }
   const botao = el("button", { type: "button", class: "botao botao-principal" }, "Analisar face ao caso");

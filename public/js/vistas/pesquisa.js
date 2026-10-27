@@ -4,7 +4,7 @@ import { pesquisarTudo } from "../motor.js";
 import { BASES, GRUPOS_BASES } from "../fontes/dgsi.js";
 import { designacao, nomeTipo, ESTADOS } from "../fontes/legislacao.js";
 import { anonimizar, resumoAnonimizacao } from "../ia/anonimizar.js";
-import { temChave } from "../ia/gemini.js";
+import { temIA as temChave } from "../ia/gemini.js";
 import { mapaCorrentes } from "../ia/analise.js";
 import { ligarAcordao, ligarDiploma } from "../rotas.js";
 

@@ -28,12 +28,13 @@ async function exportar(lista) {
 
 export function vistaDefinicoes(raiz) {
   const campo = el("input", { type: "password", id: "chave", autocomplete: "off", spellcheck: "false", value: obterChave(), placeholder: "Cole aqui a chave" });
-  const estadoChave = el("p", { class: "nota", role: "status" }, temChave() ? `Chave activa${modeloAtual() ? `, modelo ${modeloAtual()}` : ""}.` : "Sem chave: a pesquisa funciona, mas sem a análise face ao caso, o mapa de correntes e a ordenação por pertinência.");
+  const estadoChave = el("p", { class: "nota", role: "status" }, temChave() ? `Chave activa${modeloAtual() ? `, modelo ${modeloAtual()}` : ""}.` : "Sem chave própria: a análise usa o modelo incluído na Fonte Certa.");
   raiz.replaceChildren(el("div", { class: "pagina-texto" },
     el("h1", {}, "Definições"),
     el("section", { class: "bloco-definicao" },
-      el("h2", {}, "Análise com IA (opcional e gratuita)"),
-      el("p", {}, "A análise face ao caso, o mapa de correntes, a ordenação por pertinência e a confirmação de citações usam o Gemini, da Google, com uma chave gratuita em seu nome. A chave fica guardada só neste navegador e os pedidos seguem directamente para a Google, sem passar pela Fonte Certa."),
+      el("h2", {}, "Análise com IA"),
+      el("p", {}, "A análise face ao caso, o mapa de correntes e a confirmação de citações funcionam de imediato com o modelo de linguagem incluído na Fonte Certa, alojado na Cloudflare, que não guarda os textos nem os usa para treino. Este modelo tem um limite diário de utilização partilhado por todos os utilizadores."),
+      el("p", {}, "Para uso intensivo, pode activar uma chave gratuita do Gemini, da Google, em seu nome: passa a ter limites próprios e a ordenação dos acórdãos por pertinência. A chave fica guardada só neste navegador e os pedidos seguem directamente para a Google."),
       el("ol", { class: "passos-chave" },
         el("li", {}, "Entre em ", el("a", { href: "https://aistudio.google.com/apikey", target: "_blank", rel: "noopener" }, "aistudio.google.com/apikey"), " com a sua conta Google."),
         el("li", {}, "Carregue em \"Create API key\" e copie a chave."),
