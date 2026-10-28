@@ -1,6 +1,6 @@
 {
- "gerado": "2026-10-27T12:02:39.085Z",
- "total": 172003,
+ "gerado": "2026-10-28T10:43:03.515Z",
+ "total": 172010,
  "ficheiros": [
   {
    "grupo": "principal",
@@ -23,7 +23,7 @@
   {
    "grupo": "principal",
    "nome": "principal-4.json",
-   "n": 977,
+   "n": 980,
    "mb": 0.65
   },
   {
@@ -71,32 +71,32 @@
   {
    "grupo": "outros",
    "nome": "outros-8.json",
-   "n": 10793,
+   "n": 10797,
    "mb": 6.79
   },
   {
    "grupo": "recentes",
    "nome": "recentes.json",
-   "n": 8932,
+   "n": 8938,
    "mb": 6.63
   },
   {
    "grupo": "juris",
    "nome": "jurisprudencia-dr.json",
-   "n": 758,
+   "n": 759,
    "mb": 0.62
   },
   {
    "grupo": "versoes",
    "nome": "versoes/",
-   "n": 172003,
+   "n": 172010,
    "pastas": 179
   }
  ],
  "porTipoEstado": {
   "decreto|in_force": 8336,
-  "decreto-lei|in_force": 12525,
-  "portaria|in_force": 75296,
+  "decreto-lei|in_force": 12527,
+  "portaria|in_force": 75299,
   "portaria|repealed": 8536,
   "lei|in_force": 3673,
   "lei|repealed": 499,
@@ -135,7 +135,7 @@
   "resolucao-assembleia-republica|repealed": 44,
   "declaracao-rectificacao|in_force": 10936,
   "decreto-legislativo-regional|repealed": 580,
-  "decreto-regulamentar-regional|in_force": 1371,
+  "decreto-regulamentar-regional|in_force": 1372,
   "aviso|in_force": 34,
   "declaracao-rectificacao|repealed": 39,
   "declaracao-rectificacao|partially_repealed": 6,
@@ -165,7 +165,7 @@
   "decreto-representante-republica-para-regiao-autonoma-madeira|in_force": 34,
   "acordao-supremo-tribunal-justica|in_force": 207,
   "decreto-representante-republica-para-regiao-autonoma-acores|in_force": 24,
-  "acordao-tribunal-constitucional|in_force": 164,
+  "acordao-tribunal-constitucional|in_force": 165,
   "acordo-colectivo-trabalho|in_force": 1,
   "mapa-oficial|in_force": 10,
   "declaracao-rectificacao-extracto|in_force": 1,
