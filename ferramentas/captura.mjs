@@ -7,8 +7,8 @@ const pasta = "saida-captura";
 fs.mkdirSync(pasta, { recursive: true });
 const b = await chromium.launch({ channel: "chrome" });
 const alvos = [
-  ["cartorio-computador", "https://cartorio-sem-papel-ana-marta-soares.netlify.app/", 1360, 900],
-  ["cartorio-movel", "https://cartorio-sem-papel-ana-marta-soares.netlify.app/", 390, 844],
+  ["prompts-computador", "https://ana-marta-soares-direito-ia.github.io/construtor-prompts/", 1360, 900],
+  ["prompts-movel", "https://ana-marta-soares-direito-ia.github.io/construtor-prompts/", 390, 844],
 ];
 const info = {};
 for (const [nome, url, w, h] of alvos) {
