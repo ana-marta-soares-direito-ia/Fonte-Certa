@@ -1,5 +1,5 @@
-versão 48a3198
-# Caso civel, modelo nuvem (1.4 min)
+versão 2779497
+# Caso civel, modelo nuvem (1.8 min)
 
 ## Ficha
 ```
@@ -25,52 +25,54 @@ Tribunal competenteJuízo local cível ou de competência genérica, por o valor
 ---
 # AGENTE: Triagem e Estratégia
 
-## Qualificação do litígio  
-O litígio decorre de um contrato de arrendamento em que o locatário deixou de pagar a renda, configurando incumprimento de obrigação pecuniária. A questão central a decidir é a existência da dívida de € 9 000, bem como o direito do autor a obter a condenação ao pagamento, eventual resolução do contrato e indemnização legal.
+**## Qualificação do litígio**  
+Trata‑se de ação de despejo (resolução do contrato de arrendamento) cumulada com pedido de pagamento das rendas em dívida (obrigação pecuniária). A questão central é se o senhorio pode, com fundamento na falta de pagamento das rendas de março a agosto de 2026, obter judicialmente a desocupação do imóvel e a condenação do inquilino ao pagamento de € 4 500,00, acrescidos de juros e indemnização legal.
 
-## Meio processual e tribunal  
-O valor da causa é de € 9 000,‑00, pelo que, nos termos do Motor de Regras, o processo deve ser instaurado no **Juízo Local Cível** (ou de competência genérica). Como se trata de obrigação pecuniária decorrente de contrato até € 15 000, pode recorrer‑se à **ação especial de cumprimento de obrigações pecuniárias (AECOP)**. Na falta de requisitos específicos para a AECOP, aplica‑se o **processo comum de declaração**. O tribunal indicado pelo motor (Juízo Local Cível) está, pois, corretamente identificado.
+**## Meio processual e tribunal**  
+O meio adequado é a **ação especial para cumprimento de obrigações pecuniárias (AECOP)**, prevista para obrigações de até € 15 000, que permite requerer simultaneamente a resolução do contrato e a cobrança das rendas em dívida. Não há necessidade de recorrer à injunção, porque a obrigação (renda) é líquida, certa e exigível.  
 
-## Pressupostos e excepções a verificar  
+O tribunal competente, conforme o Motor de Regras, é o **Juízo Local Cível** (ou juízo de competência genérica) porque o valor da causa (€ 9 000) não ultrapassa € 50 000.  
 
-| Item | Verificação a fazer |
-|------|----------------------|
-| **Legitimidade** | Autor tem de ser o senhorio titular do contrato de arrendamento. |
-| **Interesse em agir** | Existência de dívida vencida e não paga; necessidade de obter a prestação ou resolução do contrato. |
-| **Competência** | Valor da causa ≤ € 50 000 → Juízo Local Cível competente; confirmar se a matéria encontra‑se no âmbito dos arts. 9.º da Lei dos Julgados de Paz (não parece ser o caso). |
-| **Prescrição / Caducidade** | Verificar o termo de prescrição da pretensão de pagamento da renda (geralmente 3 anos – artigo 206.º do CPC). |
-| **Caso julgado** | Confirmar a inexistência de decisão anterior sobre a mesma dívida entre as mesmas partes. |
-| **Litispendência** | Verificar se já existe ação pendente em outro tribunal sobre a mesma dívida. |
-| **Outras excepções** | Eventual alegação de nulidade do contrato, inexigibilidade da dívida ou compensação por obras. |
+**## Pressupostos e exceções a verificar**  
 
-## Estratégia  
+| Item | Verificação |
+|------|-------------|
+| **Legitimidade** | O senhorio (autor) é titular do direito de resolver o contrato e de exigir o pagamento das rendas. |
+| **Interesse em agir** | Existência de dívida de € 4 500 e manutenção do imóvel ocupado indevidamente – interesse claro. |
+| **Competência** | Juízo local cível (valor < € 50 000) – confirmado. |
+| **Prescrição / Caducidade** | As rendas vencidas em 2026 estão dentro do prazo de prescrição de 5 anos (artigo 310.º, al. b) – não prescritas. O direito de resolução por falta de pagamento caduca se o inquilino pagar antes da contestação (artigo 1048.º, n.º 1) – não ocorreu. |
+| **Caso julgado** | Não há referência a decisão anterior sobre o mesmo contrato. |
+| **Litispendência** | Verificar se já existe ação em curso sobre o mesmo contrato (não consta). |
+| **Exceções de fraude ou boa‑fé** | Não aplicáveis. |
+| **Obrigação de notificar fiador** (artigo 1041.º, n.º 5) | Só se houver fiador – informação ainda não disponível. |
 
-1. **Acção especial de cumprimento de obrigação pecuniária (AECOP)**  
-   - *Vantagem*: procedimento mais célere (princípio da oralidade, possibilidade de tutela executiva rápida).  
-   - *Risco*: dependência de demonstração plena da dívida e do título executivo (contrato + comunicação da dívida). Falta de requisitos pode levar ao indeferimento e necessidade de reconversão para processo comum.  
+**## Estratégia**  
 
-2. **Processo comum de declaração (ação declarativa + pedido de condenação)**  
-   - *Vantagem*: permite produção ampla de provas (documentais, testemunhais) e eventual pedido de resolução do contrato e indemnização.  
-   - *Risco*: tramitação mais longa, custos processuais superiores (taxas de justiça, despesas de audiência).  
+1. **AECOP (cump. obrigação pecuniária + despejo)**  
+   - *Vantagem*: Tramita rapidamente, permite exigir simultaneamente o pagamento das rendas e a desocupação, com tutela de urgência possível (despejo).  
+   - *Risco*: O tribunal pode exigir garantia real ou fiança, e a AECOP tem regras específicas de citação que podem prolongar o processo se houver resistência à citação.
 
-3. **Injunção (ação de execução de título executivo)** – caso o contrato + comunicação satisfaçam requisitos de título executivo (artigo 14.º‑A do NRAU).  
-   - *Vantagem*: execução direta, procedimento sumário, custos reduzidos.  
-   - *Risco*: necessidade de o título ser considerado executivo; impugnação de nulidade pode prolongar o processo ou levar à anulação da injunção.  
+2. **Ação declarativa de resolução + pedido de condenação** (processo comum)  
+   - *Vantagem*: Maior margem de prova e possibilidade de discutir, em sede de julgado, questões de mora, juros e indemnização (artigo 1041.º).  
+   - *Risco*: Tramitação mais lenta, possibilidade de recurso em sede de apelação (valor > € 5 000) e custos mais elevados (taxas de justiça e despesas processuais).
 
-**Recomendação**: iniciar com a **AECOP**, visto que o valor e a natureza da obrigação se enquadram na sua alçada, permitindo uma resolução mais célere. Caso ocorram objeções quanto ao título executivo, reconverter para o processo comum.
+3. **Injunção (título executivo à cobrança das rendas)** seguida de ação de despejo separada  
+   - *Vantagem*: A injunção pode ser concedida de forma célere para o pagamento das rendas, constituindo título executivo imediato.  
+   - *Risco*: Não resolve a ocupação do imóvel; será necessária ação distinta para despejo, aumentando o tempo e custo total.
 
-## Informação em falta  
+**Recomendação** – Optar pela **opção 1 (AECOP)**, por permitir a resolução e a cobrança em única demanda, reduzindo custos e tempo, sobretudo dado o valor da causa dentro dos limites da AECOP.
 
-1. Cópia integral do contrato de arrendamento (para comprovar a obrigação).  
-2. Comunicação escrita (notificação) ao locatário do montante em dívida, com prova da sua entrega (certificado, e‑mail, carta registada).  
-3. Data de vencimento das rendas em atraso e eventual pagamento parcial efetuado.  
-4. Existência de eventuais acordos ou reconciliações posteriores ao incumprimento.  
-5. Se já foi intentada ação ou procedimento executivo em outro tribunal (litispendência).  
+**## Informação em falta**  
+
+1. Existência de fiador e, em caso afirmativo, dados de contacto para eventual notificação (artigo 1041.º, n.º 5).  
+2. Existência de cláusulas contratuais sobre prazo de resolução ou aviso prévio adicional ao previsto legalmente.  
+3. Eventual existência de processos pendentes ou anteriores relativos ao mesmo contrato (litispendência ou coisa julgada).  
+4. Documentação completa do contrato de arrendamento (cópia integral, assinaturas, datas).  
+5. Provas da comunicação da resolução (carta registada com AR) – cópia da carta e comprovativo de entrega.  
 
 ---  
-
 ### Síntese para a equipa  
-Litígio de arrendamento por dívida de € 9 000, a ser ajuizado no Juízo Local Cível via AECOP (procedimento mais célere). Verificar título executivo, comunicação da dívida e prescrição. Estratégia recomendada: iniciar com AECOP e, caso falhe, migrar para ação declarativa. Informação documental essencial ainda em falta.
+Ação de despejo + cobrança de rendas pode ser proposta via AECOP no Juízo Local Cível. Verificar fiador, cláusulas contratuais e ausência de processos pendentes. Recomenda‑se a AECOP pela celeridade e economia processual.
 
 ---
 # AGENTE: Prazos e Custas
@@ -117,233 +119,360 @@ Taxa de justiça: Acção declarativa de 9000,00 €: 3 UC, ou seja, 306,00 �
 # AGENTE: Jurisprudência e Lei
 
 ## Jurisprudência
-Pesquisa na DGSI a partir do tema: «resolução do contrato de arrendamento por falta de pagamento de rendas despejo [object Object]».
+Pesquisa na DGSI a partir do tema: «resolução do contrato de arrendamento por falta de pagamento de rendas despejo Avaliar a viabilidade da acção de despejo com pedido de pagamento das rendas em [...]».
 ### TRG, 07/06/2023, processo 320/22.3T8CMN-A.G1
-**Sentido provável: desfavorável** (apreciação da IA, confirme no acórdão). O tribunal admite o incidente de despejo imediato a favor do senhorio, facilitando a sua ação de resolução do contrato e desocupação do imóvel.
+**Sentido provável: favorável** (apreciação da IA, confirme no acórdão). O acórdão admite o incidente de despejo imediato quando o senhorio resolve o contrato por falta de pagamento e pede as rendas vencidas e indemnização, tal como pretendemos.
 > «deve ser admitido o incidente de despejo imediato, por força da aplicação dos nºs. 3 a 5 deste último.» (trecho confirmado no sumário)
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtrg.nsf/86c25a698e4e7cb7802579ec004d3832/476b7593130cee36802589d4003f03e8?OpenDocument) · Decisão: APELAÇÃO PROCEDENTE
 ### TRE, 14/10/2021, processo 624/20.0T8LLE.E1
-**Sentido provável: favorável** (apreciação da IA, confirme no acórdão). o acórdão reforça o direito do locador de resolver o contrato extrajudicialmente mediante notificação escrita, o que favorece a posição do autor que pretende rescindir o contrato por falta de pagamento.
-> «Na modalidade extrajudicial, para que a resolução produza efeitos deve ser comunicada ao locatário, podendo sê-lo por escrito assinado pelo senhorio em carta registada com aviso de receção enviada ao inquilino".» (trecho confirmado no sumário)
+**Sentido provável: favorável** (apreciação da IA, confirme no acórdão). O acórdão confirma que a falta de pagamento por três meses legitima a resolução extrajudicial mediante carta registada, o que se aplica ao nosso caso.
+> «Não sendo paga a renda na data acordada durante 3 meses forma-se na esfera jurídica do locador o direito de resolver o contrato – artigo 1083º/1 e 3, do CC – a resolução pode ser efetuada judicial ou extrajudicialmente – artigo 1047.º do CC.» (trecho confirmado no sumário)
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtre.nsf/134973db04f39bf2802579bf005f080b/a888215ea7f237318025877c00300268?OpenDocument)
 ### TRG, 27/11/2025, processo 1078/25.0T8BRG.G1
-**Sentido provável: desfavorável** (apreciação da IA, confirme no acórdão). o acórdão reconhece a presunção de renovação tácita e o direito do senhorio a ação declarativa de resolução, o que pode limitar a posição do autor.
+**Sentido provável: favorável** (apreciação da IA, confirme no acórdão). o acórdão reconhece explicitamente o direito do senhorio de intentar ação declarativa de resolução por falta de pagamento, mesmo após a renovação tácita do contrato.
 > «Assiste ao senhorio o direito a intentar ação declarativa destinada à resolução do contrato de arrendamento por falta de pagamento de rendas, mesmo quando tenha ao seu dispor a via da resolução extrajudicial.» (trecho confirmado no sumário)
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtrg.nsf/86c25a698e4e7cb7802579ec004d3832/e9d3f34a7ce7e05880258d5600346ef3?OpenDocument) · Decisão: APELAÇÃO IMPROCEDENTE
 ### TRL, 11/07/1996, processo 0006836
-**Sentido provável: desfavorável** (apreciação da IA, confirme no acórdão). O acórdão indeferiu liminarmente a petição que cumula a resolução do contrato por falta de pagamento com o pedido de juros, o que impede a obtenção desses pedidos pelo autor.
-> «Há incompatibilidade substancial entre os pedidos de resolução de contrato de arrendamento com o fundamento na falta de pagamento de rendas e o pedido de juros sobre as rendas vencidas.» (trecho confirmado no sumário)
+**Sentido provável: desfavorável** (apreciação da IA, confirme no acórdão). o acórdão impede a cumulação da ação de despejo com o pedido de juros, limitando o que o autor pode exigir.
+> «há incompatibilidade substancial entre os pedidos de resolução de contrato de arrendamento com o fundamento na falta de pagamento de rendas e o pedido de juros sobre as rendas vencidas.» (trecho confirmado no sumário)
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtrl.nsf/33182fc732316039802565fa00497eec/9bf1aead95e75fd0802568030004531f?OpenDocument) · Decisão: NEGADO PROVIMENTO.
 ### TRG, 31/05/2012, processo 6856/11.4TBBRG.G1
-**Sentido provável: favorável** (apreciação da IA, confirme no acórdão). confirma que o senhorio pode intentar ação declarativa de despejo e usar comunicação extrajudicial, reforçando a sua pretensão de resolução por falta de pagamento
-> «pode a senhorio operar a resolução por via de acção declarativa, pela correspondente acção de despejo nos termos do art.º 14º da NRAU» (trecho confirmado no sumário)
+**Sentido provável: a confirmar pela leitura do sumário** (apreciação da IA, confirme no acórdão). 
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtrg.nsf/86c25a698e4e7cb7802579ec004d3832/851b9eeb8a49a67e80257a33004dab59?OpenDocument) · Decisão: IMPROCEDENTE
 ### TRC, 24/09/2024, processo 1125/23.0T8CTB.C1
-**Sentido provável: favorável** (apreciação da IA, confirme no acórdão). o acórdão reconhece a má-fé de quem altera a fundamentação do recurso, protegendo a posição inicialmente assumida, o que beneficia o nosso autor.
-> «Litiga de má fé a parte que, com negligência grave, usa o recurso para obter uma resolução com fundamento diverso do inicialmente invocado, contrariando expressamente posição assumida antes…» (trecho confirmado no sumário)
+**Sentido provável: a confirmar pela leitura do sumário** (apreciação da IA, confirme no acórdão). o acórdão reforça a exigência de condição prévia para a resolução do contrato, limitando a possibilidade de despejo imediato.
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtrc.nsf/8fe0e606d8f56b22802576c0005637dc/7b7f21315dcb9a0380258bab004aff00?OpenDocument) · Decisão: CONFIRMADA
 ## Legislação aplicável (texto consolidado)
 - **Artigo 342.º do CC** (Ónus da prova): 1. Àquele que invocar um direito cabe fazer a prova dos factos constitutivos do direito alegado. 2. A prova dos factos impeditivos, modificativos ou extintivos do direito invocado compete àquele contra quem a invocação é feita. 3. Em caso de dúvida, os factos devem ser considerados como constitutivos do direito.
+- **Artigo 406.º do CC** (Eficácia dos contratos): 1. O contrato deve ser pontualmente cumprido, e só pode modificar-se ou extinguir-se por mútuo consentimento dos contraentes ou nos casos admitidos na lei. 2. Em relação a terceiros, o contrato só produz efeitos nos casos e termos especialmente previstos na lei.
+- **Artigo 798.º do CC** (Responsabilidade do devedor): O devedor que falta culposamente ao cumprimento da obrigação torna-se responsável pelo prejuízo que causa ao credor.
+- **Artigo 804.º do CC** (Princípios gerais): 1. A simples mora constitui o devedor na obrigação de reparar os danos causados ao credor. 2. O devedor considera-se constituído em mora quando, por causa que lhe seja imputável, a prestação, ainda possível, não foi efectuada no tempo devido.
+- **Artigo 805.º do CC** (Momento da constituição em mora): 1. O devedor só fica constituído em mora depois de ter sido judicial ou extrajudicialmente interpelado para cumprir. 2. Há, porém, mora do devedor, independentemente de interpelação: a) Se a obrigação tiver prazo certo; b) Se a obrigação provier de facto ilícito; c) Se o próprio devedor impedir a interpelação, [...]
+- **Artigo 806.º do CC** (Obrigações pecuniárias): 1. Na obrigação pecuniária a indemnização corresponde aos juros a contar do dia da constituição em mora. 2. Os juros devidos são os juros legais, salvo se antes da mora for devido um juro mais elevado ou as partes houverem estipulado um juro moratório diferente do legal. 3 .Pode, no entanto, o credor provar que a mora [...]
+- **Artigo 432.º do CC** (Casos em que é admitida): 1. É admitida a resolução do contrato fundada na lei ou em convenção. 2. A parte, porém, que, por circunstâncias não imputáveis ao outro contraente, não estiver em condições de restituir o que houver recebido não tem o direito de resolver o contrato.
+- **Artigo 436.º do CC** (Como e quando se efectiva a resolução): 1. A resolução do contrato pode fazer-se mediante declaração à outra parte. 2. Não havendo prazo convencionado para a resolução do contrato, pode a outra parte fixar ao titular do direito de resolução um prazo razoável para que o exerça, sob pena de caducidade.
+- **Artigo 483.º do CC** (Princípio geral): 1. Aquele que, com dolo ou mera culpa, violar ilìcitamente o direito de outrem ou qualquer disposição legal destinada a proteger interesses alheios fica obrigado a indemnizar o lesado pelos danos resultantes da violação. 2. Só existe obrigação de indemnizar independentemente de culpa nos casos especificados na lei.
+- **Artigo 562.º do CC** (Princípio geral): Quem estiver obrigado a reparar um dano deve reconstituir a situação que existiria, se não se tivesse verificado o evento que obriga à reparação.
+- **Artigo 1038.º do CC** (Enumeração): São obrigações do locatário: a) Pagar a renda ou aluguer; b) Facultar ao locador o exame da coisa locada; c) Não aplicar a coisa a fim diverso daqueles a que ela se destina; d) Não fazer dela uma utilização imprudente; e) Tolerar as reparações urgentes, bem como quaisquer obras ordenadas pela autoridade pública; f) [...]
+- **Artigo 1041.º do CC** (Mora do locatário): 1 - Constituindo-se o locatário em mora, o locador tem o direito de exigir, além das rendas ou alugueres em atraso, uma indemnização igual a 20 % do que for devido, salvo se o contrato for resolvido com base na falta de pagamento. 2. Cessa o direito à indemnização ou à resolução do contrato, se o locatário fizer [...]
 - **Artigo 1048.º do CC** (Falta de pagamento da renda ou aluguer): 1 - O direito à resolução do contrato por falta de pagamento da renda ou aluguer, quando for exercido judicialmente, caduca logo que o locatário, até ao termo do prazo para a contestação da ação declarativa, pague, deposite ou consigne em depósito as somas devidas e a indemnização referida no n.º 1 do artigo 1041.º 2 [...]
+- **Artigo 1083.º do CC** (Fundamento da resolução): 1 - Qualquer das partes pode resolver o contrato, nos termos gerais de direito, com base em incumprimento pela outra parte. 2 - É fundamento de resolução o incumprimento que, pela sua gravidade ou consequências, torne inexigível à outra parte a manutenção do arrendamento, designadamente, quanto à resolução pelo [...]
+- **Artigo 1084.º do CC** (Modo de operar): 1 - A resolução pelo senhorio com fundamento numa das causas previstas no n.º 2 do artigo anterior é decretada nos termos da lei de processo. 2 - A resolução pelo senhorio quando fundada em causa prevista nos n.os 3 e 4 do artigo anterior bem como a resolução pelo arrendatário operam por comunicação à contraparte onde [...]
+- **Artigo 1087.º do CC** (Desocupação): A desocupação do locado, nos termos do artigo 1081.º, é exigível após o decurso de um mês a contar da resolução se outro prazo não for judicialmente fixado ou acordado pelas partes.
+- **Artigo 309.º do CC** (Prazo ordinário): O prazo ordinário da prescrição é de vinte anos.
+- **Artigo 310.º do CC** (Prescrição de cinco anos): Prescrevem no prazo de cinco anos: a) As anuidades de rendas perpétuas ou vitalícias; b) As rendas e alugueres devidos pelo locatário, ainda que pagos por uma só vez; c) Os foros; d) Os juros convencionais ou legais, ainda que ilíquidos, e os dividendos das sociedades; e) As quotas de amortização do capital pagáveis [...]
+- **Artigo 552.º do CPC** (Requisitos da petição inicial): 1 - Na petição, com que propõe a ação, deve o autor: a) Designar o tribunal e respetivo juízo em que a ação é proposta e identificar as partes, indicando os seus nomes, domicílios ou sedes, número de identificação fiscal ou número de identificação de pessoa coletiva e, obrigatoriamente, no que respeita ao autor, e [...]
+- **Artigo 556.º do CPC** (Pedidos genéricos): 1 - É permitido formular pedidos genéricos nos casos seguintes: a) Quando o objeto mediato da ação seja uma universalidade, de facto ou de direito; b) Quando não seja ainda possível determinar, de modo definitivo, as consequências do facto ilícito, ou o lesado pretenda usar da faculdade que lhe confere o artigo 569.º [...]
+- **Artigo 569.º do CPC** (Prazo para a contestação): 1 - O réu pode contestar no prazo de 30 dias a contar da citação, começando o prazo a correr desde o termo da dilação, quando a esta houver lugar; no caso de revogação de despacho de indeferimento liminar da petição, o prazo para a contestação inicia-se com a notificação em 1.ª instância daquela decisão. 2 - Quando [...]
+- **Artigo 574.º do CPC** (Ónus de impugnação): 1 - Ao contestar, deve o réu tomar posição definida perante os factos que constituem a causa de pedir invocada pelo autor. 2 - Consideram-se admitidos por acordo os factos que não forem impugnados, salvo se estiverem em oposição com a defesa considerada no seu conjunto, se não for admissível confissão sobre eles ou se [...]
+- **Artigo 576.º do CPC** (Exceções dilatórias e perentórias - Noção): 1 - As exceções são dilatórias ou perentórias. 2 - As exceções dilatórias obstam a que o tribunal conheça do mérito da causa e dão lugar à absolvição da instância ou à remessa do processo para outro tribunal. 3 - As exceções perentórias importam a absolvição total ou parcial do pedido e consistem na invocação de [...]
+- **Artigo 934.º do CC** (Falta de pagamento de uma prestação): Vendida a coisa a prestações, com reserva de propriedade, e feita a sua entrega ao comprador, a falta de pagamento de uma só prestação que não exceda a oitava parte do preço não dá lugar à resolução do contrato, nem sequer, haja ou não reserva de propriedade, importa a perda do benefício do prazo relativamente às [...]
 - **Artigo 14.º-A do NRAU** (Título para pagamento de rendas, encargos ou despesas): 1 - O contrato de arrendamento, quando acompanhado do comprovativo de comunicação ao arrendatário do montante em dívida, é título executivo para a execução para pagamento de quantia certa correspondente às rendas, aos encargos ou às despesas que corram por conta do arrendatário. 2 - O contrato de arrendamento, quando [...]
+- **Artigo 1067.º-A do CC** (Não discriminação no acesso ao arrendamento): 1 - Ninguém pode ser discriminado no acesso ao arrendamento em razão de sexo, ascendência ou origem étnica, língua, território de origem, nacionalidade, religião, crença, convicções políticas ou ideológicas, género, orientação sexual, idade ou deficiência. 2 - O anúncio de oferta de imóvel para arrendamento e outra [...]
+- **Artigo 819.º do CC** (Disposição, oneração ou arrendamento dos bens penhorados): Sem prejuízo das regras do registo, são inoponíveis à execução os actos de disposição, oneração ou arrendamento dos bens penhorados.
 - **Artigo 1066.º do CC** (Arrendamentos mistos): 1 - O arrendamento conjunto de uma parte urbana e de uma parte rústica é havido por urbano quando essa seja a vontade dos contratantes. 2 - Na dúvida, atende-se, sucessivamente, ao fim principal do contrato e à renda que os contratantes tenham atribuído a cada uma delas. 3 - Na falta ou insuficiência de qualquer dos [...]
 - **Artigo 1023.º do CC** (Arrendamento e aluguer): A locação diz-se arrendamento quando versa sobre coisa imóvel, aluguer quando incide sobre coisa móvel.
+- **Artigo 15.º-J do NRAU** (Desocupação do locado e pagamento das rendas em atraso): 1 - Conferida autorização judicial para entrada no domicílio, o agente de execução ou o notário desloca-se imediatamente ao locado para tomar a posse do imóvel. 2 - (Revogado.) 3 - O agente de execução ou o notário podem solicitar diretamente o auxílio das autoridades policiais sempre que seja necessário o [...]
+- **Artigo 1085.º do CC** (Caducidade do direito de resolução): 1 - A resolução deve ser efectivada dentro do prazo de um ano a contar do conhecimento do facto que lhe serve de fundamento, sob pena de caducidade. 2 - O prazo referido no número anterior é reduzido para três meses quando o fundamento da resolução seja o previsto nos n.os 3 ou 4 do artigo 1083.º 3 - Quando se trate [...]
 ### Síntese para a equipa
-6 acórdãos apreciados: 3 favoráveis, 3 desfavoráveis. Principal favorável: TRE de 14/10/2021, processo 624/20.0T8LLE.E1. A neutralizar: TRG de 07/06/2023, processo 320/22.3T8CMN-A.G1.
+6 acórdãos apreciados: 3 favoráveis, 1 desfavoráveis. Principal favorável: TRG de 07/06/2023, processo 320/22.3T8CMN-A.G1. A neutralizar: TRL de 11/07/1996, processo 0006836.
 
 ---
 # AGENTE: Redactor das Peças
 
-Não foi possível concluir: (B.factos || "").replace is not a function
+# Petição inicial
+
+Exmo. Senhor Juiz de Direito
+Tribunal Judicial da Comarca de [•]
+Juízo Local Cível de [•]
+
+[NOME DO CLIENTE], [identificação completa: estado civil, NIF, morada ou sede], vem apresentar
+
+**PETIÇÃO INICIAL**
+
+contra [PARTE CONTRÁRIA], [identificação completa], o que faz nos termos e com os fundamentos seguintes:
+
+## Dos factos
+
+1.º Em 1 de março de 2021 o senhorio deu de arrendamento ao inquilino uma fracção para habitação permanente, pela renda mensal de 750 €, por contrato escrito.
+
+2.º O inquilino não pagou as rendas de março a agosto de 2026, num total de 4 500 €.
+
+3.º Em 15 de setembro de 2026 o senhorio comunicou-lhe a resolução do contrato por carta registada com aviso de recepção, que foi recebida.
+
+4.º O inquilino não desocupou a fracção nem pagou.
+
+*Factos transcritos da ficha do caso. Complete com a referência aos documentos (cfr. Doc. n.º 1) e com os factos instrumentais.*
+
+## Do direito
+
+**5.º Do direito**
+
+5.1 O contrato de arrendamento celebrado entre as partes constitui obrigação pecuniária para o arrendatário, nos termos do artigo 1038.º do Código Civil, que impõe o pagamento da renda mensal acordada.  
+
+5.2 Nos termos do artigo 1041.º, n.º 1, do Código Civil, a mora do locatário subsiste quando este deixa de pagar a renda nos termos pactuados, incumbindo‑lhe a obrigação de pagar, além do principal, a indemnização equivalente a 20 % do valor em dívida, salvo se o contrato for resolvido com base na falta de pagamento.  
+
+5.3 A mora constitui‑se de pleno direito na ausência de pagamento da renda, pelo prazo certo a que a obrigação está sujeita (artigo 805.º, n.º 2, alínea a, do Código Civil). Assim, a falta de pagamento das rendas de março a agosto de 2026, totalizando 4 500 €, gera mora a partir do primeiro dia de incumprimento (1.º de março de 2026).  
+
+5.4 Consoante o artigo 1083.º, n.º 3, do Código Civil, a mora igual ou superior a três meses no pagamento da renda autoriza o senhorio a resolver o contrato, sendo a presente situação de mora superior a seis meses, logo, configurando causa de resolução.  
+
+5.5 A resolução do contrato foi comunicada ao arrendatário por carta registada com aviso de recepção em 15 de setembro de 2026, nos termos do artigo 436.º, n.º 1, do Código Civil, o que lhe conferiu a validade necessária para a prática de todos os atos executivos subsequentes, inclusive o pedido de despejo.  
+
+5.6 Nos termos do artigo 1084.º, n.º 1, do Código Civil, a resolução do contrato fundada na falta de pagamento da renda deve ser efetuada segundo a lei de processo, justificando a presente ação declarativa de resolução e despejo.  
+
+5.7 A cláusula de cláusula penal não é aplicável, pois o direito à resolução e à cobrança das rendas vencidas decorre diretamente da lei, não sendo necessária a sua invocação.  
+
+5.8 O ónus da prova incumbe ao autor, nos termos do artigo 342.º do Código Civil, devendo demonstrar (i) a existência do contrato de arrendamento (cfr. Doc. n.º 1), (ii) a mora do arrendatário ao não pagar as rendas de março a agosto 2026 (cfr. Doc. n.º 2 – recibos bancários / extrato de conta), (iii) a comunicação da resolução do contrato (cfr. Doc. n.º 3 – carta registada com AR), e (iv) a recusa do arrendatário em desocupar a fracção.  
+
+5.9 A jurisprudência do Tribunal da Relação de Guimarães, processo 320/22.3T8CMN‑A.G1 (TRG, 07/06/2023), reconhece a admissibilidade do incidente de despejo imediato quando a resolução do contrato decorre da falta de pagamento de rendas, corroborando a presente pretensão.  
+
+5.10 De igual modo, o Tribunal da Relação de Évora, processo 624/20.0T8LLE.E1 (TRE, 14/10/2021), afirma que a falta de pagamento da renda por três meses confere ao senhorio o direito de resolver o contrato, nos termos dos artigos 1083.º / 1 e 3 e 1047.º do Código Civil.  
+
+5.11 Por fim, o Supremo Tribunal da Relação, processo 1078/25.0T8BRG.G1 (TRG, 27/11/2025), consagra o direito do senhorio à ação declarativa de resolução do contrato por falta de pagamento, ainda que exista a via extrajudicial, reforçando a legitimidade da presente ação.  
+
+5.12 Em consequência, o autor tem direito (i) à declaração de resolução do contrato de arrendamento, (ii) ao despejo do arrendatário da fracção arrendada, e (iii) ao pagamento das rendas vencidas, acrescidas dos juros legais a contar da data da constituição em mora, nos termos do artigo 806.º, n.º 1, do Código Civil, e da indemnização de 20 % prevista no artigo 1041.º, n.º 1, do Código Civil.  
+
+5.13 A presente ação enquadra‑se na Ação Especial de Cumprimento de Obrigações Pecuniárias (AECOP), prevista para obrigações de até 15 000 €, nos termos do motor de regras, podendo ser ajuizada no Juízo Local Cível de competência genérica, com valor da causa fixado em 9 000 €, compreendendo o montante das rendas em dívida (4 500 €) e o valor da indenização (20 % de 4 500 € = 900 €) acrescido dos juros legais até à data do efetivo pagamento.  
+
+---
+
+## Do pedido
+
+Nestes termos e nos melhores de direito, requer‑se a V. Ex.ª:
+
+a) Que a presente ação seja julgada procedente, declarando a resolução do contrato de arrendamento celebrado entre as partes, condenando o réu ao pagamento das rendas vencidas e não pagas, referentes aos meses de março a agosto de 2026, no valor total de 4 500,00 €, acrescidas de juros legais de mora a contar da data da constituição em mora, nos termos do artigo 806.º, n.º 1, do Código Civil, bem como da indemnização de 20 % sobre o montante vencido, nos termos do artigo 1041.º, n.º 1, do Código Civil, totalizando 900,00 €.
+
+b) Que o réu seja condenado a proceder à desocupação da fração arrendada, bem assim à entrega da mesma nas condições em que se encontrava ao início da locação, no prazo máximo de 30 dias a contar da notificação da sentença, nos termos do artigo 1087.º do Código Civil, sob pena de ser prática de despejo forçado, nos termos do artigo 15.º‑J do NRAU.
+
+c) Que o réu seja condenado ao pagamento das custas judiciais, dos honorários de advogado, bem como da taxa de justiça fixada em 306,00 € (3 UC), nos termos da Tabela I‑A em vigor, nos termos do artigo 569.º do CPC.
+
+**Valor:** 9000,00 €.
+
+**Prova:** documental (documentos juntos) e testemunhal (rol de testemunhas).
+
+**Junta:** procuração forense, documentos e comprovativo do pagamento da taxa de justiça.
+
+O Advogado,
+
+[assinatura]
+
+### Síntese para a equipa
+
+1. Pedido de resolução do contrato e condenação ao pagamento das rendas em dívida (4 500 €) + juros e indemnização de 20 % (900 €).  
+2. Obrigação de desocupação da fração no prazo de 30 dias.  
+3. Condenação ao pagamento de custas, honorários e taxa de justiça (306 €).
 
 ---
 # AGENTE: Prova e Inquirição
 
-## Temas da prova
-1. Existência de contrato de arrendamento entre o autor (senhorio) e o réu (arrendatário).  
-2. Valor da dívida emergente de rendas em atraso, totalizando 9 000,00 €.  
-3. Comunicação escrita, datada e com aviso de receção, por parte do autor, do montante em dívida ao réu.  
-4. Não pagamento da dívida no prazo legal (até à data da contestação da ação declarativa).  
-5. Ausência de pagamento parcial ou total da dívida por parte do réu, apesar das notificações.  
-6. A inexistência de qualquer acordo ou pagamento posterior que extinga o crédito do autor.  
-7. Existência de documentos que comprovem a prestação dos encargos de arrendamento (facturas, recibos, extractos bancários).  
-8. Falta de comprovação por parte do réu de qualquer facto impeditivo, modificativo ou extintivo do direito do autor.  
+**## Temas da prova**  
 
-## Mapa facto e prova
-| Nº | Facto essencial | Ónus da prova (artigo 342.º CC) | Meio de prova disponível | Meio de prova ainda em falta |
-|---|----------------|------------------------------|--------------------------|------------------------------|
-| 1 | Contrato de arrendamento celebrado entre as partes | Autor (quem invoca o direito) | Contrato escrito assinado, cópia autenticada | – |
-| 2 | Dívida de 9 000,00 € por rendas em atraso | Autor | Débito em conta, extractos bancários, faturas/recibos de rendas | – |
-| 3 | Comunicação da dívida ao réu (carta registada com AVIR) | Autor | Carta registada com comprovativo de entrega, cópia do AVIR | – |
-| 4 | Não pagamento até ao termo para contestação | Autor | Correspondência eletrónica ou postal do réu indicando recusa, ausência de registo de pagamento | Declaração de inexistência de depósito/consignação |
-| 5 | Ausência de pagamento parcial ou total | Autor | Falta de registo de consignação em depósito judicial, ausência de recibos | – |
-| 6 | Não existência de acordo posterior | Autor | Ausência de documentos assinados que modifiquem o contrato ou que reconheçam a dívida | Declaração do réu (a ser obtida) |
-| 7 | Existência de encargos e despesas vinculados ao arrendamento | Autor | Facturas de despesas, recibos de água/electricidade, comprovativos de pagamento | – |
-| 8 | Réu não produz factos impeditivos, modificativos ou extintivos | Réu (contra‑parte) | — (não apresentado) | Pedido de produção de documentos que aleguem quaisquer factos impeditivos (ex.: prova de pagamento, acordo de quitação, prescrição) |
+1. Existência e termos do contrato de arrendamento celebrado a 1 de março de 2021.  
+2. Cumprimento da obrigação de pagamento da renda mensal de 750 € pelo inquilino.  
+3. Falta de pagamento das rendas referentes a março, abril, maio, junho, julho e agosto de 2026 (valor total de 4 500 €).  
+4. Comunicação da resolução do contrato, mediante carta registada com aviso de recepção, recebida a 15 de setembro de 2026.  
+5. Não desocupação da fração habitacional pelo inquilino após a comunicação da resolução.  
+6. Existência de eventual fiador e eventual notificação ao mesmo, nos termos do artigo 1041.º, n.º 5 CC.  
+7. Danos ou prejuízos patrimoniais suportados pelo senhorio em consequência da mora (juros de mora, indemnização de 20 %).  
 
-## Guião de inquirição das nossas testemunhas  
+---
 
-### Testemunha 1 – Contabilista do autor  
-1. Como descreve o procedimento que o senhorio tem seguido para a faturação das rendas mensais?  
-2. O que constatou nos registos contabilísticos relativamente ao pagamento das rendas pelo réu desde o início do contrato?  
-3. Quando foi emitido o primeiro aviso de dívida referente ao período em atraso?  
-4. Como verificou que, apesar dos avisos, não houve nenhum depósito ou consignação em conta judicial?  
-5. O que pode afirmar, com base nos documentos que tem em sua posse, acerca da existência de algum acordo escrito que modifique a obrigação de pagamento?
+**## Mapa facto‑prova**
 
-### Testemunha 2 – Funcionário dos Correios (emissão de AVIR)  
-1. Como foi efetuada a entrega da carta registada enviada pelo autor ao réu?  
-2. O que indica o comprovativo de aviso de receção quanto à data e hora de entrega?  
-3. Quando recebeu o AVIR e como procedeu ao seu registo?  
-4. Descreva o procedimento interno que garante a autenticidade do AVIR neste tipo de correspondência.  
-5. O que observa, em termos de eventual recusa da entrega ou devolução da carta?
+| Nº | Facto essencial | Ónus da prova* | Meio de prova disponível | Meio de prova em falta |
+|---|----------------|----------------|--------------------------|------------------------|
+| 1 | Contrato de arrendamento (data, partes, objeto, renda) | Autor (artigo 342.º CC) | Contrato escrito (original ou cópia autenticada); registo de assinatura ou reconhecimento notarial. | – |
+| 2 | Pagamento da renda até fevereiro 2026 | Réu (artigo 342.º CC) – a inexistência de pagamento deve ser provada pelo senhorio | Recibos de pagamento, extratos bancários do inquilino, declaração de crédito bancário, declaração do contabilista. | Eventuais recibos inexistentes para os meses em mora. |
+| 3 | Falta de pagamento das rendas de março‑agosto 2026 (4 500 €) | Autor (artigo 342.º CC) | Carta de cobrança ou notificação prévia (se houver); extratos bancários que mostrem ausência de débito; declaração do contabilista do inquilino. | Eventuais documentos que provem o pagamento (a falta deles reforça o caso). |
+| 4 | Comunicação da resolução (carta registada com AR recebida a 15/09/2026) | Autor (artigo 342.º CC) | Carta registada com AR (original ou fotocópia autenticada); registo postal; declaração do remetente (advogado). | – |
+| 5 | Não desocupação da fração após a resolução | Autor (artigo 342.º CC) | Vistoria de inspeção (relatório fotográfico/datado); depoimento de vizinhos ou porteiro; declaração do senhorio sobre a ocupação continuada. | - |
+| 6 | Existência e notificação ao fiador (se houver) | Autor (artigo 342.º CC) – se pretender a garantia do fiador | Contrato com cláusula de fiança; correspondência de notificação ao fiador (carta registada). | Caso não exista fiador, informar “NÃO CONSTA”. |
+| 7 | Juros de mora e indemnização de 20 % (artigo 1041.º CC) | Autor (artigo 342.º CC) | Cálculo dos juros legais (perante tabela do Banco de Portugal) e da indemnização; documentos contabilísticos. | – |
 
-### Testemunha 3 – Vizinho que presenciou a ocupação do imóvel  
-1. Como descreve a situação de ocupação do imóvel nos últimos meses?  
-2. O que percebeu quanto à presença de móveis ou pertences do réu no prédio?  
-3. Quando foi a última vez que viu o réu entrar ou sair do imóvel?  
-4. Descreva qualquer conversa que tenha tido com o réu relacionada ao pagamento das rendas.  
-5. O que sabe sobre eventuais tentativas de negociação entre as partes?
+\* Conforme artigo 342.º do Código Civil, a parte que invoca o direito (autor) tem a prova dos factos constitutivos; a parte contrária tem a prova dos factos impeditivos, modificativos ou extintivos.
 
-## Contra‑interrogatório das testemunhas da parte contrária  
+---
 
-### Testemunha A – Arrendatário (réu)  
-1. Recebeu a carta registada enviada pelo senhorio? (Sim/Não)  
-2. A carta continha o montante exato de 9 000,00 €? (Sim/Não)  
-3. Realizou algum pagamento parcial da dívida antes da data limite para contestação? (Sim/Não)  
-4. Possui assinatura num documento que reconheça a dívida? (Sim/Não)  
-5. Houve algum acordo verbal que alterasse o prazo de pagamento? (Sim/Não)  
+**## Guião de inquirição das nossas testemunhas**
 
-### Testemunha B – Contabilista do réu  
-1. Existe nos seus registos um comprovativo de pagamento da dívida de 9 000,00 €? (Sim/Não)  
-2. Recebeu algum depósito em conta judicial relativo a esta ação? (Sim/Não)  
-3. Foi emitida alguma fatura de rendas por parte do senhorio após o início do atraso? (Sim/Não)  
-4. O senhorio enviou-lhe algum documento que comprovasse a dívida antes da ação? (Sim/Não)  
-5. Tem conhecimento de alguma comunicação escrita que indique a resolução extrajudicial do contrato? (Sim/Não)  
+### Testemunha 1 – **Porta‑falar (vizinho do prédio)**  
+1. Como descreve a presença do inquilino na fração desde a data de 15 de setembro 2026?  
+2. O que observou acerca da entrada e saída de pessoas na casa do inquilino durante esse período?  
+3. Quando foi a última vez que viu o senhorio aceder ao interior da fração?  
+4. Descreva as condições de habitabilidade do imóvel (ruído, infiltrações, etc.) durante a sua permanência.  
+5. Como soube que o senhorio enviou a carta de resolução ao inquilino?
 
-## Diligências a requerer  
+### Testemunha 2 – **Contabilista do senhorio**  
+1. Como procede ao registo das rendas mensais recebidas do inquilino?  
+2. O que constam os extratos bancários referentes aos meses de março a agosto de 2026?  
+3. Quando efetuou o cálculo do montante em dívida (4 500 €) e quais os juros aplicados?  
+4. Descreva o procedimento adotado para a emissão da carta registada de resolução.  
+5. Como verifica a inexistência de pagamentos da parte do inquilino nos referidos meses?
 
-1. **Documentos a requerer ao réu:**  
-   - Cópia de quaisquer recibos, comprovativos de pagamento, consignações ou depósitos bancários referentes ao período de atraso.  
-   - Eventual acordo escrito, nota de culpa, termo de resolução extrajudicial ou comunicação que reconheça a dívida.  
+### Testemunha 3 – **Agente de correios / responsável pela correspondência registada**  
+1. Quando recebeu a ordem de envio da carta registada dirigida ao inquilino?  
+2. O que indica o comprovativo de entrega (AR) em termos de data e assinatura?  
+3. Como garante a autenticidade do documento de receção?  
+4. Quando foi efetivamente entregue a correspondência ao destinatário?  
+5. Existe algum registo de tentativa de entrega anterior ou posterior ao dia 15 de setembro 2026?
 
-2. **Documentos a requerer ao tribunal ou a partes externas:**  
-   - Cópia da carta registada com aviso de receção enviada pelo autor (já em posse, mas requerer autenticação).  
-   - Registo de entregas dos Correios relativos ao AVIR (para confirmar data e hora).  
+### Testemunha 4 – **Perito de inspeção (engenheiro civil)**  
+1. Como realizou a inspeção da fração para comprovar a continuação da ocupação?  
+2. O que observou relativamente a sinais de presença (pó, lixo, consumo de energia, etc.)?  
+3. Quando efetivou a vistoria e qual foi o método utilizado para datar as conclusões?  
+4. Descreva o estado geral da fração e se há indícios de danos ou deterioração.  
+5. Como pode atestar que o inquilino não desocupou o imóvel até à data da inspeção?
 
-3. **Perícia contabilística:**  
-   - Peritagem dos registos financeiros do autor e do réu para confirmar a inexistência de pagamento e quantificar exatamente a dívida.  
+---
 
-4. **Depoimento da parte (autor):**  
-   - Pedido de declaração do senhorio sobre a sequência de notificações, tentativas de conciliação e a situação atual do contrato.  
+**## Contra‑interrogatório das testemunhas da parte contrária**
 
-5. **Inspeção do imóvel (opcional):**  
-   - Caso se pretenda comprovar a ocupação contínua do réu, requerer inspeção judicial do imóvel para constatar condições de uso.  
+### Testemunha 1 – **Inquilino**  
+1. O senhorio enviou-lhe alguma carta de cobrança antes da carta de resolução? – **Sim / Não**  
+2. Recebeu a carta registada com aviso de recepção a 15 de setembro 2026? – **Sim / Não**  
+3. Pagou alguma das rendas de março a agosto 2026? – **Sim / Não**  
+4. Desocupou a fração dentro de 30 dias após a comunicação da resolução? – **Sim / Não**  
+5. Está ciente de que a lei (artigo 1083.º, n.º 3 CC) permite a resolução do contrato por mora superior a três meses? – **Sim / Não**
 
----  
+### Testemunha 2 – **Representante da entidade bancária**  
+1. O Sr./Sra [inquilino] efetuou algum débito relativo à renda de 750 € nos meses de março‑agosto 2026? – **Sim / Não**  
+2. O extrato bancário que nos entregou inclui todas as movimentações do período referido? – **Sim / Não**  
+3. Há algum registo de pagamento parcial ou total das referidas rendas? – **Sim / Não**  
+4. Foi emitida alguma ordem de pagamento automática para a referida conta? – **Sim / Não**  
+5. Existe alguma retificação posterior ao período em causa que modifique o saldo? – **Sim / Não**
 
-### Síntese para a equipa  
-- Provar a existência do contrato, a dívida de 9 000 €, a comunicação válida (carta registada com AVIR) e a ausência de pagamento.  
-- O ónus da prova incumbe ao autor para factos constitutivos e ao réu para factos impeditivos.  
-- Testemunhas chave: contabilista do autor, funcionário dos Correios, vizinho.  
-- Requerer documentos de pagamento ou acordo do réu, perícia contabilística e, se necessário, inspeção do imóvel.  
+### Testemunha 3 – **Funcionário do serviço de entrega de cartas**  
+1. A carta registada foi entregue ao destinatário ou a outra pessoa? – **Sim / Não**  
+2. O endereço indicado na carta corresponde ao endereço da fração arrendada? – **Sim / Não**  
+3. Existiu alguma devolução da correspondência ao remetente? – **Sim / Não**  
+4. O AR indica assinante que reconheceu a entrega? – **Sim / Não**  
+5. Foi feita alguma tentativa de entrega em data distinta da 15 de setembro 2026? – **Sim / Não**
+
+---
+
+**## Diligências a requerer**
+
+1. **Pedido de exibição de documentos** – contrato de arrendamento, anexos, cláusula de fiança (se houver), recibos de renda dos primeiros dois anos, extratos bancários do inquilino referentes a março‑agosto 2026.  
+2. **Requisição de cópia da carta registada com aviso de recepção** (original ou fotocópia autenticada) e do comprovativo de entrega emitido pelos CTT.  
+3. **Incidente de prova pericial** – perícia de inspeção da fração para atestar a continuação da ocupação e eventual dano patrimonial.  
+4. **Depoimento testemunhal** – inquirição de vizinhos, porteiro ou outros residentes que possam confirmar a presença do inquilino após a data de resolução.  
+5. **Alegação de juros de mora e indemnização de 20 %** – requerer cálculo detalhado com base nos juros legais vigentes a partir da constituição em mora (artigo 805.º, n.º 1 CC) e apreciação da aplicação do artigo 1041.º, n.º 1 CC.  
+6. **Requerimento de notificação ao eventual fiador** (artigo 1041.º, n.º 5 CC) caso exista.  
+
+---
+
+### Síntese para a equipa
+- Provar contrato, mora de 6 meses, comunicação de resolução registada e não desocupação.  
+- Ónus da prova: autor (contrato, mora, comunicação, desocupação) – réu (eventuais pagamentos ou justificações).  
+- Testemunhas chave: vizinho, contabilista, agente postal, perito de inspeção.  
+- Diligências: documentos bancários, carta AR, perícia de inspeção, eventual notificação ao fiador.  
 
 ---
 # AGENTE: Advogado da Parte Contrária
 
 ## Linha de ataque principal  
-A parte contrária alegará que não existe título executivo válido que legitime a ação de execução ou a ação declarativa para resolução do contrato de arrendamento, porque falta a comunicação regular da dívida ao arrendatário (carta registada com aviso de receção) nos termos do artigo 14.º‑A do NRAU e, ainda, que a dívida já está prescrita, uma vez que o prazo de cobrança decorrido ultrapassa o prazo de prescrição de três anos previsto no artigo 309.º do Código Civil. Argumentará ainda que, ainda que existisse dívida, o autor não cumpriu o ónus da prova dos factos constitutivos do direito (artigo 342.º do CC), não demonstrando a existência do contrato nem a mora do arrendatário.
+A parte contrária sustentará que o senhorio não cumpriu os requisitos legais para a resolução do contrato e a sua consequente execução por despejo, alegando que a comunicação de resolução não observou o prazo razoável previsto no artigo 436.º do CC, que a mora não se constitui de forma automática por ausência de interpelação judiciária, e que o pedido de indemnização de 20 % está juridicamente incompatível com a ação declarativa de resolução, nos termos do acórdão desfavorável (TRL, 11/07/1996). Por conseguinte, requererá a extinção da ação ou a sua improcedência relativamente ao despejo e à cobrança das rendas.
 
 ## Excepções e questões prévias que vai invocar  
-1. **Inexistência de título executivo** – artigo 14.º‑A do NRAU.  
-2. **Prescrição da dívida** – artigo 309.º do Código Civil (prescrição de três anos para ação declarativa de cobrança).  
-3. **Falta de comunicação válida da dívida** – jurisprudência TRE, 14/10/2021, que exige comunicação escrita assinada e enviada por correio registado com aviso de receção.  
-4. **Competência do Juízo** – eventual alegação de incompetência se o valor da causa fosse considerado para julgamento de paz (artigo 9.º da Lei dos Julgados de Paz) – embora o motor de regras indique Juízo Local Cível.  
-5. **Exceção de pagamento (caução ou depósito) até à contestação** – artigo 1048.º, n.º 1 do CC, que extingue o direito à resolução se o arrendatário paga antes da contestação.
+1. **Exceção de incompetência** – alegação de que a matéria deveria ser conhecida pelo Julgado de Paz (artigo 9.º da Lei dos Julgados de Paz).  
+2. **Exceção de prescrição** – invocação do prazo de cinco anos previsto no artigo 310.º do CC para as rendas em dívida (prescrição já operada).  
+3. **Exceção de caducidade da resolução** – fundamento no artigo 1085.º do CC (resolução não exercida dentro do prazo legal).  
+4. **Exceção de inexistência de mora** – com base no artigo 805.º do CC (necessidade de interpelação válida).  
+5. **Exceção de incompatibilidade de pedidos** – conforme o acórdão do TRL, 11/07/1996, que impede simultaneamente a resolução e a indemnização de 20 % nas mesmas circunstâncias.
 
 ## Factos que vai impugnar e fragilidades da prova  
-1. **Existência e validade do contrato de arrendamento** – não consta documentação comprobatória (cópia do contrato).  
-2. **Montante da dívida (9 000 €)** – ausência de demonstração documental (extratos bancários, faturas, recibos).  
-3. **Comunicação da dívida** – não há carta registada com AVIR ou outro meio que satisfaz a exigência legal.  
-4. **Data de início da mora** – não está comprovado quando se iniciou o incumprimento.  
-5. **Presença de juros ou indemnizações** – a jurisprudência indica incompatibilidade entre pedido de resolução e pedido de juros (TRL, 11/07/1996).  
+1. **Data e validade da comunicação de resolução** – contestará a autenticidade ou receção da carta registada (possível falta de AR).  
+2. **Existência de mora** – alegará que não houve interpelação judicial ou extrajudicial suficiente para constituir a mora (artigo 805.º, n.º 2 a).  
+3. **Montante das rendas em dívida** – levantará dúvida sobre a existência de recibos ou comprovativos de pagamento das rendas de março a agosto de 2026.  
+4. **Presença de fiador** – afirmará que o senhorio não notificou o fiador nos termos do artigo 1041.º, n.º 5, o que impediria a execução de garantias.  
+5. **Valor do pedido de indemnização de 20 %** – argumentará que tal pedido é incompatível com a ação de resolução e, se admitido, deveria ser objeto de ação separada.  
+6. **Eventual existência de cláusulas de saneamento ou suspense no contrato** – tentará provar que o contrato continha cláusula de tolerância ou suspensão de obrigações por parte do inquilino.
 
 ## Como responder  
 
-1. **Título executivo** – apresentar cópia autenticada do contrato de arrendamento acompanhado da carta registada com aviso de receção, comprovada pelo comprovativo dos Correios, demonstrando cumprimento do artigo 14.º‑A do NRAU; reforçar que, nos termos do artigo 1048.º, n.º 1 do CC, o contrato torna‑se título executivo ao ser comunicado ao arrendatário a dívida.  
+1. **Incompetência** – Argumentar que o valor da causa (9 000 €) ultrapassa o limite de alçada do Julgado de Paz (5 000 €) e que a matéria é de natureza declarativa e executiva, competindo ao Juízo Local Cível, nos termos do Motor de Regras.  
 
-2. **Prescrição** – contestar a alegação de prescrição demonstrando que a dívida começou a vencer menos de três anos antes da propositura da ação (ex.: última renda vencida em data recente, comprovada por extratos ou recibos). Se a data for incerta, invocar o princípio da interrupção da prescrição por pedido judicial (artigo 312.º do CC).  
+2. **Prescrição** – Demonstrar que a dívida refere‑se a rendas vencidas em 2026, portanto dentro do prazo de cinco anos previsto no artigo 310.º do CC; a prescrição ainda não correu, pois o prazo começa a correr a partir da data de vencimento de cada renda, não a partir de 2021.  
 
-3. **Comunicação válida da dívida** – juntar a carta registada com AVIR, data de envio e recebimento, bem como declaração do funcionário dos Correios (testemunho) para comprovar o cumprimento da exigência do TRE de 2021.  
+3. **Caducidade da resolução** – A resolução foi comunicada a 15 de setembro de 2026; o prazo de um ano para exercer o direito de resolução (artigo 1085.º, n.º 1) ainda não expirou, sendo a ação interposta dentro desse período.  
 
-4. **Competência** – reiterar que, apesar de a Lei dos Julgados de Paz prever competência para causas de até 5 000 €, o valor da causa (9 000 €) ultrapassa esse limite, pelo que o Juízo Local Cível é competente, conforme o motor de regras.  
+4. **Inexistência de mora** – Sustentar que a carta registada com AR constitui comunicação válida para efeitos de constituição em mora, nos termos do artigo 805.º, n.º 2 a, que admite a mora sem interpelação judicial quando a obrigação tem prazo certo (renda mensal) e o devedor impediu a própria interpelação.  
 
-5. **Exceção de pagamento** – demonstrar que o arrendatário não efetuou pagamento, depósito ou consignação antes da contestação, apresentando declaração bancária ou ausência de tal depósito, afastando a aplicação do artigo 1048.º, n.º 1 do CC.  
+5. **Incompatibilidade de pedidos** – Contestar a jurisprudência desfavorável (TRL, 11/07/1996) argumentando que a decisão recaiu sobre pedidos genéricos incompatíveis; aqui, o pedido de indemnização de 20 % decorre do artigo 1041.º, n.º 1, que é a forma legal de indemnização quando não se opta pela resolução, mas pode ser cumulado quando a resolução é requerida, conforme entendimento dominante (TRG, 07/06/2023).  
 
-6. **Existência do contrato** – apresentar o contrato assinado por ambas as partes, reconhecido em cartório ou com assinatura reconhecida, provendo o facto constitutivo do direito, conforme o ónus da prova (artigo 342.º, n.º 1 do CC).  
+6. **Autenticidade da comunicação** – Apresentar a carta AR como prova documental incontestável, acompanhada do comprovativo de entrega ao inquilino e, se necessário, solicitar a prova do réu (artigo 342.º do CC) de eventual inexistência de receção.  
 
-7. **Montante da dívida** – anexar documentação de cobrança (notas de débito, faturas, recibos) que compilem o total de 9 000 €, bem como eventual cálculo de juros, se for o caso, para demonstrar a quantia exata.  
+7. **Comprovação da mora e das rendas não pagas** – Anexar ao processo os recibos de depósito bancário das rendas pagas até fevereiro 2026 e o extrato que demonstra a ausência de créditos a favor do inquilino de março a agosto 2026; requerer a produção de documentos bancários do réu para confirmar a falta de pagamento.  
 
-8. **Juros e indemnizações** – se houver pedido de juros, fundamentar que não há incompatibilidade, pois a ação é de resolução por falta de pagamento e a cobrança de juros é parte integrante da dívida, distinguindo dos pedidos de resolução de contrato que são incompatíveis apenas quando se pretende simultaneamente a resolução e a cobrança de juros sobre rendas já vencidas (TRL, 11/07/1996).  
+8. **Notificação ao fiador** – Se não houver fiador, argumentar a inexistência de obrigação de notificar; se houver, demonstrar que a notificação ainda não se faz necessária até ao pagamento das quantias devidas, nos termos do artigo 1041.º, n.º 5, que prevê o prazo de 90 dias após a constituição em mora.  
 
-9. **Data de início da mora** – indicar, com prova documental (ex.: extrato bancário, correspondência de aviso), a data exacta em que o arrendatário deixou de pagar, estabelecendo o início da mora e o prazo de resolução.  
+9. **Cláusulas contratuais de saneamento** – Exigir ao réu a produção do contrato completo; refutar a existência de cláusulas de tolerância ou suspensão que justifiquem a mora, sustentando que o contrato apenas fixa a renda mensal e não contém cláusulas de suspensão.  
 
-10. **Testemunhas** – arrolar como testemunhas o contabilista do autor (para validar os cálculos), o funcionário dos Correios (para confirmar o envio e receção da comunicação) e, se pertinente, um vizinho que possa atestar a existência da relação locatícia.  
+10. **Valor da indemnização** – Calcular a indemnização de 20 % sobre as rendas em dívida (4 500 € × 20 % = 900 €) e incluir nos pedidos; argumentar que, na ausência de pagamento da indemnização, o senhorio tem direito à execução das quantias, podendo requerer a penhora de bens ou o protesto da dívida.  
+
+11. **Pedido de despejo** – Invocar o artigo 1087.º do CC, pedindo a desocupação da fração no prazo de 30 dias a contar da sentença, já que a resolução foi legalmente comunicada e a mora ultrapassa três meses, conforme artigo 1083.º, n.º 3.  
+
+12. **Procedimento adequado** – Reforçar, com base no Motor de Regras, que a AECOP é o procedimento idóneo para obrigações pecuniárias até 15 000 €, garantindo celeridade e economia ao senhorio, sendo a via do processo comum desnecessária.  
 
 ---  
 
 ### Síntese para a equipa  
-1. Apresentar contrato e comunicação registada para provar título executivo.  
-2. Refutar a prescrição demonstrando data de início da mora dentro do prazo de três anos.  
-3. Reforçar a competência do Juízo Local Cível e negar a exceção de pagamento.  
-4. Consolidar a prova documental da dívida (faturas, recibos) e dos juros, se houver.  
-5. Preparar testemunhas chave para suportar os factos constitutivos e a comunicação válida.
+A parte contrária irá alegar incompetência, prescrição, falta de mora e incompatibilidade de pedidos. Devemos rebater com prova documental da comunicação e da mora, demonstrar que o prazo de resolução ainda está vigente, que a ação está dentro do prazo de prescrição e que a AECOP é o procedimento correto, sustentando ainda o direito à indemnização de 20 % e ao despejo.
 
 ---
 # AGENTE: Juiz Revisor
 
-**## Questões a decidir**
+## Questões a decidir  
 
-1. Determinar a competência do Juízo Local Cível (ou do Julgado de Paz, se aplicável).  
-2. Verificar a existência de título executivo (contrato de arrendamento + comunicação da dívida).  
-3. Avaliar a adequação do procedimento a seguir (AECOP vs. ação declarativa).  
-4. Decidir sobre a responsabilidade do réu pelo pagamento da dívida de 9 000 €, inclusive juros e indemnização (artigo 1041.º CC).  
-5. Fixar o ónus da prova entre as partes (artigo 342.º CC).  
+1. **Competência do tribunal** – se o Juízo Local Cível (ou de competência genérica) é o competente para a ação de despejo e cobrança das rendas.  
+2. **Procedimento a aplicar** – se a Ação Especial de Cumprimento de Obrigação Pecuniária (AECOP) é o procedimento adequado ou se deve ser utilizada a ação comum de declaração.  
+3. **Existência de mora** – se a falta de pagamento das rendas de março a agosto de 2026 constitui mora nos termos do artigo 804.º e 805.º do CC.  
+4. **Direito à resolução do contrato** – se a comunicação de resolução, enviada em 15 de setembro de 2026, produz o direito à resolução e ao despejo, nos termos dos artigos 1083.º, 1084.º e 1087.º do CC.  
+5. **Cálculo dos montantes devidos** – se o pedido de rendas em dívida (4 500 €) mais juros legais e indemnização de 20 % (900 €) está juridicamente fundado.  
+6. **Prescrição** – se a pretensão de cobrança está ainda dentro do prazo de cinco anos previsto no artigo 310.º do CC.  
+7. **Ônus da prova** – quem tem o ónus da prova dos factos constitutivos e impeditivos (artigo 342.º do CC).  
+8. **Compatibilidade dos pedidos** – se os pedidos de resolução do contrato, despejo e cobrança de rendas são compatíveis (evitar a incompatibilidade apontada no acórdão de 11/07/1996).  
+9. **Valor da causa e custas** – se o valor da causa (9 000 €) e as custas (3 UC) foram corretamente calculados.  
 
-**## Avaliação de cada pedido ou pretensão**
+## Avaliação de cada pedido ou pretensão  
 
-| Pedido / Pretensão | Probabilidade de êxito | Razão |
-|--------------------|------------------------|-------|
-| 1. Competência do Juízo Local Cível | **Alta** | Valor da causa = 9 000 €, inferior a 50 000 €, enquadrando‑se na alçada do juízo local (Motor de Regras). |
-| 2. Reconhecimento do contrato + comunicação como título executivo | **Média** | Necessário comprovar, mediante carta registada com AVIR, a comunicação da dívida (artigo 14.º‑A NRAU). Falta ainda essa documentação. |
-| 3. Adoção do procedimento AECOP | **Média** | Valor ≤ 15 000 € permite AECOP (obrigação pecuniária). Contudo, se o contrato já constituir título executivo, pode ser mais eficiente a ação declarativa. |
-| 4. Condenação do réu ao pagamento de 9 000 € + juros + indemnização | **Média** | Dependerá da prova da dívida (factos constitutivos) e da eventual existência de factos impeditivos (ex.: prescrição, pagamento parcial). |
-| 5. Aplicação do ónus da prova conforme artigo 342.º CC | **Alta** | O autor tem o ónus de provar o contrato, a dívida e a comunicação; o réu, por sua vez, deve provar eventual pagamento ou prescrição. |
+| Nº | Pedido | Probabilidade de êxito | Razão |
+|----|--------|------------------------|-------|
+| 1 | **Competência do Juízo Local Cível** | Alta | O valor da causa (9 000 €) não ultrapassa 50 000 €, enquadrando‑se no Juízo Local Cível ou de competência genérica, conforme o Motor de Regras. |
+| 2 | **Aplicação da AECOP** | Média | A obrigação pecuniária (rendas) é até 15 000 €, sendo admissão da AECOP prevista; contudo, a ação de despejo pode exigir simultaneamente o procedimento de declaração, o que pode conduzir a uma via mista. |
+| 3 | **Mora do inquilino** | Alta | O não pagamento de seis meses de rendas constitui mora, pois a obrigação tem prazo certo (artigo 805.º, n.º 2‑a) e a comunicação extrajudicial já foi feita (artigo 805.º, n.º 2‑c). |
+| 4 | **Direito à resolução do contrato** | Alta | A falta de pagamento por mais de três meses autoriza a resolução (artigo 1083.º, n.º 3). A comunicação por carta AR é válida (artigo 1084.º, n.º 2). |
+| 5 | **Despejo (obrigação de desocupação)** | Alta | Após a resolução, o prazo de um mês para desocupação (artigo 1087.º) ainda não transcorreu; portanto, o pedido de despejo está fundado. |
+| 6 | **Cobrança das rendas em dívida (4 500 €) + juros + indemnização de 20 %** | Alta | As rendas vencidas são líquidas e exigíveis (artigo 310.º, n.º b). A indemnização de 20 % está prevista no artigo 1041.º, n.º 1, sendo admissível quando o contrato não é resolvido por falta de pagamento; porém, a resolução por falta de pagamento exclui a indemnização (ver acórdão desfavorável 11/07/1996). Assim, a indemnização pode ser contestada; a probabilidade reduz‑se para média‑alta. |
+| 7 | **Prescrição** | Alta | A pretensão de cobrança incide nos últimos seis meses (2026), estando dentro do prazo de cinco anos (artigo 310.º). |
+| 8 | **Ônus da prova** | Alta | O autor tem o ónus de provar a existência do contrato, a mora e a comunicação (artigo 342.º, CC). A documentação pretendida (contrato escrito, carta AR, extratos bancários) satisfaz esse ónus. |
+| 9 | **Custas e valor da causa** | Alta | O valor da causa (9 000 €) está corretamente indicado; as custas (3 UC = 306 €) correspondem à tabela em vigor. |
 
-**## Riscos e pontos fracos**
+## Riscos e pontos fracos  
 
-1. **Ausência de prova documental da comunicação da dívida** – sem carta registada com AVIR, o contrato pode não ser considerado título executivo (jurisprudência TRE, 14/10/2021).  
-2. **Possível prescrição** – o autor não demonstrou que a dívida não está prescrita (prescrição de 3 anos para crédito de rendas, artigo 187.º CC).  
-3. **Escolha inadequada do procedimento** – iniciar por AECOP sem ter certeza da existência de título executivo pode gerar indeferimento ou atraso.  
-4. **Inexistência de cálculo dos juros e indemnização** – falta de fundamentação jurídica (artigo 1041.º CC) e quantificação nas peças iniciais.  
-5. **Relevância de jurisprudência desfavorável** – acórdão TRG, 07/06/2023, rejeitou incidente de despejo imediato por ausência de requisitos formais, o que pode ser usado pela defesa para argumentar falta de requisitos de forma.  
+1. **Incompatibilidade dos pedidos (despejo + indemnização de 20 %)** – o acórdão de 11/07/1996 impede a cumulação de resolução por falta de pagamento com a indemnização de 20 % prevista no artigo 1041.º. Se o tribunal seguir esse precedente, poderá excluir a indemnização.  
+2. **Forma processual** – se a AECOP não for aceita por envolver simultaneamente o despejo (pedido de entrega da coisa), o tribunal pode determinar a adoção da ação comum de declaração, o que atrasaria o procedimento.  
+3. **Existência de fiador** – se existir fiador e não houver notificação ao mesmo (artigo 1041.º, n.º 5‑6), o credor pode ser impedido de cobrar-lhe, o que pode ser suscetível a impugnação.  
+4. **Prova da mora posterior à comunicação** – a jurisprudência exige que a mora seja anterior à resolução; se a comunicação foi feita em 15 de setembro e a mora já se encontrava consolidada (março‑agosto), não há risco, mas a defesa pode alegar falta de interpelção judicial prévia (artigo 805.º, n.º 1).  
+5. **Cálculo dos juros** – a petição deve especificar a taxa legal aplicável (artigo 806.º, n.º 1) e o período de incidência; ausência de fundamentação pode levar a redução dos juros.  
 
-**## O que corrigir antes de avançar**
+## O que corrigir antes de avançar  
 
-1. **Obter e anexar a comunicação da dívida** – carta registada com aviso de receção (AVIR) ou outro meio idôneo que satisfaça o artigo 14.º‑A NRAU.  
-2. **Verificar a prescrição** – averiguar a data da última renda não paga e calcular se ainda está dentro do prazo de 3 anos;, caso esteja prescrita, requerer a interrupção da prescrição (ex.: notificação judicial).  
-3. **Decidir entre AECOP e ação declarativa** – se o contrato + comunicação constituírem título executivo, a ação declarativa pode ser mais célere; caso contrário, a AECOP permanece válida, mas o pedido deve estar bem fundamentado.  
-4. **Elaborar cálculo detalhado de juros e indemnização** – indicar a taxa legal aplicável, os períodos, e fundamentar no artigo 1041.º CC.  
-5. **Preparar a prova documental e testemunhal** – lista completa de documentos (contrato, faturas, recibos, correspondência) e identificar testemunhas (contabilista, funcionário dos CTT, vizinho) para corroborar a existência da dívida e da comunicação.  
-6. **Incluir pedido de produção de prova** – requerer a intimação do réu para apresentar prova de pagamento ou de factos impeditivos, nos termos do artigo 342.º CC.  
+1. **Rever a formulação da indemnização de 20 %** – especificar que o pedido será apresentado **se** o tribunal considerar admissível a cumulação, ou, alternativamente, solicitar apenas os juros legais e deixar a indemnização como pedido subsidiário.  
+2. **Clarificar a via processual** – indicar, na petição, que se opta pela AECOP para a cobrança das rendas, mas que o pedido de despejo será formulado em ação de despejo (procedimento comum), com pedido de procedimento cautelar de tutela da posse, caso a AECOP não admita o despejo.  
+3. **Incluir cláusula de notificação ao fiador** – se houver fiador, integrar na petição a notificação ao mesmo nos termos do artigo 1041.º, n.º 5‑6, ou, caso não exista, mencionar explicitamente a inexistência de fiador.  
+4. **Anexar documentos comprobatórios** – certificar‑se de que a petição contém: (i) contrato de arrendamento assinado, (ii) cópia da carta registada com AR, (iii) extratos bancários que demonstrem a falta de pagamento das rendas, (iv) cálculo detalhado dos juros legais (artigo 806.º) e da eventual indemnização, (v) comprovativo da identidade do réu.  
+5. **Fazer referência jurisprudencial** – citar os acórdãos favoráveis (TRG 07/06/2023; TRE 14/10/2021; TRG 27/11/2025) para sustentar o direito de despejo e a resolução do contrato, e distinguir claramente o acórdão desfavorável (TRL 11/07/1996) para antecipar a defesa e argumentar a favor da admissibilidade da indemnização ou, se não for possível, pedir a sua exclusão como pedido subsidiário.  
+6. **Rever a redação da causa de pedir** – garantir que a causa de pedir menciona claramente a mora (artigos 804.º e 805.º), a comunicação de resolução (artigos 1083.º, 1084.º) e o fundamento legal para o despejo (artigo 1087.º).  
+7. **Verificar o cálculo do valor da causa** – incluir no valor da causa não só as rendas em dívida (4 500 €) mas também os juros e a indemnização (se admitidos), para evitar subavaliação que poderia levar a impugnação de custas.  
 
 ---
 
 ## Confirmação das citações
 Cada artigo foi procurado no texto consolidado do Diário da República e cada processo na DGSI.
-### Existem, mas o conteúdo atribuído não corresponde: confirmar (2)
-- Artigo 206.º do CPC: O artigo existe (Atos processuais sujeitos a distribuição na 1.ª instância), mas o que o texto lhe atribui não corresponde ao seu conteúdo. Confirme antes de usar.
-- Artigo 312.º do CC: O artigo existe (Fundamento das prescrições presuntivas), mas o que o texto lhe atribui não corresponde ao seu conteúdo. Confirme antes de usar.
-### Confirmadas (20)
+### Existem, mas o conteúdo atribuído não corresponde: confirmar (1)
+- Artigo 569.º do CPC: O artigo existe (Prazo para a contestação), mas o que o texto lhe atribui não corresponde ao seu conteúdo. Confirme antes de usar.
+### Confirmadas (30)
 - Artigo 130.º da LOSJ: Competência
 - Artigo 629.º do CPC: Decisões que admitem recurso
 - Artigo 44.º da LOSJ: Alçadas
@@ -357,43 +486,63 @@ Cada artigo foi procurado no texto consolidado do Diário da República e cada p
 - Artigo 317.º do CC: Prescrição de dois anos
 - Artigo 1410.º do CC: Acção de preferência
 - Artigo 323.º do CC: Interrupção promovida pelo titular
+- Artigo 1047.º do CC: Resolução
 - Processo 320/22.3T8CMN-A.G1
 - Processo 624/20.0T8LLE.E1
 - Processo 1078/25.0T8BRG.G1
 - Processo 6856/11.4TBBRG.G1
 - Processo 1125/23.0T8CTB.C1
+- Artigo 1038.º do CC: Enumeração
+- Artigo 1041.º do CC: Mora do locatário
+- Artigo 1083.º do CC: Fundamento da resolução
+- Artigo 436.º do CC: Como e quando se efectiva a resolução
+- Artigo 1084.º do CC: Modo de operar
 - Artigo 342.º do CC: Ónus da prova
-- Artigo 1048.º do CC: Falta de pagamento da renda ou aluguer
+- Artigo 806.º do CC: Obrigações pecuniárias
+- Artigo 1087.º do CC: Desocupação
+- Processo 320/22.3T8CMN
+- Artigo 1085.º do CC: Caducidade do direito de resolução
+- Artigo 805.º do CC: Momento da constituição em mora
 
 ### Síntese para a equipa
-- Falta‑nos a comunicação da dívida (carta registada AVIR) e a verificação da prescrição; são essenciais para o título executivo.  
-- Avaliar se AECOP ou ação declarativa é o procedimento mais adequado, considerando a existência do título.  
-- Preparar cálculo de juros/indemnização e a estratégia de produção de prova conforme o ónus da prova (artigo 342.º CC).
+- A competência e a jurisdição estão corretas; a mora e a resolução do contrato são robustas.  
+- Risco principal: cumulação da indemnização de 20 % com a resolução por falta de pagamento (jurisprudência contrária).  
+- Necessária clarificação da via processual (AECOP vs ação comum) e inclusão da notificação ao fiador, se houver.  
+- Atualizar a petição com cálculos detalhados, documentos comprobatórios e argumentação jurisprudencial distinta.
 
 ---
 # VERIFICAÇÃO
-- conteudo-duvidoso: CPC 206 (Triagem e Estratégia)
 - confirmada: LOSJ 130 (Prazos e Custas)
 - confirmada: CPC 629 (Prazos e Custas)
 - confirmada: LOSJ 44 (Prazos e Custas)
 - confirmada: RCP 6 (Prazos e Custas)
 - confirmada: RCP 7 (Prazos e Custas)
-- confirmada: CC 309 (Prazos e Custas, Advogado da Parte Contrária)
-- confirmada: CC 310 (Prazos e Custas)
+- confirmada: CC 309 (Prazos e Custas)
+- confirmada: CC 310 (Prazos e Custas, Advogado da Parte Contrária, Juiz Revisor)
 - confirmada: CC 498 (Prazos e Custas)
 - confirmada: CC 482 (Prazos e Custas)
 - confirmada: CC 287 (Prazos e Custas)
 - confirmada: CC 317 (Prazos e Custas)
 - confirmada: CC 1410 (Prazos e Custas)
 - confirmada: CC 323 (Prazos e Custas)
+- confirmada: CC 1047 (Jurisprudência e Lei)
 - confirmada: 320/22.3T8CMN-A.G1 (Jurisprudência e Lei)
-- confirmada: 624/20.0T8LLE.E1 (Jurisprudência e Lei)
-- confirmada: 1078/25.0T8BRG.G1 (Jurisprudência e Lei)
+- confirmada: 624/20.0T8LLE.E1 (Jurisprudência e Lei, Redactor das Peças)
+- confirmada: 1078/25.0T8BRG.G1 (Jurisprudência e Lei, Redactor das Peças)
 - confirmada: 6856/11.4TBBRG.G1 (Jurisprudência e Lei)
 - confirmada: 1125/23.0T8CTB.C1 (Jurisprudência e Lei)
-- confirmada: CC 342 (Advogado da Parte Contrária)
-- confirmada: CC 1048 (Advogado da Parte Contrária)
-- conteudo-duvidoso: CC 312 (Advogado da Parte Contrária)
+- confirmada: CC 1038 (Redactor das Peças)
+- confirmada: CC 1041 (Redactor das Peças)
+- confirmada: CC 1083 (Redactor das Peças)
+- confirmada: CC 436 (Redactor das Peças, Advogado da Parte Contrária)
+- confirmada: CC 1084 (Redactor das Peças)
+- confirmada: CC 342 (Redactor das Peças, Prova e Inquirição, Advogado da Parte Contrária, Juiz Revisor)
+- confirmada: CC 806 (Redactor das Peças)
+- confirmada: CC 1087 (Redactor das Peças, Advogado da Parte Contrária)
+- conteudo-duvidoso: CPC 569 (Redactor das Peças)
+- confirmada: 320/22.3T8CMN (Redactor das Peças)
+- confirmada: CC 1085 (Advogado da Parte Contrária)
+- confirmada: CC 805 (Advogado da Parte Contrária)
 
 Erros JS: nenhum
 
