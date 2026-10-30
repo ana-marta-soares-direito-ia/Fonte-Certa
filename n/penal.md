@@ -1,5 +1,5 @@
-versão 2779497
-# Caso penal, modelo nuvem (1.5 min)
+versão e81b9a2
+# Caso penal, modelo nuvem (0.7 min)
 
 ## Ficha
 ```
@@ -68,24 +68,26 @@ Prazo: Requerimento de abertura de instrução. Prazo de 20 dias, contínuo, sus
 ## Jurisprudência
 Pesquisa na DGSI a partir do tema: «burla elemento astúcia erro engano prejuízo patrimonial Requerer a abertura de instrução para obter a não pronúncia, por falta de dolo.».
 ### TRG, 28/05/2026, processo 106/18.0JABRG.G1
-**Sentido provável: a confirmar pela leitura do sumário** (apreciação da IA, confirme no acórdão). O acórdão estabelece que, para a burla, é necessário que o erro da vítima decorra de uma atuação astuciosa do agente, o que não ocorreu no nosso caso.
+**Sentido provável: favorável** (apreciação da IA, confirme no acórdão). O acórdão exclui a responsabilidade penal quando o erro da vítima decorre de crenças irracionais e não de uma atuação astuciosa do agente, como no presente caso.
+> «Não se verifica o nexo de imputação objetiva entre a conduta do agente e o engano do sujeito passivo se este, previamente à interação com aquele, já acreditava em “bruxaria”, [...] sem que o agente adote [...] comportamento concreto que, de modo idóneo, provoque ou, pelo menos, acentue no burlado o convencimento...» (trecho confirmado no sumário)
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtrg.nsf/86c25a698e4e7cb7802579ec004d3832/6c2bb645693ba6fd80258e19004bb5cf?OpenDocument) · Decisão: PROCEDENTE
 ### TRC, 06/03/2024, processo 1005/21.3T9VIS.C1
-**Sentido provável: a confirmar pela leitura do sumário** (apreciação da IA, confirme no acórdão). O acórdão rejeita liminarmente a acusação por ausência de ardil, o que sustenta a inexistência de dolo no nosso caso
+**Sentido provável: favorável** (apreciação da IA, confirme no acórdão). O acórdão rejeita liminarmente a acusação por ausência dos elementos constitutivos do crime de burla, o que corrobora a argumentação de falta de dolo no nosso caso.
+> «impõe-se a rejeição liminar da acusação, por da mesma não constarem todos os elementos constitutivos do tipo legal de burla.» (trecho confirmado no sumário)
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtrc.nsf/8fe0e606d8f56b22802576c0005637dc/446d9c69b767770f80258af6003adf51?OpenDocument) · Decisão: CONFIRMADA
 ### TRG, 14/01/2025, processo 156/19.9JAVRL.G1
-**Sentido provável: a confirmar pela leitura do sumário** (apreciação da IA, confirme no acórdão). O acórdão reforça que a burla requer a criação de uma falsa percepção da realidade pelo agressor, equiparável ao que se alega no nosso caso.
+**Sentido provável: a confirmar pela leitura do sumário** (apreciação da IA, confirme no acórdão). O acórdão reforça que a burla presume a existência de astúcia e ocultação intencional de informações essenciais, requisitos que o tribunal pode considerar presentes mesmo que o arguido alegue desconhecimento da alteração do conta‑quilómetros.
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtrg.nsf/86c25a698e4e7cb7802579ec004d3832/98088ef65f37ad9280258c2e004e0c1e?OpenDocument) · Decisão: IMPROCEDENTE
 ### TRG, 12/06/2023, processo 1148/21.3T9BRG.G1
-**Sentido provável: favorável** (apreciação da IA, confirme no acórdão). o acórdão exige prova de falsas declarações ou outros meios fraudulentos e de nexo causal com enriquecimento, requisitos que não se verificam no nosso caso.
-> «Tem de se verificar um duplo nexo de causalidade : - entre as falsas declarações, falsificação ou viciação de documento fiscalmente relevante ou outro meio fraudulento, e o erro ou engano sobre factos".» (trecho confirmado no sumário)
+**Sentido provável: neutro** (apreciação da IA, confirme no acórdão). O acórdão trata de burla tributária e requisitos de nexo causal diferentes das circunstâncias do crime de burla no comércio de veículos, não afetando diretamente a instrução de não‑pronúncia.
+> «É irrelevante que, contabilisticamente falando, no deve e haver entre a Segurança Social e os arguidos, estes tenham recebido menos do que pagaram .» (trecho confirmado no sumário)
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtrg.nsf/86c25a698e4e7cb7802579ec004d3832/4c186c614b11f373802589e8005136ef?OpenDocument) · Decisão: PARCIALMENTE PROCEDENTE
 ### TRE, 17/12/2020, processo 315/15.3GCSLV.E1
-**Sentido provável: a confirmar pela leitura do sumário** (apreciação da IA, confirme no acórdão). o acórdão sublinha que, sem prova de que o arguido usou meio artificioso para enganar, não se pode caracterizar o dolo de burla, o que sustenta o pedido de não pronúncia.
+**Sentido provável: a confirmar pela leitura do sumário** (apreciação da IA, confirme no acórdão). o acórdão sublinha que a burla requer consciência e vontade de enganar, inexistindo prova de que o arguido tenha usado meio artificioso para induzir o ofendido, o que favorece a alegação de ausência de dolo.
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtre.nsf/134973db04f39bf2802579bf005f080b/a089f285880f9e4b8025865b00535022?OpenDocument)
 ### TRC, 10/07/2024, processo 885/20.4T9LRA.C1
-**Sentido provável: favorável** (apreciação da IA, confirme no acórdão). o acórdão reforça que o crime de burla exige a existência de meios fraudulentos e dolo, inexistentes no nosso caso.
-> «São elementos constitutivos do crime o uso de erro ou engano sobre factos, criado por meios fraudulentos, como falsas declarações, falsificação ou viciação de documento fiscalmente relevante…» (trecho confirmado no sumário)
+**Sentido provável: neutro** (apreciação da IA, confirme no acórdão). o acórdão trata da burla tributária à Segurança Social, não abordando a culpa ou dolo na venda do automóvel usado.
+> «O crime de burla tributária à Segurança Social é um crime de execução vinculada, uma vez que o seu cometimento tem de se verificar «por meio de falsas declarações, falsificação ou viciação de documento fiscalmente relevante ou outros meios fraudulentos».» (trecho confirmado no sumário)
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtrc.nsf/8fe0e606d8f56b22802576c0005637dc/13ecff7f9420f36280258b9b0039f890?OpenDocument) · Decisão: NEGADO PROVIMENTO AO RECURSO
 ## Legislação aplicável (texto consolidado)
 - **Artigo 13.º do CP** (Dolo e negligência): Só é punível o facto praticado com dolo ou, nos casos especialmente previstos na lei, com negligência.
@@ -111,7 +113,7 @@ Pesquisa na DGSI a partir do tema: «burla elemento astúcia erro engano prejuí
 - **Artigo 398.º-B do CPP** (Medidas de garantia patrimonial): Para garantia da perda dos instrumentos, produtos e vantagens de facto ilícito típico ou do pagamento do respetivo valor, são correspondentemente aplicáveis à pessoa afetada a caução económica e o arresto preventivo, nos termos do disposto nos artigos 227.º e 228.º
 - **Artigo 139.º do CPP** (Imunidades, prerrogativas e medidas especiais de protecção): 1 - Têm aplicação em processo penal todas as imunidades e prerrogativas estabelecidas na lei quanto ao dever de testemunhar e ao modo e local de prestação dos depoimentos. 2 - A protecção das testemunhas e de outros intervenientes no processo contra formas de ameaça, pressão ou intimidação, nomeadamente nos casos de [...]
 ### Síntese para a equipa
-6 acórdãos apreciados: 2 favoráveis, 0 desfavoráveis. Principal favorável: TRG de 12/06/2023, processo 1148/21.3T9BRG.G1.
+6 acórdãos apreciados: 2 favoráveis, 0 desfavoráveis. Principal favorável: TRG de 28/05/2026, processo 106/18.0JABRG.G1.
 
 ---
 # AGENTE: Redactor das Peças
@@ -144,23 +146,25 @@ o que faz nos termos e com os fundamentos seguintes:
 
 ## Do direito
 
-**5.º Do direito**
+**5.º Do direito**
 
-5.1. Nos termos do artigo 13.º do Código Penal, só é punível o facto praticado com dolo ou, nos casos expressamente previstos na lei, com negligência. A presente acusação baseia‑se no crime de burla, previsto no artigo 217.º do Código Penal, cuja tipicidade exige a presença de dolo, consubstanciado na intenção de obter enriquecimento ilegítimo mediante erro ou engano sobre factos que o agente astuciosamente provocou.
+5.1 A inexistência de dolo no comportamento do arguido é matéria de direito que determina a instauração da fase de instrução, nos termos do artigo 13.º do Código Penal, o qual estabelece que “só é punível o facto praticado com dolo ou, nos casos especialmente previstos na lei, com negligência”.  
 
-5.2. O dolo, porém, só se configura quando o agente “representa um facto que preenche um tipo de crime, actuando com intenção de o realizar” (artigo 14.º, n.º 1, CP) ou “representa a realização de um facto que preenche um tipo de crime como consequência necessária da sua conduta” (artigo 14.º, n.º 2, CP). No caso em apreço, o arguido alegou ter adquirido o veículo de um stand que lhe comunicou, de boa‑fé, a quilometragem de 120 000 km, não tendo tido conhecimento de qualquer manipulação do conta‑quilómetros. Assim, não há prova de que o arguido tenha conscientemente representado um facto falso ao ofendido, nem que tenha actuado com a intenção de obter enriquecimento ilegítimo através de tal erro.
+5.2 Conforme dispõe o artigo 16.º do Código Penal, “o erro sobre elementos de facto ou de direito de um tipo de crime… exclui o dolo”. O arguido, ao vender o automóvel, acreditou de boa‑fé na informação prestada pelo stand acerca da quilometragem (120 000 km), não tendo conhecimento da alteração posterior do conta‑quilómetros. Tal circunstância constitui erro sobre as circunstâncias de facto que exclui a imputação de dolo.  
 
-5.3. O artigo 16.º do Código Penal exclui o dolo quando o agente incide em erro sobre elementos de facto que constituem o tipo penal, “abarcando o erro sobre um estado de coisas que, a existir, excluiria a ilicitude do facto ou a culpa do agente”. O arguido incorreu num erro invencível sobre a quilometragem do veículo, erro esse que se verifica nos documentos que lhe foram entregues pelo stand (cfr. Doc. 2) e que lhe foi comunicado pelo próprio vendedor. Este erro, alheio à sua vontade, retira o elemento subjetivo do dolo exigido para a tipificação da burla.
+5.3 O crime de burla, previsto no artigo 217.º do Código Penal, requer, além da intenção de obter enriquecimento ilícito, a “provocação astuciosa do erro” do ofendido. A jurisprudência constante na base de dados da DGSI apoia a tese de que, na ausência de dolo, a acusação deve ser rejeitada:  
 
-5.4. A jurisprudência aplicável confirma a necessidade de prova de um duplo nexo de causalidade entre as falsas declarações (ou outro meio fraudulento) e o erro ou engano sobre os factos, bem como a exigência de que o agente tenha criado ou mantido o erro com intenção fraudulenta. Nos autos do **TRG, 12/06/2023, processo 1148/21.3T9BRG.G1** (favorável), o tribunal determinou que “deve existir um duplo nexo de causalidade entre as falsas declarações, falsificação ou viciação de documento fiscalmente relevante ou outro meio fraudulento, e o erro ou engano sobre factos”. De forma análoga, o **TRC, 10/07/2024, processo 885/20.4T9LRA.C1** (favorável) reconheceu que “o uso de erro ou engano sobre factos, criado por meios fraudulentos, como falsas declarações, é elemento constitutivo do crime”. No caso em apreço, inexiste prova de que o arguido tenha utilizado meio fraudulento; pelo contrário, ele recebeu informações enganosas de terceiros, não podendo ser considerado autor do erro.
+* TRC, 06/03/2024, processo 1005/21.3T9VIS.C1 – “impõe‑se a rejeição liminar da acusação, por não constarem todos os elementos constitutivos do tipo legal de burla”;  
 
-5.5. Em consequência, nos termos do artigo 16.º, 1.º, CP, o erro sobre a quilometragem exclui o dolo da conduta do arguido, o que por extensão elimina a punibilidade pelo crime de burla (artigo 217.º, CP). Não subsiste, pois, fundamento jurídico para a pronúncia ou para a continuação da instrução, devendo ser concedida a **não pronúncia** por falta de dolo.
+* TRG, 28/05/2026, processo 106/18.0JABRG.G1 – “não se verifica o nexo de imputação objetiva entre a conduta do agente e o engano do sujeito passivo se este, previamente à interação com aquele, já acreditava… sem que o agente adote comportamento concreto que… provoque… o convencimento do burlado”.
 
-5.6. Cumpre ainda observar o dever de gestão processual introduzido pela Lei n.º 34/2026, consagrado no artigo 311.º‑B do Código de Processo Penal, que impõe ao juiz a obrigação de assegurar a eficiência e a celeridade do processo, evitando atos dilatórios. A manutenção da instrução, frente à ausência de elemento subjetivo do delito, configuraria ato dilatório, suscetível de imposição de multa nos termos da referida lei.
+5.4 Ademais, nos termos do artigo 286.º, n.º 1, do Código de Processo Penal, a instrução tem por fim a comprovação judicial da decisão de deduzir acusação ou de arquivar o inquérito. Na situação em apreço carecem‑se, por inexistência de dolo, dos requisitos indispensáveis à pronúncia, devendo, pois, ser aberta a instrução para produção de prova que confirme a ausência de intenção fraudulenta.  
 
-**Conclusão**
+5.5 O pedido de abertura de instrução encontra suporte ainda no artigo 311‑A, n.º 1, do CPP, que autoriza o juiz a ordenar a notificação do arguido para contestar, indicando os factos e a qualificação jurídica que, no caso, deverá ser revista à luz do erro material invocado.  
 
-Pelo exposto, requer‑se a abertura de instrução com a finalidade de obter decisão de **não pronúncia**, fundamentada na inexistência de dolo, nos termos dos artigos 13.º, 16.º e 217.º do Código Penal, e amparada pela jurisprudência citada (TRG 12/06/2023, processo 1148/21.3T9BRG.G1; TRC 10/07/2024, processo 885/20.4T9LRA.C1).  
+5.6 Por derradeiro, tendo em conta o princípio da presunção de inocência e o preceito *in dubio pro reo*, a falta de dolo – reconhecida pelo erro sobre as circunstâncias de facto (artigo 16.º CP) – impede a pronúncia e impõe a prática da instrução para averiguação dos factos, nos termos do artigo 286.º CPp.  
+
+**Conclusão** – Requer‑se, portanto, a abertura de instrução para a prática do dever de prova, com vista à demonstração da inexistência de dolo e da consequente impossibilidade de pronúncia nos termos do artigo 217.º CP, devendo o juiz, nos termos do artigo 311‑A CPp., ordenar a notificação do arguido e iniciar o debate instrutório.  
 
 ---
 
@@ -168,13 +172,11 @@ Pelo exposto, requer‑se a abertura de instrução com a finalidade de obter de
 
 Nestes termos e nos melhores de direito, requer‑se a V. Ex.ª:
 
-a) que seja declarada aberta a instrução, praticadas todas as diligências necessárias ao esclarecimento dos factos e, ao termo, proferido despacho de **não pronúncia** do arguido, nos termos do artigo 308.º do CPP;
+a) Que seja declarada aberta a instrução, realizadas as diligências necessárias à comprovação da inexistência de dolo e, ao termo, proferido despacho de não pronúncia nos termos do artigo 308.º do CPP;
 
-b) que seja ordenada, no âmbito da presente instrução, a realização de prova pericial ao automóvel objeto da negociação, a fim de constatar a quilometragem real e a eventual alteração do conta‑quilómetros, devendo a perícia ser concluída no prazo máximo de **15 dias** a contar da sua designação, nos termos do artigo 273.º do CPP;
+b) Que sejam juntados aos autos, a fim de demonstrar a boa‑fé do arguido, os documentos seguintes: (i) o contrato de compra‑venda celebrado entre o arguido e o stand onde adquiriu o veículo, com a indicação da quilometragem declarada (120 000 km); (ii) a fatura de pagamento relativa a essa compra; (iii) o relatório de inspeção ou avaliação técnica, se existente, emitido pelo stand no momento da compra;
 
-c) que seja citada a pessoa jurídica ou natural que, na qualidade de stand comercial, vendeu o veículo ao arguido, para prestar depoimento esclarecedor acerca da informação prestada sobre a quilometragem (120 000 km) e da eventual existência de documentos que atestem a sua boa‑fé, nos termos do artigo 261.º do CPP;
-
-d) que, caso se verifique, durante o curso da instrução, qualquer dilação injustificada das diligências requeridas, seja aplicada a sanção pecuniária prevista na Lei n.º 34/2026, artigo 311.º‑B, no valor de **1 UC (102,00 €)** por dia de atraso, até à regularização da situação.
+c) Que sejam ordenadas as seguintes oitivas de testemunhas, indispensáveis à demonstração do estado de conhecimento do arguido: (i) o representante comercial do stand que informou o arguido sobre a quilometragem do veículo; (ii) o próprio stand, na qualidade de pessoa coletiva, para confirmar a ausência de qualquer alteração posterior do conta‑quilómetros que não tenha sido comunicada ao arguido.
 
 **Prova:** testemunhal (rol de testemunhas a indicar, com a identificação e os factos a que cada uma depõe) e documental (documentos juntos).
 
@@ -186,55 +188,47 @@ O Advogado,
 
 ### Síntese para a equipa
 
-Pedido de abertura de instrução e não pronúncia; solicitação de perícia ao veículo; intimação do stand vendedor; requerimento de multa por ato dilatório, conforme a Lei 34/2026.
+Solicitamos a abertura de instrução e o despacho de não pronúncia, bem como a produção de documentos de compra e a oitiva de representantes do stand para comprovar a boa‑fé e a inexistência de dolo do arguido.
 
 ---
 # AGENTE: Juiz Revisor
 
 ## Questões a decidir  
 
-1. Existe fundamento jurídico para o requerimento de abertura de instrução ao abrigo do artigo 286.º do CPP, com vista a obter a não pronúncia por ausência de dolo?  
-2. O arguido pode apoiar o seu pedido invocando o artigo 16.º do CP (erro sobre os factos) como causa excludente do dolo?  
-3. É imprescindível requerer a prática de perícia ao veículo e a intimação do stand vendedor para comprovar a ausência de culpa do arguido?  
-4. O tribunal pode aplicar a multa por ato dilatório prevista na Lei n.º 34/2026 (artigo 311.º‑B) caso o Ministério Público não responda ao requerimento dentro do prazo?  
-
----
+1. Admitir o requerimento de abertura de instrução apresentado pelo arguido.  
+2. Decretar a não‑pronúncia do arguido, por falta de dolo.  
+3. Autorizar a produção de documentos relativos à compra do automóvel (factura/nota de compra do stand).  
+4. Autorizar a oitiva de representantes do stand onde o arguido adquiriu o veículo, a fim de comprovar a sua boa‑fé.  
 
 ## Avaliação de cada pedido ou pretensão  
 
-| Nº | Pedido / Pretensão | Probabilidade de êxito | Razão resumida |
-|---|-------------------|------------------------|----------------|
-| 1 | Abertura de instrução para decidir pela não pronúncia | **Alta** | O artigo 286.º do CPP autoriza a instrução quando ainda não está provada a existência de crime; a falta de dolo revestido pelo erro sobre a quilometragem pode conduzir à não pronúncia. |
-| 2 | Invocação do artigo 16.º do CP (erro sobre as circunstâncias) | **Alta** | O erro quanto ao número real de quilómetros foi verificado como proveniente de terceiro (stand); tal erro exclui o dolo, nos termos do n.º 1 do art.º 16.º. |
-| 3 | Pedido de perícia ao veículo e intimação do stand | **Média** | A perícia é instrumento probatório relevante, porém não indispensável se já existir prova documental (ex.: faturas, documentação do stand). O tribunal pode dispensar a intimação se considerar que o erro é incontroverso. |
-| 4 | Aplicação de multa por ato dilatório ao MP (Lei 34/2026, art.º 311.º‑B) | **Baixa** | A lei exige que o MP responda ao requerimento no prazo legal; porém, a jurisprudência ainda não consolida a aplicação automática da multa; o tribunal pode conceder prazo suplementar antes de impor sanção. |
-
----
+| n.º | Pedido | Probabilidade de êxito | Fundamentação resumida |
+|---|--------|------------------------|-----------------------|
+| 1 | Abertura de instrução | **Média** | O prazo de 20 dias (até 4 nov 2026) foi respeitado; o requerimento cumpre o artigo 287.º do CPP, mas o juiz pode dispensar a instrução quando a acusação for fraca (artigo 286.º, n.º 3). |
+| 2 | Não‑pronúncia por falta de dolo | **Baixa** | O crime de burla (artigo 217.º CP) exige dolo (artigo 14.º CP). O arguido alega erro sobre circunstâncias (artigo 16.º CP) – pode afastar o dolo, mas a jurisprudência (TRC 06/03/2024) requer a existência de todos os elementos do tipo. A defesa tem que provar a total inexistência de intenção de enganar. |
+| 3 | Produção de documentos de compra | **Alta** | O juiz tem competência para ordenar a prática de atos de instrução (artigo 286.º, n.º 1 CPP); a produção dos documentos é medida de prova lícita e relevante. |
+| 4 | Oitiva de representantes do stand | **Alta** | Testemunho de terceiros que podem atestar a ausência de culpa do arguido enquadra‑se nas provas admissíveis (artigo 286.º CPP) e é essencial para demonstrar a boa‑fé. |
 
 ## Riscos e pontos fracos  
 
-1. **Onus da prova** – O artigo 342.º do CC (onús da prova) impõe ao arguidor o ônus de provar o erro; a equipa deve demonstrar de forma robusta que o arguido não tinha conhecimento da alteração do conta‑quilómetros e que tal alteração não decorreu de sua vontade.  
-2. **Dolo eventual** – O tribunal pode entender que, ainda desconhecendo a alteração, o arguido agiu com dolo eventual ao assumir a responsabilidade de vender com a quilometragem declarada, contrariando o art.º 14.º do CP.  
-3. **Precedente insuficiente** – Os acórdãos citados (TRG 12/06/2023; TRC 10/07/2024) referem‑se a “duplo nexo de causalidade” e “uso de erro criado por meios fraudulentos”. Se o juiz entender que não houve fraude (o arguido não manipulou o conta‑quilómetros), a jurisprudência pode ser desfavorável à nossa tese.  
-4. **Prazo de resposta do MP** – Caso o MP apresente contestação dentro do prazo de 20 dias, o pedido de multa dilatória será inviável e a instrução poderá sofrer atrasos.  
-
----
+* **Dúvida sobre a existência de dolo** – o Ministério Público pode argumentar que o arguido, ao afirmar que o quilómetro era 120 000, tinha conhecimento de que a informação era errónea ou, ainda, que devia averiguar a veracidade antes de concluir a venda (artigo 13.º e 14.º CP).  
+* **Presunção de inocência e in dubio pro reo** – ainda que o arguido alegue erro, o tribunal pode considerar que a mera alegação de boa‑fé não elimina o ónus da prova (artigo 342.º CC, aplicado subsidiariamente).  
+* **Eventual incumprimento do prazo de 20 dias** – se a data de protocolo do requerimento não ficar comprovada antes de 4 nov 2026, o requerimento será considerado precluso.  
+* **Possível alegação de que a instrução não se justifica** – nos termos do artigo 286.º, n.º 3 CPP, o juiz pode dispensar a instrução se entender que a acusação é insuficiente para pronúncia.  
 
 ## O que corrigir antes de avançar  
 
-1. **Fundamentar o erro** – Anexar documentos que comprovem a origem da informação do stand (ex.: nota de venda do stand, correspondência, certificado de quilometragem emitido pelo stand) e, se possível, declaração escrita do stand reconhecendo a quilometragem inicialmente indicada.  
-2. **Jurisprudência específica** – Incluir referência a acórdão que reconheça a exclusão do dolo quando o erro decorre de terceiro alheio ao arguido (ex.: caso de “erro de terceiro” no Tribunal da Relação).  
-3. **Argumentação sobre dolo eventual** – Contrapôr o possível entendimento de dolo eventual ao demonstrar, com base no art.º 13.º e 14.º do CP, que o arguido não assumiu risco consciente de enganar, por desconhecer a alteração.  
-4. **Reforçar pedido de perícia** – Justificar a necessidade da perícia ao veículo (verificação de manipulação do conta‑quilómetros) e incluir, no requerimento, a indicação de perito qualificado e a urgência da medida, a fim de evitar dilação.  
-5. **Previsão de pedido de multa** – Redigir cláusula solicitando que, caso o MP não responda até ao fim do prazo de 20 dias, seja aplicada a multa prevista no art.º 311.º‑B da Lei 34/2026, mas admitir a possibilidade de concessão de prazo suplementar, para evitar eventual nulidade.  
+1. **Anexar comprovativo de data de protocolo** do requerimento de abertura de instrução, para afastar qualquer alegação de preclusão.  
+2. **Incluir na petição de não‑pronúncia** a invocação do artigo 16.º, n.º 1 CP (erro sobre circunstâncias) e juntar a jurisprudência do TRC 06/03/2024, explicitando por que falta algum elemento do tipo legal de burla.  
+3. **Demonstrar a inexistência de culpa** com prova documental: facturas do stand, documentos que indiquem a quilometragem declarada pelo próprio stand, e eventual relatório técnico do conta‑quilómetros.  
+4. **Prever pedido de oitiva de testemunhas** com indicação precisa dos nomes, cargos e contactos dos representantes do stand, bem como o fundamento legal (artigo 286.º CPP).  
+5. **Argumentar a necessidade da instrução** citando o artigo 286.º, n.º 1 CPP, e a jurisprudência favorável (TRG 28/05/2026) para reforçar a existência de nexo causal entre a conduta do arguido e o prejuízo alegado.  
 
 ---
 
 ## Confirmação das citações
 Cada artigo foi procurado no texto consolidado do Diário da República e cada processo na DGSI.
-### Existem, mas o conteúdo atribuído não corresponde: confirmar (1)
-- Artigo 286.º do CPP: O artigo existe (Finalidade e âmbito da instrução), mas o que o texto lhe atribui não corresponde ao seu conteúdo. Confirme antes de usar.
-### Confirmadas (23)
+### Confirmadas (21)
 - Artigo 130.º da LOSJ: Competência
 - Artigo 121.º da LOSJ: Juízes de instrução criminal
 - Artigo 44.º da LOSJ: Alçadas
@@ -252,17 +246,17 @@ Cada artigo foi procurado no texto consolidado do Diário da República e cada p
 - Processo 315/15.3GCSLV.E1
 - Processo 885/20.4T9LRA.C1
 - Artigo 13.º do CP: Dolo e negligência
-- Artigo 217.º do CP: Burla
 - Artigo 16.º do CP: Erro sobre as circunstâncias do facto
+- Artigo 217.º do CP: Burla
+- Artigo 286.º do CPP: Finalidade e âmbito da instrução
 - Artigo 308.º do CPP: Despacho de pronúncia ou de não pronúncia
-- Artigo 273.º do CPP: Mandado de comparência, notificação e detenção
-- Artigo 261.º do CPP: Libertação imediata do detido
-- Artigo 342.º do CC: Ónus da prova
 
 ### Síntese para a equipa
-- A abertura de instrução e a exclusão do dolo via art.º 16.º são plausíveis, mas precisam de prova documental robusta do erro proveniente do stand.  
-- Reforce a argumentação contra dolo eventual e inclua jurisprudência específica sobre erro de terceiro.  
-- Justifique a perícia e prepare a eventualidade de multa por ato dilatório, mas esteja pronto a aceitar prazo suplementar.
+1. O requerimento está dentro do prazo, mas confirme a data de protocolo.  
+2. Reforce a tese de erro (artigo 16.º CP) e a falta de dolo, usando a jurisprudência citada.  
+3. Anexe documentação do stand e solicite a oitiva de seus representantes.  
+4. Argumente a necessidade de instrução com base no artigo 286.º CPP e na jurisprudência favorável.  
+5. Prepare‑se para contrapor a eventual alegação de dolo por parte do MP.
 
 ---
 # VERIFICAÇÃO
@@ -270,26 +264,23 @@ Cada artigo foi procurado no texto consolidado do Diário da República e cada p
 - confirmada: LOSJ 121 (Prazos e Custas)
 - confirmada: LOSJ 44 (Prazos e Custas)
 - confirmada: RCP 8 (Prazos e Custas)
-- confirmada: CPP 287 (Prazos e Custas)
+- confirmada: CPP 287 (Prazos e Custas, Juiz Revisor)
 - confirmada: CPC 249 (Prazos e Custas)
 - confirmada: CPP 107.-A (Prazos e Custas)
 - confirmada: CP 115 (Prazos e Custas)
 - confirmada: CP 118 (Prazos e Custas)
 - confirmada: CC 323 (Prazos e Custas)
-- confirmada: 106/18.0JABRG.G1 (Jurisprudência e Lei)
-- confirmada: 1005/21.3T9VIS.C1 (Jurisprudência e Lei)
+- confirmada: 106/18.0JABRG.G1 (Jurisprudência e Lei, Redactor das Peças)
+- confirmada: 1005/21.3T9VIS.C1 (Jurisprudência e Lei, Redactor das Peças)
 - confirmada: 156/19.9JAVRL.G1 (Jurisprudência e Lei)
-- confirmada: 1148/21.3T9BRG.G1 (Jurisprudência e Lei, Redactor das Peças)
+- confirmada: 1148/21.3T9BRG.G1 (Jurisprudência e Lei)
 - confirmada: 315/15.3GCSLV.E1 (Jurisprudência e Lei)
-- confirmada: 885/20.4T9LRA.C1 (Jurisprudência e Lei, Redactor das Peças)
+- confirmada: 885/20.4T9LRA.C1 (Jurisprudência e Lei)
 - confirmada: CP 13 (Redactor das Peças)
+- confirmada: CP 16 (Redactor das Peças)
 - confirmada: CP 217 (Redactor das Peças)
-- confirmada: CP 16 (Redactor das Peças, Juiz Revisor)
+- confirmada: CPP 286 (Redactor das Peças)
 - confirmada: CPP 308 (Redactor das Peças)
-- confirmada: CPP 273 (Redactor das Peças)
-- confirmada: CPP 261 (Redactor das Peças)
-- conteudo-duvidoso: CPP 286 (Juiz Revisor)
-- confirmada: CC 342 (Juiz Revisor)
 
 Erros JS: nenhum
 
