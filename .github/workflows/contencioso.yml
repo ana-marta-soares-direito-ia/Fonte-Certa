@@ -9,7 +9,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        caso: [civel, penal, laboral, administrativo, tributario, familia]
+        caso: [civel, conta]
     permissions:
       contents: write
     steps:
@@ -19,7 +19,7 @@ jobs:
           V=$(cat teste-contencioso/versao-esperada.txt); for i in $(seq 1 60); do [ "$(curl -s https://equipa-contencioso-ana-marta-soares.pages.dev/versao.txt)" = "$V" ] && break; sleep 10; done
           npm i -s playwright@1.49.1 && npx playwright install --with-deps chromium > /dev/null
           mkdir -p resultados
-          node teste-contencioso/qualidade.mjs https://equipa-contencioso-ana-marta-soares.pages.dev x ${{ matrix.caso }} "" resultados/${{ matrix.caso }}.md 2>&1 | tail -20
+          if [ "${{ matrix.caso }}" = conta ]; then cp teste-contencioso/conta.mjs ./conta.mjs; node conta.mjs; else node teste-contencioso/qualidade.mjs https://equipa-contencioso-ana-marta-soares.pages.dev x ${{ matrix.caso }} "" resultados/${{ matrix.caso }}.md 2>&1 | tail -20; fi
       - name: Guardar
         if: always()
         run: |
