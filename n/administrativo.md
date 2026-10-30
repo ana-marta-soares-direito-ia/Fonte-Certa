@@ -1,5 +1,5 @@
-versão 2779497
-# Caso administrativo, modelo nuvem (1.3 min)
+versão e81b9a2
+# Caso administrativo, modelo nuvem (0.6 min)
 
 ## Ficha
 ```
@@ -24,53 +24,58 @@ Prazo: Contencioso pré-contratualTermo do prazo: 9 de novembro de 2026 (segunda
 # AGENTE: Triagem e Estratégia
 
 **## Qualificação do litígio**  
-Trata‑se de contencioso pré‑contratual, nos termos do artigo 100.º do CPTA, porque a empresa pretende impugnar a decisão de exclusão da sua proposta por “preço anormalmente baixo” e a subsequente adjudicação a outro concorrente. A questão central será se o ato de exclusão (e, por extensão, a decisão de adjudicação) é anulável por violação de normas de forma, de fundamentação e de direito à audiência prévia, nos termos dos artigos 58.º, 70.º e 71.º do CCP e 152.º do CPA.
+Trata‑se de contencioso pré‑contratual (artigo 100.º do CPTA) – impugnação da exclusão da proposta por “preço anormalmente baixo” e da posterior adjudicação a terceiro, atos que produzem efeitos jurídicos externos e encerram o procedimento. A questão central é se o ato de exclusão e a decisão de adjudicação são anuláveis ou nulos por violação dos princípios de fundamentação, do direito de audiência prévia e da obrigatoriedade de solicitação de esclarecimentos sobre o preço (artigos 70.º e 71.º do CCP, artigo 152.º do CPA).
 
 **## Meio processual e tribunal**  
-O meio adequado é a ação administrativa de impugnação de ato anulável, prevista no artigo 50.º do CPTA, a impulsionar perante o **Tribunal Administrativo de Círculo** (artigo 44.º do ETAF), tal como indicado pelo Motor de Regras. O valor da causa (250 000 €) e a natureza do acto enquadram‑se na competência desse tribunal.
+O meio adequado é a **ação administrativa de impugnação** nos termos do artigo 50.º do CPTA, perante o **Tribunal Administrativo de Círculo** (artigo 44.º do ETAF – confirmado pelo Motor de Regras). O procedimento enquadra‑se como contencioso pré‑contratual (artigo 101.º do CPTA) e, por envolver valor de 250 000 €, tem alçada para recurso ao Tribunal Central Administrativo.
 
 **## Pressupostos e excepções a verificar**  
 
-| Pressuposto / Exceção | Verificação necessária |
-|-----------------------|------------------------|
-| **Legitimidade ativa** (artigo 55.º CPTA) – interesse direto e pessoal por ter sido excluída da contratação. | Confirmar que a empresa não tem outra pessoa jurídica a representar o seu interesse. |
-| **Interesse em agir** – dano patrimonial concreto (perda da oportunidade de celebrar contrato de 250 000 €). | Avaliar se existe risco de perda definitiva do negócio (prescrição da dívida). |
-| **Competência** – tribunal administrativo de círculo (artigo 44.º ETAF). | Verificar se o município ou outra entidade adjudicante tem foro exclusivo (ex.: tribunal de conta). |
-| **Prazo** – contencioso pré‑contratual, 1 mês (artigo 101.º CPTA) – termo a 9 nov 2026. | Certificar‑se de que a ação será proposta antes desse termo. |
-| **Prescrição / caducidade** – inexistente (ato anulável) mas prazo de impugnação de 3 meses (artigo 58.º, n.º 1 b) não aplicável por ser prazo próprio de contencioso pré‑contratual. | Confirmar que o ato não se tornou definitivo por outra decisão judicial. |
-| **Caso julgado / litispendência** – verificar se já existe recurso administrativo ou ação judicial sobre o mesmo acto. | Necessário averiguar eventual recurso hierárquico apresentado pela entidade adjudicante. |
-| **Exceções de prazo (justo impedimento, erro induzido)** – possibilidade de alegar que a empresa não recebeu o relatório preliminar ou o prazo de audiência. | Recolher a sequência cronológica dos documentos enviados pela entidade adjudicante. |
+| Presunção / Exceção | Verificação necessária |
+|---------------------|------------------------|
+| **Legitimidade ativa** (artigo 55.º do CPTA) – interesse direto e pessoal por ter sido excluído. | Confirmar que a empresa foi efetivamente a concorrente lesada. |
+| **Interesse em agir** – existência de lesão patrimonial (exclusão da proposta) e risco de perda do contrato. | Evidenciar o valor da proposta (250 000 €) e a impossibilidade de participação futura. |
+| **Competência territorial** – tribunal administrativo do círculo onde se situa o município adjudicante. | Identificar o órgão competente da entidade adjudicante. |
+| **Prazo** – contencioso pré‑contratual de 1 mês (artigo 101.º do CPTA) contado a partir da notificação da adjudicação (9 out 2026). Termina‑se a 9 nov 2026 (segunda‑feira). | Confirmar data de notificação e contar prazo exatamente. |
+| **Prescrição / caducidade** – não aplicáveis porque o ato é anulável (artigo 58.º, n.º 1‑b) e o prazo está dentro do termo. | Verificar ausência de interrupção ou suspensão de prazo. |
+| **Caso julgado / litispendência** – inexistente. | Certificar que não há ação anterior sobre o mesmo ato. |
+| **Exigibilidade de audiência prévia** (artigo 121.º do CPA) – a entidade deveria ter solicitado esclarecimentos antes de excluir a proposta (artigo 71.º, n.º 3 do CCP). | Obter cópia do relatório preliminar e do comunicado de exclusão. |
+| **Fundamentação** – o ato deve estar fundado (artigo 152.º do CPA); a exclusão sem pedido de esclarecimentos pode ser considerada falta de motivação suficiente. | Analisar a decisão de exclusão. |
+| **Vício de forma ou desvio de poder** (artigo 161.º do CPA) – preço anormalmente baixo sem processo de esclarecimento pode caracterizar desvio de poder. | Avaliar se o critério foi aplicado de forma correta. |
 
 **## Estratégia**  
 
-1. **Ação de impugnação direta do ato de exclusão (e, subsidiariamente, da adjudicação)**  
-   - *Vantagem*: Busca a anulação imediata do acto, possibilitando a re‑avaliação da proposta ou a adjudicação à própria empresa.  
-   - *Risco*: Necessidade de provar a nulidade ou anulabilidade (incumprimento do dever de fundamentação – artigo 152.º CPA; ausência de audiência prévia – artigo 121.º CPA; preço anormal sem pedido de esclarecimentos – artigo 71.º CCP).  
+1. **Ação de impugnação simples** – pedido de declaração de nulidade da exclusão e da decisão de adjudicação, com fundamento na falta de audiência prévia e na ausência de fundamentação adequada (artigos 152.º/ 153.º CPA, artigo 71.º CCP).  
+   *Vantagem*: procedimento breve (contencioso pré‑contratual) e possibilidade de cessar imediatamente a adjudicação.  
+   *Risco*: o tribunal pode considerar o ato apenas anulável e requerer a observância dos prazos de esclarecimento, não anulando de imediato.
 
-2. **Pedido de providência cautelar de suspensão da eficácia do ato de adjudicação**  
-   - *Vantagem*: Em caso de urgência (artigo 36.º CPTA) pode suspender o contrato antes de a empresa conseguir efetivar a impugnação principal, evitando prejuízos irreparáveis.  
-   - *Risco*: Necessidade de demonstrar fundado receio de dano grave e irreparável (artigo 120.º CPTA) e de garantir a caução exigida (artigo 50.º CPTA).  
+2. **Ação combinada (impugnação + pedido de providência cautelar de suspensão)** – além da impugnação, solicitar a suspensão da eficácia da adjudicação (artigo 112.º CPTA) para impedir a celebração do contrato enquanto o mérito é apreciado.  
+   *Vantagem*: preserva o objeto do contrato (evita que o município já execute atos de contratação).  
+   *Risco*: maior custo (taxa de justiça + 3 UC cautelar) e necessidade de demonstrar “fundado receio” (artigo 120.º CPTA).
 
-3. **Impugnação do documento conformador (caderno de encargos) por violação dos critérios de preço anormalmente baixo**  
-   - *Vantagem*: Ataca o fundamento legal da exclusão, podendo levar à declaração de nulidade do próprio critério e, por consequência, à anulação da exclusão.  
-   - *Risco*: Processo autónomo que poderá prolongar o litígio e gerar custos adicionais; depende de prova documental robusta sobre a definição e aplicação do critério.  
+3. **Recurso administrativo pré‑processual** – interpor recurso contra a decisão de exclusão perante a própria entidade adjudicante (exercício do direito de impugnação interno, artigo 163.º CPTA) dentro do mesmo prazo, antes de aceder ao tribunal.  
+   *Vantagem*: possibilidade de solução administrativa mais rápida e sem custos judiciais.  
+   *Risco*: a Administração pode manter a decisão; o recurso interno tem efeito suspensivo limitado, podendo ser necessário recorrer ao tribunal posteriormente.
 
-**Recomendação** – Optar pela **opção 1** (ação de impugnação direta) aliada a um **pedido cautelar de suspensão** (opção 2) de forma incidental, para garantir a eficácia da decisão final e evitar a celebração do contrato com o concorrente enquanto o litígio está em curso.
+**Recomendação**: iniciar **opção 2** (ação de impugnação + providência cautelar) para garantir a suspensão da adjudicação enquanto se debate a validade do ato, mitigando o risco de prejuízo económico imediato. Caso a Administração opte por resolver administrativamente, a opção 3 pode ser considerada como medida simultânea.
 
 **## Informação em falta**  
 
-- Cópia integral do convite, programa do concurso e caderno de encargos.  
-- Relatório preliminar e final emitidos pelo júri, bem como a comunicação (data e conteúdo) do relatório preliminar ao concorrente.  
-- Prova de que a entidade adjudicante não solicitou esclarecimentos sobre o preço (e, se o fez, cópia da solicitação e resposta ou ausência desta).  
-- Existência de eventual recurso administrativo prévio (por parte da entidade adjudicante) ou recurso interposto pela empresa.  
-- Dados sobre eventuais garantias ou cauções já prestadas pela empresa no âmbito do concurso.  
+1. Cópia integral da notificação de exclusão e da decisão de adjudicação (data exata, conteúdo da fundamentação).  
+2. Existência (ou não) de relatório preliminar e de comunicação de audiência prévia ao concorrente.  
+3. Se foram efetuados pedidos de esclarecimentos ao concorrente antes da exclusão (conforme artigo 71.º, n.º 3 CCP).  
+4. Dados sobre eventual pagamento de taxa de inscrição ou garantias prestadas pela empresa.  
+5. Se a empresa já interpôs algum recurso interno ou pedido de revisão junto da entidade adjudicante.  
+6. Identificação exacta do órgão competente (júri, conselho ou outra entidade) que proferiu a decisão.  
 
 ---  
+
 ### Síntese para a equipa  
-- Litígio de contencioso pré‑contratual; ação de impugnação no Tribunal Administrativo de Círculo, prazo até 9 nov 2026.  
-- Verificar legitimidade, prazo, ausência de recurso prévio e documentos do procedimento.  
-- Estratégia: ação de impugnação com pedido cautelar de suspensão; alternativa de impugnação do caderno de encargos.  
-- Obter documentação completa do concurso e confirmar a inexistência de comunicação de esclarecimentos.
+- Litígio de contencioso pré‑contratual contra exclusão por preço anormalmente baixo (valor 250 k€).  
+- Ação administrativa de impugnação no Tribunal Administrativo de Círculo; prazo até 9 nov 2026.  
+- Verificar legitimidade, fundamentação, audiência prévia e existência de recurso interno.  
+- Estratégia recomendada: ação de impugnação com providência cautelar de suspensão.  
+- Necessário obter documentos da decisão e comprovativos de eventuais procedimentos de esclarecimento.
 
 ---
 # AGENTE: Prazos e Custas
@@ -112,24 +117,25 @@ Prazo: Contencioso pré-contratual. Prazo de 1 mês, contado pelo artigo 279.º 
 ## Jurisprudência
 Pesquisa na DGSI a partir do tema: «exclusão de proposta concurso público preço anormalmente baixo audiência prévia Saber se pode impugnar a exclusão e a adjudicação, em que prazo e com que [...]».
 ### TCA Norte, 29/04/2022, processo 00339/21.1BECBR
-**Sentido provável: a confirmar pela leitura do sumário** (apreciação da IA, confirme no acórdão). o acórdão reforça que o incumprimento de normas laborais e o preço anormalmente baixo são fundamentos imperativos para a exclusão da proposta, sustentando a legalidade da decisão que excluiu a sua candidatura.
+**Sentido provável: a confirmar pela leitura do sumário** (apreciação da IA, confirme no acórdão). o acórdão confirma que a exclusão por preço anormalmente baixo, fundamentada em incumprimento de normas laborais, é imperativa e não pode ser ultrapassada por esclarecimentos, reforçando a possibilidade de impugnação.
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtcn.nsf/89d1c0288c2dd49c802575c8003279c7/1ec16c26cb95151880258836003d5e3d?OpenDocument) · Decisão: Conceder provimento ao recurso.
 ### TCA Norte, 19/02/2021, processo 00731/20.9BELSB
-**Sentido provável: favorável** (apreciação da IA, confirme no acórdão). o acórdão estabelece que a exclusão só pode ocorrer nos casos estritamente previstos e que, no critério de menor preço, o tribunal deve solicitar esclarecimentos antes de excluir a proposta, o que favorece a impugnação da exclusão ocorrida sem pedido de esclarecimentos.
-> «apenas o preço constitui atributo da proposta pois é o único “aspecto da execução do contrato submetido à concorrência pelo caderno de encargos” (artigo 56º, n.º2, do Código dos Contratos Públicos).» (trecho confirmado no sumário)
+**Sentido provável: a confirmar pela leitura do sumário** (apreciação da IA, confirme no acórdão). o tribunal afirma que a exclusão só pode ocorrer nos casos expressamente previstos na lei e que, em ausência de esclarecimentos, não se justifica excluir a proposta por preço anormalmente baixo
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtcn.nsf/89d1c0288c2dd49c802575c8003279c7/7b6e5935f50f9ea380258686003c4f48?OpenDocument) · Decisão: Negar provimento ao recurso.
 ### TCA Norte, 28/01/2022, processo 00321/21.9BECBR
-**Sentido provável: a confirmar pela leitura do sumário** (apreciação da IA, confirme no acórdão). O acórdão reforça que a exclusão só é admitida quando há fundamento legal claro, o que apoia a alegação de que a decisão de excluir por preço baixo, sem esclarecimentos, é ilícita.
+**Sentido provável: a confirmar pela leitura do sumário** (apreciação da IA, confirme no acórdão). o acórdão reforça a margem discricionária do júri na exclusão de propostas, limitando a possibilidade de impugnação por preço anormalmente baixo.
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtcn.nsf/89d1c0288c2dd49c802575c8003279c7/8b1e87862945df22802587e30054ef92?OpenDocument) · Decisão: Negar provimento ao recurso.
 ### STA, 14/03/2024, processo 0279/21.4BEBJA
-**Sentido provável: a confirmar pela leitura do sumário** (apreciação da IA, confirme no acórdão). o acórdão trata de omissão formal suprível, não abordando a exclusão por preço anormalmente baixo, logo não esclarece a possibilidade de impugnação neste caso.
+**Sentido provável: neutro** (apreciação da IA, confirme no acórdão). o acórdão trata de omissão formal suprível, não abordando a exclusão por preço anormalmente baixo, limitando a sua aplicabilidade ao caso do cliente.
+> «a omissão do modelo de resposta comercial e financeira apenas num dos dois formatos exigidos pelo Programa de Concurso não consubstancia a preterição de uma formalidade essencial, sendo suprível nos termos do número 3 do artigo 72.º do Código dos Contratos Públicos.» (trecho confirmado no sumário)
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jsta.nsf/35fbbbf22e1bb1e680256f8e003ea931/a3a66aeb909fa5ac80258ae5004d493d?OpenDocument)
 ### TCA Norte, 03/06/2026, processo 00640/25.5BEVIS
-**Sentido provável: desfavorável** (apreciação da IA, confirme no acórdão). o acórdão reforça a validade da exclusão por não cumprimento de requisitos documentais previstos no caderno de encargos, limitando a possibilidade de impugnação.
-> «a exigência expressa de documentos atinentes a termos e condições relativos a aspectos da execução do contrato, com cominação de exclusão nos termos do artigo 70º n.º 2 alª a) do CCP, pode ser feita no caderno de encargos, mesmo que sem réplica no programa do procedimento.» (trecho confirmado no sumário)
+**Sentido provável: neutro** (apreciação da IA, confirme no acórdão). o acórdão apenas confirma a natureza normativa do caderno de encargos e a possibilidade de exclusão por incumprimento, sem pronunciar sobre a exclusão por preço anormalmente baixo.
+> «pelo que a exigência expressa de documentos atinentes a termos e condições relativos a aspectos da execução do contrato, com cominação de exclusão nos termos do artigo 70º n.º 2 alª a) do CCP, pode ser feita no caderno de encargos» (trecho confirmado no sumário)
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtcn.nsf/89d1c0288c2dd49c802575c8003279c7/395543104520738c80258e1a0053c26c?OpenDocument) · Decisão: Negar provimento ao recurso.
 ### TCA Norte, 12/01/2024, processo 00218/23.8BEPRT
-**Sentido provável: a confirmar pela leitura do sumário** (apreciação da IA, confirme no acórdão). o acórdão confirma que a proposta pode ser excluída por preço anormalmente baixo e lista de preços não atualizada, considerando a irregularidade como patologia essencial não sanável.
+**Sentido provável: desfavorável** (apreciação da IA, confirme no acórdão). O acórdão confirma que a proposta pode ser excluída por não respeitar o objeto do contrato e que a irregularidade não admite esclarecimentos, reforçando a exclusão já efetuada.
+> «a proposta apresentada não respeita o objeto do contrato a celebrar, sendo, portanto, de excluir à luz do disposto no artigo 70º, nº. 2, alínea a), ambos do CCP.» (trecho confirmado no sumário)
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtcn.nsf/89d1c0288c2dd49c802575c8003279c7/43e08dd8bbfd43d380258aa8003b07b9?OpenDocument) · Decisão: Negar provimento ao recurso.
 ## Legislação aplicável (texto consolidado)
 - **Artigo 101.º do CPTA** (Prazo): Os processos do contencioso pré-contratual devem ser intentados no prazo de um mês, por qualquer pessoa ou entidade com legitimidade nos termos gerais, sendo aplicável à contagem do prazo o disposto no n.º 3 do artigo 58.º e nos artigos 59.º e 60.º
@@ -162,117 +168,109 @@ Pesquisa na DGSI a partir do tema: «exclusão de proposta concurso público pre
 - **Artigo 185.º do CCP** (Audiência prévia): Elaborado o relatório preliminar referido no artigo anterior, o júri envia-o a todos os candidatos, fixando-lhes um prazo, não inferior a cinco dias, para que se pronunciem, por escrito, ao abrigo do direito de audiência prévia.
 - **Artigo 134.º do CCP** (Devolução do preço pago pela disponibilização das peças do concurso): O preço pago à entidade adjudicante pela disponibilização das peças do concurso é devolvido aos concorrentes que o requeiram quando: a) As respectivas propostas não sejam excluídas ou retiradas; b) O órgão competente para a decisão de contratar decida não adjudicar com fundamento no disposto nas alíneas c) e d) do n.º [...]
 ### Síntese para a equipa
-6 acórdãos apreciados: 1 favoráveis, 1 desfavoráveis. Principal favorável: TCA Norte de 19/02/2021, processo 00731/20.9BELSB. A neutralizar: TCA Norte de 03/06/2026, processo 00640/25.5BEVIS.
+6 acórdãos apreciados: 0 favoráveis, 1 desfavoráveis. A neutralizar: TCA Norte de 12/01/2024, processo 00218/23.8BEPRT.
 
 ---
 # AGENTE: Juiz Revisor
 
 ## Questões a decidir  
 
-1. **Legitimidade ativa do particular para impugnar a decisão de exclusão e a adjudicação**;  
-2. **Existência de ato administrativo impugnável (decisão de exclusão por “preço anormalmente baixo” sem pedido de esclarecimentos)**;  
-3. **Prazo aplicável para a impugnação – se incide o prazo de 3 meses previsto no art.º 58.º, n.º 1, alínea b) do CPTA ou o prazo de 1 mês previsto no art.º 101.º do CPTA (contencioso pré‑contratual)**;  
-4. **Fundamentação do pedido – quais os vícios do acto (violação do artigo 71.º, n.º 3, do CCP, falta de direito de audiência prévia nos termos do artigo 147.º/ 148.º do CCP, falta de fundamentação nos termos do artigo 152.º do CPA)**;  
-5. **Necessidade de providência cautelar (suspensão da adjudicação) e o valor da taxa de justiça**.
+1. A existência de legitimação activa da empresa para impugnar a decisão de exclusão e a decisão de adjudicação (artigo 55.º CPTA).  
+2. A natureza do ato impugnado – ato anulável ou nulo – e a consequente aplicação do prazo de impugnação (artigo 58.º CPTA).  
+3. A possibilidade de alegar violação dos princípios do procedimento, nomeadamente a falta de pedido de esclarecimentos ao concorrente sobre o preço anormalmente baixo (artigo 70.º CCP, artigo 71.º CCP, artigo 152.º CPA).  
+4. O prazo a observar para a propositura da ação (artigo 101.º CPTA, artigo 279.º CC, data de notificação 9 outubro 2026).  
+5. A necessidade de solicitar providência cautelar de suspensão da decisão de adjudicação (artigo 112.º CPTA).  
 
 ## Avaliação de cada pedido ou pretensão  
 
-| Nº | Pedido / pretensão | Probabilidade de êxito | Razão resumida |
-|---|--------------------|------------------------|----------------|
-| 1 | **Impugnação da decisão de exclusão** | **Alta** | O acto (exclusão da proposta) produz efeitos externos e visa a adjudicação; está dentro do âmbito do contencioso pré‑contratual (art.º 100.º, CPTA). O interessado tem interesse direto e pessoal (art.º 55.º, CPTA). |
-| 2 | **Impugnação da decisão de adjudicação** | **Média‑Alta** | Ainda que a decisão final de adjudicação seja ato posterior, a jurisprudência (art.º 51.º, CPTA) permite impugnar atos que “não ponham termo a um procedimento” durante a pendência, e a omissão de esclarecimentos constitui ilegalidade que afeta a decisão final. |
-| 3 | **Pedido cautelar de suspensão da adjudicação** | **Média** | O risco de prejuízo irreparável ao particular (perda de oportunidade) pode justificar a cautelar (art.º 112.º, CPTA), mas o tribunal avaliará a probabilidade de sucesso da ação principal e a proporcionalidade (art.º 120.º, CPTA). |
-| 4 | **Nulidade do acto por violação do direito de audiência prévia (art.º 147.º/ 148.º do CCP)** | **Alta** | O júri não obrigou a empresa a prestar esclarecimentos, contrariando o artigo 71.º, n.º 3, do CCP, que impõe consulta prévia ao concorrente quando se considera “preço anormalmente baixo”. |
-| 5 | **Nulidade por falta de fundamentação (art.º 152.º do CPA)** | **Alta** | O relatório preliminar ou final que exclui a proposta sem mencionar a falta de esclarecimentos carece de motivação suficiente, incorrendo em violação do dever de fundamentação. |
-| 6 | **Aplicação do prazo de 1 mês (art.º 101.º, CPTA)** | **Alta** | Por tratar‑se de contencioso pré‑contratual, o prazo específico de 1 mês prevalece sobre o prazo geral de 3 meses (art.º 58.º, CPTA), consoante o disposto no próprio art.º 101.º. O termo é 9 nov 2026, que ainda não expirou. |
+| Pedido / Pretensão | Probabilidade de êxito | Fundamentação resumida |
+|--------------------|------------------------|-----------------------|
+| 1. Legitimação activa da empresa – artigo 55.º CPTA | **Alta** | O concorrente foi directamente lesado por exclusão e adjudicação a terceiro; a intervenção no procedimento constitui presunção de legitimação (artigo 55.º, n.º 3). |
+| 2. Impugnação da decisão como ato anulável – artigo 58.º CPTA | **Média‑Alta** | O ato é vulnerável a nulidade (violação de princípios de contraditório e fundamentação) mas, na prática, enquadra‑se como anulável (artigo 163.º CPA). O prazo de três meses aplica‑se (artigo 58.º, n.º 1 b) – contagem até 9 nov 2026. |
+| 3. Fundamentação – violação do dever de fundamentar e de solicitar esclarecimentos (artigo 71.º CCP, artigo 152.º CPA) | **Média** | O júri excluiu a proposta por preço anormalmente baixo sem ter pedido esclarecimentos (artigo 71.º, n.º 4 CCP). Contudo, o regulamento interno pode prever a exclusão direta; será crucial demonstrar a falta de motivação adequada (artigo 152.º, n.º 1 a). |
+| 4. Pedido de providência cautelar de suspensão da adjudicação – artigo 112.º CPTA | **Média** | Requisitos (fundado receio de lesão irreparável) satisfeitos se a empresa provar que a exclusão é ilegal e que o contrato ainda não foi executado; a urgência decorre do carácter pré‑contratual (artigo 36.º CPTA, n.º c). |
+| 5. Pedido de declaração de nulidade do acto (opção) | **Baixa‑Média** | Só se provar que o acto incorre em nulidade formal (ex.: usurpação de poder – artigo 161.º a) ou ausência de forma legal – o que não está evidente; o risco é maior de sucesso com a via de anulabilidade. |
 
 ## Riscos e pontos fracos  
 
-1. **Argumentação sobre a exclusão como ato anulável vs ato nulo** – se o tribunal entender que a exclusão é simplesmente uma decisão discricionária dentro da margem de apreciação do órgão, pode concluir que não há nulidade, mas apenas anulabilidade. Nesse caso a ação ainda é admissível, porém o prazo de 3 meses poderia ser invocado (risco de caducidade se a parte alegar outro prazo).  
-
-2. **Falha em demonstrar a violação do direito de audição prévia** – a jurisprudência admite que a decisão de exclusão sem pedido de esclarecimentos é ilícita, mas o tribunal pode exigir prova concreta de que o órgão não enviou o convite de esclarecimento previsto no artigo 71.º, n.º 3, do CCP.  
-
-3. **Inexistência de procuração ou representação adequada** – se a procuração assinada pelo representante legal da empresa não for juntada, a legitimidade ativa pode ser contestada.  
-
-4. **Inexistência de pedido de providência cautelar** – a ausência de pedido de suspensão poderá conduzir a que a adjudicação seja concluída antes da decisão judicial, anulando o efeito prático da impugnação.  
-
-5. **Valor da taxa de justiça** – o cálculo deve observar que a taxa de 14 UC incide sobre a parte que impulsiona a ação. Se houver reconvenção, a outra parte terá igualmente a obrigação de pagar a sua quota (7 UC). O não pagamento pode levar à extinção do processo.  
-
-6. **Possível invocação de exceção de prévia decisão administrativa** – a Administração pode alegar que a decisão final encontra‑se já consolidada (princípio da coisa julgada administrativa). Será necessário demonstrar que a decisão de exclusão ainda não se tornou “coisa julgada” porque a adjudicação só ocorreu depois da notificação.  
+1. **Qualificação do acto** – Se o tribunal entender que a decisão de exclusão está expressamente prevista no regulamento e, por isso, não incorre em nulidade, a ação poderá ser reduzida a anulabilidade, limitando a eficácia retroativa.  
+2. **Fundamentação insuficiente** – A entidade adjudicante pode alegar que a decisão está devidamente fundamentada ao invocar o artigo 71.º n.º 4 CCP (necessidade de esclarecimentos) e que, por inexistência de pedido, o órgão considerou o preço evidentemente anormalmente baixo, o que pode ser aceito como suficiente.  
+3. **Prazo** – Embora o motor de regras indique 9 nov 2026, eventual interrupção por férias judiciais ou feriados pode deslocar o termo para o primeiro dia útil seguinte; a equipa deve comprovar que a data correta foi observada.  
+4. **Prova do erro** – Caso a Administração invoque “justo erro” da empresa ao não apresentar esclarecimentos, será necessário demonstrar que a empresa teria actuado diligentemente se tivesse sido comunicada (artigo 58.º n.º 3 b).  
+5. **Custo da ação** – O valor da causa (250 k€) implica 14 UC; a parte contrária pode invocar a necessidade de tentativa de acordo pré‑processual (artigo 36.º CPTA, n.º 2).  
 
 ## O que corrigir antes de avançar  
 
-1. **Recolher e anexar a íntegra do relatório preliminar e final**, bem como a comunicação (ou a sua ausência) do pedido de esclarecimentos ao concorrente, para comprovar a violação do artigo 71.º, n.º 3, do CCP.  
-
-2. **Anexar procuração válida** que comprove a legitimidade do representante da empresa (art.º 55.º, CPTA).  
-
-3. **Redigir a petição inicial incluindo explicitamente a fundamentação nas três hipóteses de nulidade**: (i) violação do direito de audiência prévia (art.º 147.º/ 148.º do CCP); (ii) falta de fundamentação (art.º 152.º, CPA); (iii) exclusão por preço anormalmente baixo sem esclarecimentos (art.º 71.º, n.º 3, do CCP).  
-
-4. **Incluir pedido cautelar de suspensão da adjudicação** com demonstração de risco de prejuízo irreparável e da probabilidade de sucesso da ação principal (art.º 112.º, CPTA; art.º 120.º, CPTA).  
-
-5. **Calcular e indicar claramente a taxa de justiça** (14 UC = € 1 428,00) e prever o pagamento da mesma, mencionando a eventual necessidade de depósito judicial.  
-
-6. **Confirmar o termo exato do prazo** – o prazo de 1 mês termina a 9 nov 2026 (segunda‑feira). Assegurar que a petição seja apresentada até ao final desse dia.  
-
-7. **Prever, se necessário, pedido de produção de documentos (art.º 66.º, CPTA)** para obter cópia completa do caderno de encargos e do programa do concurso, reforçando o argumento de que o preço “anormalmente baixo” não foi definido nem justificado.  
+1. **Recolher e anexar a decisão de exclusão e o relatório final** – Necessário para comprovar a inexistência de pedido de esclarecimentos e a fundamentação (artigos 152.º e 153.º CPA).  
+2. **Verificar se foi respeitado o prazo de audiência prévia (artigo 147.º CCP, n.º 5 dias) e se a empresa foi notificada** – Caso contrário, pode‑se invocar violação do direito de audiência (artigo 121.º CPA).  
+3. **Redigir a petição inicial indicando explicitamente a qualificação de acto anulável** e citar o artigo 58.º n.º 1 b, bem como o artigo 163.º 1 CPA, para reforçar o prazo aplicável.  
+4. **Fundamentar o pedido de providência cautelar** com demonstração de fundado receio (artigo 112.º e 120.º CPTA) e fazer referência ao carácter urgente (artigo 36.º c CPTA).  
+5. **Incluir pedido de juntada de documentos administrativos (ex.: regulamento de preços anormalmente baixos, critérios de avaliação, comunicações entre a empresa e a entidade adjudicante)** para sustentar a alegação de violação do dever de motivação (artigo 152.º CPA).  
+6. **Confirmar a data de início da contagem do prazo (artigo 279.º CC)** – Se o termo de notificação foi 9 out 2026 (sexta‑feira), o prazo de três meses termina a 9 nov 2026 (segunda‑feira), mas necessitamos de comprovar que não recaiu sobre feriado ou férias judiciais.  
 
 ---
 
 ## Confirmação das citações
 Cada artigo foi procurado no texto consolidado do Diário da República e cada processo na DGSI.
-### Confirmadas (21)
+### Existem, mas o conteúdo atribuído não corresponde: confirmar (2)
+- Artigo 101.º do CPTA: O artigo existe (Prazo), mas o que o texto lhe atribui não corresponde ao seu conteúdo. Confirme antes de usar.
+- Artigo 72.º do CCP: O artigo existe (Esclarecimentos e suprimento de propostas e candidaturas), mas o que o texto lhe atribui não corresponde ao seu conteúdo. Confirme antes de usar.
+### Confirmadas (22)
 - Artigo 100.º do CPTA: Âmbito
+- Artigo 152.º do CPA: Dever de fundamentação
 - Artigo 50.º do CPTA: Objeto e efeitos da impugnação
 - Artigo 44.º do ETAF: Competência dos tribunais administrativos de círculo
+- Artigo 55.º do CPTA: Legitimidade ativa
+- Artigo 121.º do CPA: Direito de audiência prévia
+- Artigo 71.º do CCP: Preço ou custo anormalmente baixo
+- Artigo 161.º do CPA: Atos nulos
 - Artigo 142.º do CPTA: Decisões que admitem recurso
 - Artigo 150.º do CPTA: Recurso de revista
 - Artigo 6.º do RCP: Regras gerais
 - Artigo 7.º do RCP: Regras especiais
 - Artigo 279.º do CC: Cômputo do termo
 - Artigo 36.º do CPTA: Processos urgentes
-- Artigo 101.º do CPTA: Prazo
 - Artigo 498.º do CC: Prescrição
 - Artigo 323.º do CC: Interrupção promovida pelo titular
-- Artigo 56.º do CCP: Noção de proposta
 - Processo 00339/21.1BECBR
 - Processo 00731/20.9BELSB
 - Processo 00321/21.9BECBR
 - Processo 0279/21.4BEBJA
 - Processo 00640/25.5BEVIS
 - Processo 00218/23.8BEPRT
-- Artigo 71.º do CCP: Preço ou custo anormalmente baixo
-- Artigo 152.º do CPA: Dever de fundamentação
 
 ### Síntese para a equipa
-- O prazo aplicável é o de 1 mês (até 9 nov 2026); a ação ainda está no prazo.  
-- Legitimidade e natureza do acto (exclusão) são claras: impugnação admissível, com alto potencial de êxito.  
-- Necessário comprovar a violação do direito de audiência (art.º 71.º, CCP) e da fundamentação (art.º 152.º, CPA).  
-- Incluir pedido cautelar de suspensão e garantir a documentação (relatórios, procuração, taxa de justiça).  
-- Corrigir a petição inicial seguindo as observações acima para minimizar riscos.
+- Legitimidade e prazo estão correctos; falta documentação da decisão e prova da ausência de audiência prévia.  
+- Qualificar o ato como anulável, não nulo, e fundamentar a violação do dever de esclarecimento e de motivação.  
+- Preparar pedido de suspensão cautelar bem fundamentado e garantir que a data‑límite (9 nov 2026) está correta.  
+- Reforçar a prova documental e antecipar argumentos de nulidade para melhorar a probabilidade de êxito.
 
 ---
 # VERIFICAÇÃO
 - confirmada: CPTA 100 (Triagem e Estratégia)
+- confirmada: CPA 152 (Triagem e Estratégia)
 - confirmada: CPTA 50 (Triagem e Estratégia)
 - confirmada: ETAF 44 (Triagem e Estratégia, Prazos e Custas)
+- conteudo-duvidoso: CPTA 101 (Triagem e Estratégia, Prazos e Custas)
+- confirmada: CPTA 55 (Triagem e Estratégia)
+- confirmada: CPA 121 (Triagem e Estratégia)
+- confirmada: CCP 71 (Triagem e Estratégia)
+- confirmada: CPA 161 (Triagem e Estratégia)
 - confirmada: CPTA 142 (Prazos e Custas)
 - confirmada: CPTA 150 (Prazos e Custas)
 - confirmada: RCP 6 (Prazos e Custas)
 - confirmada: RCP 7 (Prazos e Custas)
 - confirmada: CC 279 (Prazos e Custas)
 - confirmada: CPTA 36 (Prazos e Custas)
-- confirmada: CPTA 101 (Prazos e Custas)
 - confirmada: CC 498 (Prazos e Custas)
 - confirmada: CC 323 (Prazos e Custas)
-- confirmada: CCP 56 (Jurisprudência e Lei)
+- conteudo-duvidoso: CCP 72 (Jurisprudência e Lei)
 - confirmada: 00339/21.1BECBR (Jurisprudência e Lei)
 - confirmada: 00731/20.9BELSB (Jurisprudência e Lei)
 - confirmada: 00321/21.9BECBR (Jurisprudência e Lei)
 - confirmada: 0279/21.4BEBJA (Jurisprudência e Lei)
 - confirmada: 00640/25.5BEVIS (Jurisprudência e Lei)
 - confirmada: 00218/23.8BEPRT (Jurisprudência e Lei)
-- confirmada: CCP 71 (Juiz Revisor)
-- confirmada: CPA 152 (Juiz Revisor)
 
 Erros JS: nenhum
 
