@@ -1,0 +1,31 @@
+name: nuvem
+on:
+  push:
+    branches: [testes-contencioso]
+jobs:
+  caso:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      matrix:
+        caso: [civel, penal, laboral]
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Caso com a IA na nuvem
+        run: |
+          npm i -s playwright@1.49.1 && npx playwright install --with-deps chromium > /dev/null
+          mkdir -p resultados
+          node teste-contencioso/qualidade.mjs https://equipa-contencioso-ana-marta-soares.pages.dev x ${{ matrix.caso }} "" resultados/${{ matrix.caso }}.md 2>&1 | tail -20
+      - name: Guardar
+        if: always()
+        run: |
+          git config user.name "testes"; git config user.email "testes@example.com"
+          (echo "versão ${GITHUB_SHA::7}"; cat resultados/${{ matrix.caso }}.md 2>/dev/null || echo "sem resultado") > /tmp/r.md
+          for i in 1 2 3 4 5; do
+            (git fetch -q origin resultados-contencioso && git checkout -q -B r origin/resultados-contencioso) || (git checkout -q --orphan r && git rm -rqf . > /dev/null)
+            mkdir -p n && cp /tmp/r.md n/${{ matrix.caso }}.md && git add n && git commit -qm "nuvem ${{ matrix.caso }}" && git push -q origin r:resultados-contencioso && break
+            sleep $((RANDOM % 10 + 3))
+          done
