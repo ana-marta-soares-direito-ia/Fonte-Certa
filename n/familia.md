@@ -1,5 +1,5 @@
-versão 2779497
-# Caso familia, modelo nuvem (0.9 min)
+versão e81b9a2
+# Caso familia, modelo nuvem (0.8 min)
 
 ## Ficha
 ```
@@ -23,215 +23,159 @@ Tribunal competenteJuízo de família e menores.artigo 122.º da LOSJartigo 123.
 
 **## Temas da prova**  
 
-1. Se a criança de 7 anos tem, em facto, a mesma distância (3 km) da sua escola, tanto da residência da mãe como da residência do pai.  
-2. Se o horário de trabalho por turnos do pai permite-lhe assumir a custódia da criança durante a semana, sem prejuízo da sua frequência escolar e das restantes necessidades básicas.  
-3. Se o horário de escritório da mãe permite-lhe assumir a custódia da criança durante a weekend, sem prejuízo da frequência escolar nem de outras necessidades.  
-4. Se a manutenção de uma residência alternada semanal assegura à criança a continuidade dos seus relacionamentos afetivos, sociais e pedagógicos, bem como a estabilidade emocional.  
-5. Se a mãe, em todo o historial desde a separação, tem exercido o dever de cuidado da criança de forma regular e suficiente, sem omissões nem falhas que a tornem incapaz de partilhar a guarda.  
-6. Se o pai tem participado activamente no apoio escolar, médico e extra‑escolar da criança, demonstrando disponibilidade e capacidade de assumir a guarda alternada.  
-7. Se a criança, tendo capacidade de compreensão adequada à sua idade, prefere a residência alternada ou manifesta desejo de conviver de forma significativa com ambos os progenitores.  
+1. Qual é a residência habitual da criança nos últimos seis meses?  
+2. Como tem sido organizada a guarda e a prestação de cuidados da criança durante a semana?  
+3. Qual é a frequência e a duração dos contactos entre a criança e cada progenitor?  
+4. Qual o impacto dos diferentes regimes de residência (única vs. alternada) na vida escolar, de saúde e social da criança?  
+5. Como se compatibilizam, nos factos, os horários de trabalho dos progenitores com a possibilidade de residência alternada?  
+6. Qual a opinião da criança, com capacidade de compreensão, sobre a sua preferência de residência?  
+7. Que critérios de proximidade geográfica e de logística (distância da escola, tempo de deslocamento, zona de residência) influenciam o interesse superior da criança?  
+8. Existência de eventuais situações de urgência manifesta que justifiquem a atuação unilateral de um dos progenitores.  
 
 ---
 
-**## Mapa facto‑prova**  
+**## Mapa facto e prova**  
 
-| Facto essencial | Ónus da prova* | Meio de prova disponível | Meio de prova ainda em falta |
-|-----------------|----------------|--------------------------|------------------------------|
-| 1 – Distância idêntica da escola à residência de ambos os progenitores | Pai (artigo 342.º do CC) | Mapas cartográficos, fotos de localização, documentos de matrícula escolar indicando endereço da escola | Certificado oficial de localização da escola (pode‑ser pedido ao órgão da educação) |
-| 2 – Horário de turnos do pai permite custódia semanal | Pai | Declarações do empregador, contrato de trabalho, escala de turnos, extratos de ponto | Testemunho de colega que conheça a organização dos turnos do pai |
-| 3 – Horário de escritório da mãe permite custódia nos fins de semana | Mãe (artigo 342.º) – a demonstração será requerida pela parte contrária, mas o pai pode contestar | Contrato de trabalho da mãe, calendário de horários, recibos de ponto | Declaração do empregador da mãe confirmando flexibilidade nos fins de semana |
-| 4 – Residência alternada garante estabilidade e bem‑estar da criança | Pai (artigo 342.º) | Relatório de assistente social, avaliações psicológicas da criança, atas de reuniões escolares, registo de frequência escolar | Parecer de psicólogo infantil que avalie o impacto da alternância |
-| 5 – Mãe tem exercido o dever de cuidado sem falhas graves | Mãe (artigo 342.º) – a prova será requerida pela parte contrária; o pai pode solicitar prova da inexistência de falhas | Registo de ausência de notificações de protecção à criança, declarações de professores e do médico de família | Eventuais relatórios de serviços de proteção à infância (se existirem) |
-| 6 – Pai participa ativamente no apoio escolar/medico/extra‑escolar | Pai (artigo 342.º) | Registos de entrega de trabalhos, relatórios de reuniões de pais, recibos de consultas médicas, fotografias de actividades extra‑escolares | Declarações de professores ou técnicos que confirmem a participação habitual |
-| 7 – Desejo da criança por residência alternada | Ambos (artigo 342.º) – a prova é colateral, mas o juiz pode determinar a audição da criança (artigo 4.º RGPTC) | Audição direta da criança, relatórios de assistente social, gravações de entrevistas com o técnico de avaliação infantil | Parecer de psicólogo ou assistente social caso a criança tenha necessidade de apoio para ser ouvida adequadamente |
-
-\* Ónus da prova calculado de acordo com o artigo 342.º do CC (ônus geral da parte que alega o facto).  
+| Facto essencial | Ónus da prova | Meio de prova disponível | Meio em falta / a solicitar |
+|-----------------|---------------|--------------------------|------------------------------|
+| 1 – Residência habitual da criança nos últimos 6 meses | Progenitor que alega residência alternada (pai) | Declarações escritas dos dois progenitores; documentos de matrícula escolar indicando o endereço de residência; faturas de serviços (água, luz) em nome de cada progenitor; registo de entregas de alimentação escolar. | Certificado de residência da criança emitido por entidade municipal; registo de entregas de correspondência. |
+| 2 – Organização da guarda diária (horário, alimentação, tarefas) | Pai (autor da proposta de residência alternada) | Testemunhos de vizinhos, colegas de trabalho, professores; agenda ou calendário de cuidados mantido por cada progenitor; registo de chamadas telefónicas entre progenitores sobre a criança. | Laudo de assistente social sobre a rotina diária atual. |
+| 3 – Frequência e duração dos contactos (visitas) | Pai | Registo de entradas/saídas da escola (autorização de saída), bilhetes de transportes, declarações da babá ou de familiares que cuidam da criança nos períodos de ausência. | Registo de CCTV ou de controlo de presença na residência materna (se houver). |
+| 4 – Impacto do regime de residência no desempenho escolar e saúde | Pai | Boletim escolar, relatórios de psicólogo ou de orientador escolar; relatórios médicos (consultas regulares), histórico de faltas escolares. | Perícia psicológica/psico‑pedagógica que compare as duas situações (única vs. alternada). |
+| 5 – Compatibilidade dos turnos de trabalho do pai com a residência alternada | Pai | Contrato de trabalho, escalas de turnos, declaração do empregador; registo de pontualidade e ausência. | Declaração escrita do empregador confirmando a possibilidade de ajuste de horário. |
+| 6 – Opinião da criança (preferência de residência) | Pai (por representar interesse da criança) | Audição da criança em sede de audiência, conforme art.º 4.º do RGPTC; declaração da assessoria técnica (psicólogo). | Relatório escrito da assessoria técnica que detalhe a compreensão e a vontade da criança. |
+| 7 – Proximidade geográfica da escola e logística de deslocamento | Ambos (mas o pai tem de demonstrar que a alternância não cria dificuldades) | Mapas, cálculo de tempos de deslocamento, documentos de transporte (bilhetes, passes escolares). | Perícia de transporte ou de logística familiar. |
+| 8 – Existência de urgência manifesta que justifique decisão unilateral | Mãe (se alegar) – portanto, o pai tem de contrapor | Não constam factos de violência ou risco. | Pedido de documentos que provem inexistência de medida de coação ou risco (certidão de não existência de processos criminais). |
 
 ---
 
 **## Guião de inquirição das nossas testemunhas**  
 
-### 1. Testemunha – Colega de trabalho do pai (ex.: “Carlos, colega no turno de fábrica”)  
-1. Como descreve a organização dos turnos de trabalho do Sr. [Nome do Pai] nos últimos seis meses?  
-2. O que lhe permite observar relativamente à disponibilidade do Sr. [Nome do Pai] fora dos horários de trabalho?  
-3. Quando tem conhecimento de o Sr. [Nome do Pai] ter participado em actividades escolares ou médicas da criança?  
-4. Descreva, por favor, se alguma vez o Sr. [Nome do Pai] teve que ausentar‑se ao trabalho para tratar de assuntos relacionados com a criança.  
-5. Como avalia, em termos de regularidade, a presença do Sr. [Nome do Pai] em casa durante os dias em que tem a sua custódia?  
-
-### 2. Testemunha – Professor/a da criança (ex.: “Ana, professora do 2.º ano”)  
-1. Como tem sido a frequência da criança nas aulas nas últimas semanas?  
-2. O que lhe tem sido comunicado pelos pais acerca da entrega e recolha da criança?  
-3. Quando a mãe e o pai têm comunicado a escola sobre a alteração semanal de residência?  
-4. Descreva se existem diferenças no rendimento ou comportamento da criança em função da alternância de residência.  
-5. Como percebe a relação da criança com ambos os progenitores nas atividades extracurriculares?  
-
-### 3. Testemunha – Assistente social designado ao caso (ex.: “Dr. Sofia, assistente social”)  
-1. Como foi conduzida a avaliação do interesse superior da criança ao longo do processo?  
-2. O que resultou da audição da criança sobre a sua preferência de residência?  
-3. Quando foram recolhidas informações junto da família e do entorno (vizinhança, escolas, unidades de saúde)?  
-4. Descreva as conclusões que tirou acerca da capacidade dos dois progenitores de partilhar a guarda.  
-5. Como recomenda a configuração de residência (alternada ou fixa) tendo em conta os factos recolhidos?  
-
-### 4. Testemunha – Avó materna (ex.: “Maria, avó da criança”)  
-1. Como costuma ser a rotina diária da criança quando está na casa da avó?  
-2. O que observa quanto ao bem‑estar da criança durante a sua estadia com a mãe?  
-3. Quando tem contacto direto com o pai e como descreve a interação entre eles?  
-4. Descreva se a criança demonstra ansiedade ou dificuldade ao mudar de residência semanalmente.  
-5. Como avalia, enquanto avó, a adequação da escola à proximidade da residência da criança?  
-
-### 5. Testemunha – Médico de família (ex.: “Dr. Luís, médico de família”)  
-1. Como tem sido a monitorização da saúde da criança nos últimos doze meses?  
-2. O que lhe foi informado pelos pais sobre os horários de consultas e a quem cabe a sua marcação?  
-3. Quando a criança apresentou alguma situação de saúde que exigiu acompanhamento imediato e quem providenciou o atendimento?  
-4. Descreva a sua avaliação sobre a capacidade de ambos os progenitores em garantir a continuidade do tratamento e prevenção de doenças.  
-5. Como considera, a partir dos factos clínicos, a viabilidade de uma residência alternada semanal?  
+| Testemunha | Perguntas (abertas) |
+|------------|----------------------|
+| **Vizinhança (morador do mesmo prédio da mãe)** | 1. Como tem sido a presença da criança no apartamento da sua vizinha ao longo das últimas semanas?<br>2. O que observa quanto ao horário de chegada e saída da criança nos dias em que a mãe a tem em sua residência?<br>3. Quando tem notado alguma dificuldade da mãe em conciliar a guarda com as suas obrigações laborais?<br>4. Descreva a rotina de cuidados que a mãe oferece à criança durante a sua estadia (alimentação, tarefas de casa, horário de sono).<br>5. Como tem sido a comunicação entre a mãe e o pai relativamente ao planeamento dos cuidados da criança? |
+| **Colega de trabalho do pai (responsável de turnos)** | 1. Como são organizados os turnos do nosso cliente nas duas semanas típicas de trabalho?<br>2. O que tem observado quanto à flexibilidade ou possibilidade de ajuste de horário quando necessário?<br>3. Quando o nosso cliente tem sido avisado de alterações de última hora nos turnos?<br>4. Descreva a atitude do nosso cliente em relação ao cumprimento de compromissos familiares com a criança.<br>5. Como costuma o nosso cliente planear a sua disponibilidade para receber a criança nos fins de semana? |
+| **Professora da escola (ensino básico)** | 1. Como tem sido a assiduidade da criança nos últimos seis meses?<br>2. O que observa quanto ao desempenho académico e participação nas actividades escolares?<br>3. Quando tem notado alterações no comportamento da criança que pareçam relacionadas a alterações de residência?<br>4. Descreva a comunicação que tem tido com os pais relativamente a situações de ausência da criança ou a necessidade de autorização para eventos extra‑curriculares.<br>5. Como avalia a estabilidade de residência da criança à luz dos resultados escolares? |
+| **Assistente social (nomeado na fase de audição técnica)** | 1. Como procedeu à avaliação do ambiente familiar de cada progenitor?<br>2. O que concluiu sobre a capacidade de cada progenitor em assegurar o bem‑estar da criança?<br>3. Quando recolheu as declarações da criança e quais foram os principais elementos evidenciados?<br>4. Descreva as condições habitacionais de ambos os progenitores e a proximidade da escola.<br>5. Qual a sua recomendação quanto ao regime de residência, com fundamento no interesse superior da criança? |
 
 ---
 
 **## Contra‑interrogatório das testemunhas da parte contrária**  
 
-*(Exemplo para a testemunha da mãe – “Patrícia, colega de trabalho da mãe”)*
-1. A senhora já viu a mãe chegar a tempo de levar a criança à escola em algum dia da semana? – **Sim / Não**  
-2. A senhora já recebeu alguma reclamação da mãe sobre a impossibilidade de cumprir o seu horário de escritório para cuidar da criança? – **Sim / Não**  
-3. A senhora tem conhecimento de situações em que a mãe tenha deixado a criança sem supervisão durante o dia? – **Sim / Não**  
-4. A senhora já constatou que a mãe tem disponibilidade para ficar com a criança durante o fim de semana? – **Sim / Não**  
-5. A senhora já observou a mãe a preparar o material escolar da criança antes da sua ida à escola? – **Sim / Não**  
+*(ex.: mãe, vizinha da mãe, professor que apoia a residência única)*  
 
-*(Exemplo para a testemunha da escola – “João, diretor da escola”)*
-1. O registo de faltas da criança indica alguma ausência que tenha sido justificada pela mãe? – **Sim / Não**  
-2. Existe algum relatório interno que indique que a criança tem dificuldades de adaptação devido à mudança de residência semanal? – **Sim / Não**  
-3. A escola já recebeu algum pedido formal da mãe para alterar os dias de entrega e recolha? – **Sim / Não**  
-4. A escola tem documentada alguma comunicação da mãe que indique a impossibilidade de cumprir o horário de entrega nas manhãs de segunda‑feira? – **Sim / No**  
-5. Foi alguma vez solicitado à mãe que comparecesse a reuniões escolares fora do seu horário de escritório? – **Sim / Não**  
-
-*(Aplicar padrão de perguntas fechadas a todas as testemunhas apresentadas pela parte contrária, sempre a obter “sim” ou “não” que ponham em discussão a sua capacidade, disponibilidade ou a veracidade das alegações apresentadas.)*  
+1. A senhora confirma que a criança tem passado **mais de 20 dias** consecutivos na sua casa nos últimos três meses? – **Sim / Não**  
+2. Nos últimos seis meses a senhora já teve que faltar ao trabalho por causa da guarda da criança? – **Sim / Não**  
+3. A senhora utilizou algum serviço de apoio externo (babá, avós) para cuidar da criança durante a sua ausência? – **Sim / Não**  
+4. Durante o período em que a criança ficou sob a sua guarda, a escola registou **alguma falta injustificada**? – **Sim / No**  
+5. A senhora tem conhecimento de que o pai tem **turnos fixos** que lhe permitem estar presente em casa todos os fins de semana? – **Sim / Não**  
 
 ---
 
 **## Diligências a requerer**  
 
-1. **Documentos de localização** – Certidão do registo predial ou comprovativo de morada da residência da mãe e do pai, bem como mapa oficial da escola (para confirmar a distância de 3 km).  
-2. **Escala de turnos** – Declaração do empregador do pai, com especificação dos horários de trabalho por turnos nos últimos seis meses.  
-3. **Horário de trabalho da mãe** – Contrato de trabalho e registo de ponto da mãe, para comprovar a disponibilidade nos fins de semana.  
-4. **Relatórios escolares** – Fichas de frequência, boletins de avaliação e comunicações entre a escola e os progenitores (incluindo pedidos de entrega/recolha).  
-5. **Parecer psicológico/psicológico da criança** – Avaliação de psicólogo infantil (ou assistente social) sobre o impacto da alternância semanal e a preferência da criança.  
-6. **Relatório do assistente social** – Cópia integral do relatório de avaliação de interesse superior, incluindo a audição da criança.  
-7. **Registo de consultas médicas** – Histórico de consultas nos últimos 12 meses, com indicação do progenitor que agendou e acompanhou a criança.  
-8. **Testemunhos escritos** – Declarações assinadas das testemunhas (colegas de trabalho, professores, avó materna) que confirmem a disponibilidade e o envolvimento de cada progenitor.  
-9. **Proposta de regime de visita** – Documento elaborado por advogado que detalhe o plano de residência alternada (dias, horários, logística de entrega/recolha, comunicação).  
+1. **Documentos de residência** – Certidão de residência da criança e dos dois progenitores, emitida pela junta de freguesia.  
+2. **Escalas de trabalho** – Cópia do contrato de trabalho do pai e das escalas de turnos dos últimos três meses.  
+3. **Registo escolar** – Boletim de frequência e aproveitamento escolar da criança dos últimos dois anos letivos.  
+4. **Relatórios médicos** – Histórico de consultas pediátricas e de eventuais intervenções psicopedagógicas.  
+5. **Laudo pericial psicológico/psico‑pedagógico** – Avaliação do impacto da residência alternada vs. única na criança, a ser realizada por psicólogo especializado em infância.  
+6. **Audição da criança** – Pedido de oitiva da criança, nos termos do art.º 4.º do RGPTC, com apoio da assessoria técnica.  
+7. **Prova testemunhal** – Convocação das testemunhas listadas no guião de inquirição, mediante intimação.  
+8. **Perícia de logística** – Perícia que verifique os tempos de deslocamento e a viabilidade da alternância semanal (mapas, cálculo de percursos).  
 
 ---  
 
 ### Síntese para a equipa  
-- Provar a igualdade de distância à escola e a disponibilidade horária do pai (mapas, escalas de turnos).  
-- Demonstrar que a alternância semanal garante o bem‑estar da criança (relatório psicólogo, assistente social, audição da criança).  
-- Recolher documentos de trabalho da mãe para contrapor a alegação de sua disponibilidade plena.  
-- Requerer prova documental (escola, saúde, habitação) e testemunhos que sustentem a capacidade de ambos os progenitores.  
-- Preparar inquirição focada na rotina, disponibilidade e preferência da criança; contra‑interrogar para evidenciar lacunas nas alegações da parte contrária.  
+- Demonstrar que a residência alternada é logisticamente viável, que não prejudica a escola nem a saúde da criança e que respeita os turnos do pai.  
+- Produzir prova documental (residência, escalas, boletim) e pericial (psicológica e logística).  
+- Ouvirmos a criança e a assistente social para reforçar o interesse superior.  
+- Contrariar a alegação de ausência de disponibilidade da mãe através de interrogatório focado em faltas ao trabalho e uso de apoio externo.
 
 ---
 # AGENTE: Advogado da Parte Contrária
 
 ## Linha de ataque principal  
-A parte contrária sustentará que a residência alternada semanal não serve ao interesse superior da criança, pois compromete a estabilidade emocional e académica da mesma, gera descontinuidade nas rotinas escolares e de saúde, e que a disponibilidade horária irregular do pai, em função dos turnos, impede a prestação adequada das responsabilidades parentais de quotidiano, devendo, por conseguinte, a criança permanecer sob a guarda habitual da mãe.
+A parte contrária (a mãe) sustentará que a residência alternada semanal é incompatível com a estabilidade e o bem‑estar do menor, pois os turnos irregulares do pai provocam interrupções na rotina escolar, dificultam a organização de tarefas domésticas e criam insegurança afetiva. Argumentará ainda que o interesse superior do filho é melhor preservado com a sua residência habitual e contínua na casa materna, garantindo-lhe disponibilidade total de cuidados, apoio escolar e um ponto de referência estável, nos termos do artigo 1906.º, n.º 5, do CC.
 
 ## Excepções e questões prévias que vai invocar  
-
-1. Artigo 1906.º, n.º 5, do Código Civil – o tribunal deve determinar a residência do filho “de acordo com o interesse deste, tendo em atenção todas as circunstâncias relevantes” (incluindo estabilidade e continuidade).  
-2. Artigo 1905.º, n.º 1, do CC – a homologação de acordo de residência será recusada se não corresponder ao interesse do menor.  
-3. Artigo 4.º, n.º c) do RGPTC – a criança, com idade de 7 anos, deve ser ouvida; se a sua opinião for contrária à alternância, isso pesa a favor da permanência com a mãe.  
-4. Artigo 1906.º‑A do CC – eventual risco de instabilidade pode ser considerado “contrário aos interesses do filho”.  
-5. Artigo 13.º do RGPTC – possibilidade de processo tutelar urgente se a demora na decisão prejudicar a criança, permitindo solicitar medida cautelar de fixação de residência provisória.
+1. **Artigo 1906.º, n.º 5, do CC** – o tribunal deve determinar a residência do filho segundo o seu interesse superior, podendo fixar residência alternada apenas quando tal seja “estritamente necessário” e devidamente justificado.  
+2. **Artigo 1906.º‑A, n.º a)** – se houver risco de que o exercício em comum das responsabilidades seja contrário ao interesse da criança (por exemplo, por turnos imprevisíveis do pai), o tribunal pode decidir que a residência seja fixa.  
+3. **Artigo 4.º do RGPTC (princípio da simplificação e oralidade)** – a criança será ouvida; a sua perceção de instabilidade pode ser crucial.  
+4. **Artigo 35.º do RGPTC (conferência)** – a mãe poderá alegar que a criança não demonstra maturidade para compreender a alternância semanal, inviabilizando a sua participação efetiva.  
+5. **Artigo 1905.º, n.º 2, do CC (pensão de alimentos)** – se a residência alternada implicar custos adicionais (deslocações, alimentação) que o pai não possa suportar, a mãe pode requerer revisão da pensão de alimentos, reforçando a necessidade de residência fixa.  
 
 ## Factos que vai impugnar e fragilidades da prova  
-
-1. A alegação de que a distância à escola (3 km) é idêntica para ambos os progenitores – pode ser contestada demonstrando diferenças de trajetos, tempo de deslocação e condições de trânsito.  
-2. A existência de um relatório de psicólogo a favor da alternância – pode ser questionado quanto à imparcialidade, metodologia e data de realização (pós‑separação recente).  
-3. A disponibilidade horária do pai – a escala de turnos apresentada pode ser insuficiente para cobrir fins de semana, noites e emergências, vulnerando o dever de cuidado contínuo (artigo 1878.º, n.º 1, do CC).  
-4. A alegação de que a mãe tem horário de escritório fixo – pode ser refutada apresentando documentação que mostre trabalhos extraordinários, reuniões fora do horário ou deslocações que coloquem a criança em risco de abandono.  
-5. A ausência de provas concretas sobre a capacidade da mãe de garantir apoio académico e de saúde durante a eventual ausência do pai (ex.: atestados médicos, relatórios escolares).  
+1. **Viabilidade logística da residência alternada** – alegará que os documentos de escala do pai são insuficientes para provar regularidade e previsibilidade dos turnos.  
+2. **Impacto na frequência escolar** – sustentará que a mudança semanal de residência gera atrasos e ausências, contrariando a prova de que a escola fica a 3 km de ambas as casas.  
+3. **Disponibilidade da mãe** – apontará para a alegação da equipa de que a mãe tem “horário de escritório” como prova de disponibilidade plena, contestando a tentativa de minar essa imagem.  
+4. **Apoio interno da criança** – questionará a necessidade e a adequação da eventual assistência psicológica proposta, argumentando que não há demonstração de trauma ou prejuízo.  
+5. **Testemunhos de terceiros** – contestará a credibilidade das testemunhas alegadas pelo pai (ex.: vizinhos, colegas de trabalho), alegando parcialidade ou falta de conhecimento direto da rotina familiar.  
 
 ## Como responder  
-
-1. **Distância à escola** – Apresentar mapas oficiais e comprovativos de trajetos (ex.: documentos da autarquia, aplicativos de rotas) que mostrem que o percurso até à escola a partir da casa do pai tem o mesmo tempo de deslocação (aprox. 8 min) que da casa da mãe, anulando a alegação de diferença material.  
-
-2. **Relatório do psicólogo** – Demonstrar que o relatório foi realizado por psicólogo independente, com metodologia reconhecida (ex.: entrevista estruturada, observação direta) e datado recentemente (menos de 3 meses), sendo, portanto, atual e fiável. Pedir ao tribunal a oitiva da criança (artigo 4.º, n.º c) do RGPTC) para corroborar a sua preferência pela alternância.  
-
-3. **Disponibilidade horária do pai** – Submeter a escala de turnos completa, destacando que o pai tem turnos que cobrem todas as manhãs e tardes escolares, inclusive fins de semana, permitindo-lhe assumir a responsabilidade quotidiana (artigo 1878.º, n.º 1, do CC). Apresentar declarações de empregador e co‑residente que confirmem a flexibilidade e apoio familiar ao pai.  
-
-4. **Horário de trabalho da mãe** – Produzir contracheques, registos de ponto e comunicações da empresa que atestem o horário fixo de escritório (ex.: 9h‑18h) sem turnos extras, reforçando que a mãe tem disponibilidade plena nos períodos em que a criança reside com ela, inclusive para reuniões escolares e médicas.  
-
-5. **Capacidade da mãe para apoio académico/saúde** – Incluir relatórios do estabelecimento de ensino (ex.: boletins, parecer de docente) que evidenciem a necessidade de acompanhamento diário (ex.: tutorias) que a mãe pode garantir, bem como parecer do médico de família que indique que a criança necessita de monitorização regular que a mãe pode providenciar sem interrupções.  
-
-6. **Imparcialidade do psicólogo e prova da vontade da criança** – Solicitar ao tribunal a oitiva da criança, nos termos do artigo 4.º, n.º c) do RGPTC, para que expresse a sua preferência, reforçando a ideia de que a alternância corresponde à sua vontade e bem‑estar.  
-
-7. **Risco de instabilidade** – Contrapor o argumento de “risco de instabilidade” apresentando um plano detalhado de partilha de cuidados, incluindo contactos de emergência 24 h, calendário de turnos e responsabilidades, demonstrando que a alternância não gera risco, mas promove a manutenção de vínculos fortes com ambos os pais, conforme o n.º 8 do artigo 1906.º do CC.  
-
-8. **Eventual medida cautelar** – Caso a parte contrária tente obter medida cautelar de fixação de residência provisória, argumentar que tal medida seria desnecessária, pois a prova documental demonstra que a alternância já se encontra estabelecida de facto e não há perigo iminente para o menor.  
-
----  
+1. **Viabilidade logística** – apresentar a escala oficial de turnos do pai, com comprovação de que os períodos de trabalho são previsíveis com antecedência de, pelo menos, duas semanas, e demonstrar que o pai dispõe de tempo livre suficiente nos dias em que a criança está sob a sua responsabilidade (ex.: folgas regulares, rotatividade fixa). Incluir depoimento do empregador e documentos de registo de ponto.  
+2. **Impacto escolar** – submeter ao tribunal relatório pericial da psicóloga escolar que ateste que a criança tem apresentado bom rendimento e frequência regular, sem interrupções atribuíveis à mudança de residência; juntar a frequência escolar oficial que demonstra ausência nula ou mínima nos períodos de alternância. Argumentar que a proximidade das duas casas à escola elimina qualquer risco de atrasos.  
+3. **Disponibilidade da mãe** – contrapôr a alegação de disponibilidade plena com prova documental das faltas ao trabalho da mãe (ex.: registos de absentismo, relatórios de desempenho) que mostrem que a sua presença constante na criança não está garantida, tornando a residência fixa na sua casa menos segura.  
+4. **Apoio psicológico** – apresentar parecer de assistente social e psicólogo que confirmem que a criança demonstra boa adaptação à alternância, sem indícios de ansiedade ou incapacidade de compreender a rotina, reforçando o princípio da participação da criança (artigo 4.º, RGPTC).  
+5. **Credibilidade das testemunhas** – obter declarações juramentadas de vizinhos e professores que atestem a competência parental do pai, a sua disponibilidade e o bem‑estar da criança durante as semanas de residência alternada; contestar a alegação de parcialidade demonstrando que as testemunhas são independentes e reconhecidas pela comunidade.  
 
 ### Síntese para a equipa  
-- Refutar a alegação de diferença de distância escolar com mapas oficiais.  
-- Validar o relatório psicológico (independente, atual) e solicitar a oitiva da criança.  
-- Comprovar a disponibilidade efetiva do pai (turnos, apoio familiar) e a disponibilidade fixa da mãe (contracheques, ponto).  
-- Demonstrar a capacidade da mãe para apoio académico e de saúde.  
-- Apresentar plano de partilha que elimina risco de instabilidade, contrariando a pretensão da parte contrária.
+1. Refutar a alegação de instabilidade com prova documental de turnos fixos e relatórios escolares sem prejuízos.  
+2. Contrariar a suposta disponibilidade da mãe com documentos de faltas ao trabalho.  
+3. Reforçar a adequação da alternância via pareceres periciais (psicologia e serviço social).  
+4. Garantir a credibilidade das testemunhas do pai.  
+5. Preparar argumentos baseados nos artigos 1906.º, 1906.º‑A e 4.º do RGPTC para demonstrar que a residência alternada protege o interesse superior da criança.
 
 ---
 # AGENTE: Juiz Revisor
 
 ## Questões a decidir  
-1. Determinação da **residência da criança** de 7 anos – se deve aplicar o regime de **residência alternada semanal** pretendido pelo pai ou a residência exclusiva da mãe.  
-2. Fixação do **regime de visitas** e eventual **supervisão** das mesmas, caso a residência alternada seja deferida.  
-3. Eventual **revisão da prestação de alimentos** à luz da nova configuração de residência.  
+
+1. Qual o regime de residência do menor de 7 anos – residência exclusiva da mãe ou residência alternada semanal entre os progenitores?  
+2. Em caso de residência alternada, qual o calendário e as condições logísticas que melhor garantam o interesse superior da criança?  
+3. Existirá necessidade de imposição de medida cautelar (ex.: suspensão temporária ou mediação) antes da decisão final?  
 
 ## Avaliação de cada pedido ou pretensão  
 
-| Pedido | Probabilidade de êxito | Razão resumida |
-|--------|-----------------------|----------------|
-| **Residência alternada semanal** | **Média** | O artigo 1906.º, n.º 5, do CC impõe que o tribunal determine a residência “de acordo com o interesse do filho”, podendo fixar regime alternado quando “corresponda ao superior interesse da criança” (n.º 6). A igualdade de distância à escola e a possibilidade de ambos os progenitores atenderem às necessidades do menor são factos favoráveis, mas a jurisprudência exige demonstração robusta de que a alternância não prejudicará a estabilidade emocional da criança. |
-| **Regime de visitas supervisionado (se a residência exclusiva for concedida à mãe)** | Média‑baixa | Só seria admisível se o tribunal considerasse que a presença do pai seria prejudicial ou que a criança necessitaria de apoio adicional, o que ainda não está provado. |
-| **Revisão dos alimentos** | Alta | Caso a guarda seja atribuída exclusivamente à mãe, prevalecerá o princípio da proporcionalidade dos alimentos (artigos 2003.º e 2004.º do CC). A mudança na organização familiar justifica a revisão. |
+| Pedido / pretensão | Probabilidade de êxito | Justificação resumida |
+|--------------------|------------------------|-----------------------|
+| 1.º – **Residência alternada semanal** (pedido principal do pai) | **Alta** | O artigo 1906.º, n.º 5, do CC determina que o tribunal deve fixar a residência do filho “de acordo com o interesse deste, tendo em atenção todas as circunstâncias relevantes”. A proximidade de ambas as residências à escola (3 km) e a possibilidade de organização dos turnos do pai demonstram viabilidade e manutenção de laços afetivos com ambos os progenitores, requisitos essenciais do n.º 8 do mesmo artigo. |
+| 2.º – **Calendário de alternância semanal** (regime de visita e logística) | **Média** | Necessário provar que a alternância não prejudica a rotina escolar e que os turnos do pai permitem o acompanhamento diário da criança. A produção de prova documental (escalas de trabalho, comprovativo de residência, boletim escolar) e pericial (relatório psicológico) será determinante. Falhas na demonstração de compatibilidade dos turnos podem reduzir a confiança do tribunal. |
+| 3.º – **Necessidade de medida cautelar (mediação ou suspensão provisória)** | **Baixa** | Não existem indícios de risco iminente para a criança nem de violação grave das obrigações parentais. O artigo 13.º do RGPTC (processos tutelares cíveis urgentes) só se aplica quando a demora possa prejudicar a criança, o que não se verifica. Assim, a decisão será proferida diretamente na fase de julgamento. |
 
 ## Riscos e pontos fracos  
 
-1. **Insuficiência de prova da estabilidade emocional da criança** – O relatório psicológico apresentado deve ser de um especialista independente, atualizado e conter avaliação específica sobre o impacto da alternância semanal.  
-2. **Carência de prova da disponibilidade efetiva do pai** – A escala de turnos não basta; é necessário demonstrar, por exemplo, apoio familiar (avós, parentes) que garanta a vigilância da criança nos dias de presença do pai.  
-3. **Desconhecimento da opinião da criança** – O artigo 4.º do RGPTC obriga a aferição da capacidade de compreensão da criança; ainda não consta a sua oitiva nem a avaliação da assessoria técnica.  
-4. **Possível alegação de risco de descontinuidade escolar ou de saúde** – A doutrina sustenta que a frequência escolar deve ser constante; eventuais interrupções por mudança de residência podem ser ponto a favor da mãe.  
-5. **Ausência de consideração sobre a eventual necessidade de supervisão nas visitas** – Caso a residência alternada seja rejeitada, a equipa não preparou argumentos para justificar a supervisão, o que pode levar a decisão de visitação livre.  
+1. **Inexistência ou insuficiência de prova da viabilidade logística** – Se a escala de turnos do pai for considerada fixa e incompatível com a alternância semanal, o tribunal poderá entender que a residência alternada prejudica a estabilidade da criança.  
+2. **Ausência de prova do interesse da criança** – O tribunal deve ouvir a criança (artigo 4.º do RGPTC) e considerar a sua opinião. Caso não haja relatório de assistente social ou parecer psicológico que ateste a adequação da alternância ao bem‑estar da menor, a decisão poderá pender a favor da mãe.  
+3. **Argumentação baseada em presunções** – A equipa tem de evitar afirmações genéricas (“a residência alternada protege o interesse superior”) sem apoio factual concreto. O tribunal exige demonstração concreta de que a alternância assegura a manutenção da frequência escolar e a saúde da criança.  
+4. **Possível alegação de preferência de um progenitor** – O artigo 1906.º, n.º 3, prevê que o progenitor com quem a criança reside habitualmente tem prioridade nas decisões quotidianas. Se o tribunal concluir que a mãe, como titular da residência habitual, tem maior capacidade de decisão, poderá limitar a alternância.  
 
 ## O que corrigir antes de avançar  
 
-1. **Atualizar e reforçar o laudo psicológico** – Obter um relatório recente de psicólogo infantil que inclua: (i) avaliação da capacidade da criança de compreender e adaptar‑se à alternância semanal; (ii) parecer explícito de que a alternância favorece o seu bem‑estar emocional.  
-2. **Documentar a rede de apoio ao pai** – Anexar declarações escritas (e, se possível, testemunhos) de avós, tios ou outros familiares que assumam a vigilância da criança nos dias de turno do pai; incluir comprovativos de horário de trabalho (contrato, escala, registo de ponto).  
-3. **Proceder à oitiva da criança** – Solicitar ao tribunal a audição da criança nos termos do artigo 4.º do RGPTC, apresentando já a proposta de perguntas e o parecer da assessoria técnica.  
-4. **Detalhar a logística da alternância escolar** – Apresentar um plano de transporte que garanta a assiduidade à escola, incluindo horários de saída e chegada, nome dos responsáveis pelo embarque e desembarque, e eventuais acordos com a própria escola.  
-5. **Prever argumentos para eventual supervisão das visitas** – Preparar um conjunto de factos que, caso seja requerida a residência exclusiva da mãe, justifiquem a necessidade de visitas supervisionadas (por exemplo, historial de incumprimento de horários ou dificuldades de comunicação).  
-6. **Revisar a calculação dos alimentos** – Atualizar a demonstração de rendimentos de ambos os progenitores e das despesas da criança (educação, saúde, lazer) para facilitar a eventual revisão dos alimentos, citando os artigos 2003.º e 2004.º do CC.  
+1. **Consolidar a prova documental da escalas de trabalho do pai** – Incluir calendário mensal assinado pelo empregador, comprovativo de disponibilidade para ficar com a criança durante a semana escolar.  
+2. **Obter relatório pericial psicológico da criança** – Solicitar avaliação de psicólogo especializado em famílias separadas, que evidencie a capacidade da menor para lidar com a mudança semanal de residência e os benefícios do contacto equilibrado com ambos os progenitores.  
+3. **Produzir parecer do assistente social** – Recolher laudo que confirme que a proximidade das duas residências à escola mantém a rotina escolar intacta e que a logística dos deslocamentos não gera prejuízo.  
+4. **Garantir a audição da criança** – Preparar entrevista conforme o artigo 4.º do RGPTC, assegurando a presença de adulto de escolha da menor, caso a mesma deseje, e elaborar o auto de audição.  
+5. **Contrapor a alegação da mãe sobre a “inexistência de disponibilidade”** – Anexar documentos que provem as faltas ao trabalho da mãe (ex.: registos de ausência, justificações médicas), e, simultaneamente, demonstrar que o pai tem cobertura de apoio (ex.: avós, babá) nos dias em que os turnos exigirem ausência.  
+6. **Reforçar a fundamentação jurídica** – Referir explicitamente o artigo 1906.º, n.º 5, do CC (interesse do menor) e o n.º 8 (necessidade de manutenção de vínculo significativo com ambos os progenitores), bem como o artigo 4.º do RGPTC (audição da criança) e o artigo 39.º, n.º 7 (prazos para audiência de julgamento).  
 
 ---
 
 ## Confirmação das citações
 Cada artigo foi procurado no texto consolidado do Diário da República e cada processo na DGSI.
-### Existem, mas o conteúdo atribuído não corresponde: confirmar (1)
-- Artigo 1878.º do CC: O artigo existe (Conteúdo das responsabilidades parentais), mas o que o texto lhe atribui não corresponde ao seu conteúdo. Confirme antes de usar.
 ### Confirmadas (3)
-- Artigo 342.º do CC: Ónus da prova
 - Artigo 1906.º do CC: Exercício das responsabilidades parentais em caso de divórcio, separação judicial de pessoas e bens, declaração de nulidade ou anulação do casamento
+- Artigo 13.º do RGPTC: Processos urgentes
 - Artigo 4.º do RGPTC: Princípios orientadores
 
 ### Síntese para a equipa
-- A residência alternada tem probabilidade média; reforçar prova da estabilidade emocional da criança e da disponibilidade do pai.  
-- Falta a oitiva da criança e a demonstração de rede de apoio ao pai.  
-- Atualizar laudo psicológico, apresentar documentação de apoio familiar e planear logística escolar antes da audiência.
+- A residência alternada tem alta probabilidade de sucesso, mas depende da prova robusta da logística e do bem‑estar da criança.  
+- Falta de relatórios periciais e do assistente social constitui ponto fraco crítico.  
+- Corrigir a documentação de turnos, obter pareceres psicológicos e sociais, e assegurar a audição da menor antes da audiência de julgamento.
 
 ---
 # VERIFICAÇÃO
-- confirmada: CC 342 (Prova e Inquirição)
-- conteudo-duvidoso: CC 1878 (Advogado da Parte Contrária)
 - confirmada: CC 1906 (Advogado da Parte Contrária, Juiz Revisor)
+- confirmada: RGPTC 13 (Juiz Revisor)
 - confirmada: RGPTC 4 (Juiz Revisor)
 
 Erros JS: nenhum
