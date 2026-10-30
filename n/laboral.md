@@ -1,5 +1,5 @@
-versão 2779497
-# Caso laboral, modelo nuvem (0.4 min)
+versão e81b9a2
+# Caso laboral, modelo nuvem (0.7 min)
 
 ## Ficha
 ```
@@ -23,54 +23,55 @@ Tribunal competenteJuízo do trabalho.artigo 126.º da LOSJAlçada e recursoCabe
 ---
 # AGENTE: Triagem e Estratégia
 
-**## Qualificação do litígio**  
-Trata‑se de ação de impugnação judicial de despedimento por justa causa alegada pela entidade patronal, fundamentada em faltas “não justificadas” de cinco dias consecutivos de um filho menor. A controvérsia cinge a validade formal do procedimento disciplinar (nota de culpa, prazo de resposta, decisão de despedimento) e a existência de justa causa ao abrigo do artigo 351.º, n.º g) do CT.
+## Qualificação do litígio  
+Trata‑se de controvérsia laboral relativa à validade do despedimento por justa causa alegada pela entidade patronal, fundado em faltas ao trabalho de cinco dias consecutivos. A questão central a decidir é se o procedimento disciplinar cumpriu os requisitos legais (nota de culpa, prazo de resposta e decisão) e se as faltas se encontram dentro das hipóteses de justa causa previstas no artigo 351.º, alínea g) do Código do Trabalho.  
 
-**## Meio processual e tribunal**  
-O meio adequado é a **ação de impugnação judicial do despedimento** prevista no artigo 387.º, 1.º e 2.º do CT, a ser proposta perante o **Juízo do Trabalho** (tribunal competente indicado pelo Motor de Regras). O valor da causa (18 000 €) determina alçada de recurso à Relação, nos termos do motor.
+## Meio processual e tribunal  
+O meio adequado é a **ação de impugnação judicial do despedimento** ao juízo do trabalho, nos termos do artigo 387.º do Código do Trabalho e conforme indicado pelo motor de regras. O tribunal competente é o **Juízo do Trabalho** da comarca onde o trabalhador presta ou prestou o serviço, por ser matéria de direito laboral e o valor da causa (18 000 €) estar dentro da sua alçada.  
 
-**## Pressupostos e excepções a verificar**  
+## Pressupostos e exceções a verificar  
 
-1. **Legitimidade e interesse em agir** – trabalhador titular do contrato, com interesse direto na declaração de ilicitude e eventual indemnização ou reintegração.  
-2. **Competência** – Juízo do Trabalho, por ser matéria laboral.  
-3. **Prazo de impugnação** – requerimento em formulário deve ser apresentado no prazo de **60 dias** a contar da comunicação da decisão de despedimento (artigo 387.º, 2.º CT). A data de receção da comunicação (20/10/2026) impõe prazo até **19/12/2026**.  
-4. **Prescrição/caducidade** – não aplicável, pois ainda dentro do prazo de 60 dias; os créditos laborais (retribuições) prescrevem em 1 ano (artigo 337.º CT), mas a ação de despedimento tem prazo próprio.  
-5. **Caducidade do procedimento disciplinar** – verificação de cumprimento dos requisitos do artigo 353.º (nota de culpa escrita e circunstanciada), artigo 355.º (prazo de 10 dias úteis para resposta) e artigo 357.º (30 dias para decisão).  
-6. **Caso julgado/litispendência** – inexistente.  
-7. **Excepções** – eventual falta de justificação legal da ausência (artigo 249.º, n.º e) do CT) pode afastar a existência de falta injustificada.
+| Item | Verificação necessária |
+|------|------------------------|
+| **Legitimidade** | O trabalhador, titular do contrato, tem legitimidade ativa para impugnar o despedimento. |
+| **Interesse em agir** | Necessário proceder dentro do prazo de 60 dias a contar da recepção da comunicação de despedimento (artigo 387.º). |
+| **Competência** | Juízo do trabalho – confirmada pelo motor de regras. |
+| **Prescrição / Caducidade** | O pedido de impugnação caduca 60 dias após a comunicação; créditos laborais prescrevem em 1 ano (artigo 337.º) – ainda dentro do prazo. |
+| **Caso julgado / Litispendência** | Não constam decisões anteriores sobre o mesmo facto; confirmar inexistência de ação ou recurso pendente. |
+| **Procedimento disciplinar** | Verificar se foi emitida nota de culpa escrita e detalhada (artigo 353.º), se o trabalhador respondeu no prazo de 10 dias úteis (artigo 355.º) e se a decisão de despedimento foi proferida dentro dos 30 dias (artigo 357.º). |
+| **Exceções de justa causa** | Avaliar se as faltas se enquadram na alínea g) (5 faltas seguidas) e se foram justificadas nos termos do artigo 249.º, n.º e) (assistência a filho menor). |
+| **Eventual suspensão preventiva** | Possibilidade de requerer suspensão preventiva do despedimento (artigo 386.º) dentro de 5 dias úteis da comunicação. |
+| **Impacto de eventual acordo coletivo** | Verificar se existe cláusula normativa ou acordo coletivo que limite ou modifique o procedimento disciplinar. |
 
-**## Estratégia**
+## Estratégia  
 
-1. **Impedir a validade do despedimento por vícios formais**  
-   *Vantagem*: Se o tribunal reconhecer a nulidade do procedimento (ausência ou defeito da nota de culpa, incumprimento do prazo de resposta ou da decisão) o despedimento será declarado ilícito, implicando reintegração ou indemnização automática.  
-   *Risco*: Caso o tribunal entenda que os requisitos formais foram cumpridos, a defesa ficará restrita à análise da justa causa, onde a empresa pode alegar que o número de faltas (5 consecutivas) enquadra‑se no n.º g) do artigo 351.º, reduzindo a probabilidade de sucesso.
+1. **Impugnação imediata do despedimento (ação judicial)**  
+   *Vantagem*: permite contestar todos os vícios formais (ausência ou irregularidade da nota de culpa, prazo de resposta, prazo de decisão) e, caso seja declarada ilícita, obter a reintegração ou indemnização.  
+   *Risco*: a ação terá de ser proposta dentro de 60 dias; eventual falha no cumprimento do prazo implicará perda do direito de impugnação.  
 
-2. **Argumentar a ausência de justa causa factual**  
-   *Vantagem*: Baseia‑se no direito à assistência inadiável ao filho (artigo 249.º, n.º e) do CT) – ausência de justificativa escrita não invalida a natureza justificável da falta, podendo levar o tribunal a concluir que não existe facto imputável que configure justa causa.  
-   *Risco*: O empregador pode sustentar que a falta de justificação escrita constitui violação do dever de assiduidade, e o tribunal pode aceitar a falta como “não justificada”, reconhecendo a justa causa prevista no n.º g) do artigo 351.º.
+2. **Pedido de suspensão preventiva do despedimento (procedimento cautelar)**  
+   *Vantagem*: garante a manutenção do posto de trabalho enquanto se decide a ação principal, evitando prejuízos salariais imediatos.  
+   *Risco*: a suspensão só pode ser obtida se houver probabilidade séria de ilicitude; caso o juiz rejeite, o trabalhador ficará sem o contrato e terá que arcar com o risco de caducidade da ação principal.  
 
-3. **Requerer a suspensão preventiva do despedimento (procedimento cautelar)**  
-   *Vantagem*: Permite ganhar tempo para a produção de prova (documentação médica do filho, registo de comunicação telefónica) e reforçar a argumentação de falta justificada antes da decisão final.  
-   *Risco*: A medida cautelar exige demonstração de “probabilidade séria” de ilicitude; se o tribunal não a conceder, não impede a decisão de despedimento e o prazo de 60 dias continuará a correr.
+3. **Negociação de acordo extrajudicial (acordo de conciliação)**  
+   *Vantagem*: evita o custo e a morosidade do processo, possibilitando um acordo de indemnização ou reintegração mais célere.  
+   *Risco*: a empresa pode recusar acordo ou propor condições desfavoráveis; além disso, o trabalhador pode perder o direito de impugnação caso o acordo inclua renúncia a futuros créditos.  
 
-**Recomendação** – Optar pela **opção 1** (atacar os vícios formais) porque, se comprovado o incumprimento dos requisitos do artigo 353.º, 355.º e 357.º, o despedimento será declarado nulo independentemente da existência de justa causa, assegurando ao trabalhador a reintegração ou indemnização sem necessidade de discutir o mérito factual.
+**Recomendação**: Iniciar a **ação de impugnação** dentro do prazo de 60 dias, simultaneamente requerendo **suspensão preventiva** para preservar o posto de trabalho e evitar perdas salariais, mantendo a possibilidade de negociação posterior.  
 
-**## Informação em falta**
+## Informação em falta  
 
-1. Cópia da **nota de culpa** enviada a 10 / 9 / 2026 (conteúdo, forma escrita).  
-2. Prova da **receção** da nota de culpa pelo trabalhador (confirmação de data e forma).  
-3. Registo ou comprovativo da **resposta escrita** (se foi apresentada) dentro dos 10 dias úteis prévios.  
-4. Documentação médica que comprove a doença do filho e a necessidade de assistência (certificado, receita).  
-5. Eventuais **testemunhas** (ex.: colega que possa atestar a comunicação telefónica ao superior).  
-6. Existência ou não de comissão de trabalhadores ou representante sindical na empresa (para verificar se o procedimento deveria ter sido dirigido a eles).  
-7. Se houve **cumprimento do prazo de 30 dias** para a decisão de despedimento (entre 10 / 9 e 20 / 10 / 2026).  
+1. Data exacta da comunicação escrita da decisão de despedimento ao trabalhador.  
+2. Se a nota de culpa foi entregue por escrito e contém descrição circunstanciada dos factos (cópia da nota).  
+3. Se o trabalhador respondeu à nota de culpa dentro do prazo de 10 dias úteis (cópia da resposta, se houver).  
+4. Existence of any collective bargaining agreement or internal regulations that regulate faltas por assistência a filho menor.  
+5. Eventuais comunicações ou documentos que provem a impossibilidade de comparecimento ao trabalho (ex.: certidão médica do filho).  
+6. Se o trabalhador tem algum representante sindical ou se foi notificado a comissão de trabalhadores.  
+7. Eventual existência de procedimento disciplinar anterior ou sanções já aplicadas ao trabalhador.  
 
 ---  
 ### Síntese para a equipa  
-- Ação de impugnação judicial de despedimento no Juízo do Trabalho, prazo até 19/12/2026.  
-- Verificar se a nota de culpa, prazo de resposta e decisão respeitaram os artigos 353.º, 355.º, 357.º.  
-- Estratégia principal: atacar vícios formais do procedimento disciplinar.  
-- Recolher nota de culpa, prova de resposta, documentos médicos e eventuais testemunhos.  
+Despedimento por faltas pode ser impugnado; prazo de 60 dias conta da comunicação (20/10/2026). Verificar nota de culpa, resposta e decisão dentro dos prazos legais. Estratégia: ação judicial + pedido de suspensão preventiva; obter documentos faltantes para fundamentar o pedido.
 
 ---
 # AGENTE: Prazos e Custas
@@ -110,27 +111,27 @@ Taxa de justiça: Acção declarativa de 18 000,00 €: 4 UC, ou seja, 408,00�
 ## Jurisprudência
 Pesquisa na DGSI a partir do tema: «despedimento por justa causa faltas injustificadas procedimento disciplinar nota de culpa Saber se o despedimento é impugnável, em que prazo e com que [...]».
 ### TRC, 15/12/2021, processo 5016/20.8T8CBR.C1
-**Sentido provável: favorável** (apreciação da IA, confirme no acórdão). O acórdão limita a justa causa a faltas de dezasseis dias consecutivos, sendo o nosso caso apenas cinco dias, o que impede a legalidade do despedimento.
-> «Incorre em justa causa subjectiva de despedimento o trabalhador que falta injustificadamente ao trabalho durante dezasseis dias consecutivos» (trecho confirmado no sumário)
+**Sentido provável: favorável** (apreciação da IA, confirme no acórdão). O acórdão exige fundamentação obrigatória e fixa o número de dias (dezasseis) como requisito para justa causa por faltas injustificadas, o que não se verifica no nosso caso de cinco dias.
+> «Incorre em justa causa subjectiva de despedimento o trabalhador que falta injustificadamente ao trabalho durante dezasseis dias consecutivos, revelando uma total indiferença para com o cumprimento do dever de assiduidade…» (trecho confirmado no sumário)
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtrc.nsf/8fe0e606d8f56b22802576c0005637dc/8e01068d915eb9e6802587b30053d9bd?OpenDocument) · Decisão: REVOGADA PARCIALMENTE
 ### TRG, 05/06/2025, processo 1933/24.4T8VNF.G1
-**Sentido provável: desfavorável** (apreciação da IA, confirme no acórdão). O acórdão reconhece como justa causa o comportamento de faltas injustificadas, reforçando a legalidade do despedimento por estas razões.
+**Sentido provável: desfavorável** (apreciação da IA, confirme no acórdão). O acórdão reconhece a ausência de justificação como justa causa, reforçando a possibilidade da empresa despedir por faltas injustificadas.
 > «tal comportamento constitui justa causa de despedimento, pois que está demonstrado que o trabalhador foi alertado para esse comportamento pelo seu superior hierárquico e, não obstante isso, persistiu na mesma atitude» (trecho confirmado no sumário)
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtrg.nsf/86c25a698e4e7cb7802579ec004d3832/7d3f93a1b431fdc680258cb600481077?OpenDocument) · Decisão: APELAÇÃO IMPROCEDENTE
 ### TRG, 19/09/2024, processo 2048/23.8T8BRG.G1
-**Sentido provável: favorável** (apreciação da IA, confirme no acórdão). O acórdão deixa claro que cinco faltas injustificadas não constituem, por si só, justa causa de despedimento.
+**Sentido provável: favorável** (apreciação da IA, confirme no acórdão). O acórdão reconhece que cinco faltas injustificadas consecutivas não justificam automaticamente a despedimento por justa causa.
 > «A existência de pelo menos cinco faltas injustificadas seguidas ou dez interpoladas no mesmo ano civil não constitui automaticamente justa causa de despedimento".» (trecho confirmado no sumário)
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtrg.nsf/86c25a698e4e7cb7802579ec004d3832/0cabf7c0345cabe880258ba9003e7953?OpenDocument) · Decisão: APELAÇÃO IMPROCEDENTE
 ### TRC, 27/06/2025, processo 1421/24.9T8CVL.C1
-**Sentido provável: favorável** (apreciação da IA, confirme no acórdão). O acórdão reconhece a necessidade de defesa e a validade do procedimento disciplinar, reforçando a possibilidade de impugnação do despedimento por justa causa.
-> «O trabalhador ao longo do procedimento disciplinar tem conhecimento dos factos de que é acusado, tem oportunidade de se defender com apresentação dos meios de prova que entendeu serem necessários» (trecho confirmado no sumário)
+**Sentido provável: favorável** (apreciação da IA, confirme no acórdão). O acórdão reconhece que o trabalhador tem direito ao conhecimento dos factos e à defesa no procedimento disciplinar, reforçando a validade da ação de impugnação do despedimento.
+> «O trabalhador ao longo do procedimento disciplinar tem conhecimento dos factos de que é acusado, tem oportunidade de se defender com apresentação dos meios de prova que entendeu serem necessários sendo-lhe, por fim, dado conhecimento da decisão final que culminou no seu despedimento.» (trecho confirmado no sumário)
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtrc.nsf/8fe0e606d8f56b22802576c0005637dc/bc1985a49e01a2e880258cc10037e866?OpenDocument) · Decisão: REVOGADA
 ### TRC, 16/09/2026, processo 2556/25.6T8CBR.C1
-**Sentido provável: favorável** (apreciação da IA, confirme no acórdão). o acórdão admite que a nota de culpa deve conter descrição suficientemente circunstanciada dos factos e que a ausência de tal descrição pode afastar a justa causa — aspecto que pode ser invocado no nosso caso.
-> «a nota de culpa delimita o âmbito factual suscetível de fundamentar o despedimento, devendo conter uma descrição suficientemente circunstanciada dos factos imputados ao trabalhador; não podem relevar para a apreciação da justa causa factos que a extravasem, nem juízos conclusivos, vagos ou insuficientemente concretizados.» (trecho confirmado no sumário)
+**Sentido provável: favorável** (apreciação da IA, confirme no acórdão). O acórdão exige que a nota de culpa contenha descrição suficientemente circunstanciada dos factos, o que pode ser invocado contra a nota genérica da empresa e favorecer a impugnação do despedimento.
+> «não podem relevar para a apreciação da justa causa factos que a extravasem, nem juízos conclusivos, vagos ou insuficientemente concretizados.» (trecho confirmado no sumário)
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jtrc.nsf/8fe0e606d8f56b22802576c0005637dc/d8086360a722f45680258e7b0050e1c2?OpenDocument) · Decisão: REVOGADA
 ### STJ, 22/11/1990, processo 002429
-**Sentido provável: a confirmar pela leitura do sumário** (apreciação da IA, confirme no acórdão). O acórdão considera graves as faltas injustificadas de três dias consecutivos, o que inclui os cinco dias do trabalhador, legitimando o despedimento por justa causa.
+**Sentido provável: a confirmar pela leitura do sumário** (apreciação da IA, confirme no acórdão). O acórdão considera gravíssima a falta injustificada de 3 dias consecutivos, o que inclui os 5 dias ausentes do trabalhador, reforçando a possibilidade de justa causa.
 [Abrir o acórdão na DGSI](https://www.dgsi.pt/jstj.nsf/954f0ce6ad9dd8b980256b5f003fa814/fa00c54fdb85f367802568fc00399725?OpenDocument) · Decisão: NEGADO PROVIMENTO.
 ## Legislação aplicável (texto consolidado)
 - **Artigo 351.º do CT** (Noção de justa causa de despedimento): 1 - Constitui justa causa de despedimento o comportamento culposo do trabalhador que, pela sua gravidade e consequências, torne imediata e praticamente impossível a subsistência da relação de trabalho. 2 - Constituem, nomeadamente, justa causa de despedimento os seguintes comportamentos do trabalhador: a) [...]
@@ -164,32 +165,54 @@ Pesquisa na DGSI a partir do tema: «despedimento por justa causa faltas injusti
 # AGENTE: Juiz Revisor
 
 ## Questões a decidir
-1. O despedimento por justa causa, com fundamento nas faltas injustificadas de cinco dias consecutivos, é legalmente válido?  
-2. O procedimento disciplinar cumpriu as formalidades exigidas nos artigos 353.º, 355.º, 357.º do Código do Trabalho (CT) e, por conseguinte, o despedimento deve ser considerado ilícito?  
-3. Qual a probabilidade de sucesso da ação de impugnação judicial, nos termos do artigo 387.º do CT, apresentada dentro do prazo de 60 dias?  
+1. **O despedimento praticado a 20 / 10 / 2026 foi válido por justa causa?**  
+2. **O procedimento disciplinar cumpriu as formalidades previstas nos artigos 353.º, 355.º, 357.º do CT e no artigo 329.º do CT?**  
+3. **É admissível a ação de impugnação judicial, dentro do prazo de 60 dias, e o trabalhador tem direito à suspensão preventiva do despedimento?**  
+4. **Em caso de ilicitude, qual a consequência (reintegração ou indemnização) mais adequada ao caso?**  
 
-## Avaliação de cada pedido ou pretensão
-| Pretensão | Probabilidade de êxito | Fundamentação resumida |
-|-----------|------------------------|------------------------|
-| **Impugnação do despedimento por vício formal (ausência ou insuficiência da nota de culpa, prazo de resposta, decisão fora dos 30 dias)** | **Alta** | A jurisprudência (TRC 16/09/2026 – “nota de culpa deve conter descrição suficientemente circunstanciada”) e o artigo 353.º exigem nota escrita e detalhada; a nota enviada a 10 de setembro não demonstra se descreveu suficientemente os factos, sendo essencial a verificação. |
-| **Impugnação por ausência de justa causa material (faltas de cinco dias não constituem, por si só, justa causa)** | **Média‑Alta** | O artigo 351.º, n.º g) estabelece a “faltas não justificadas… cujo número atinja, em cada ano civil, cinco seguidas ou 10 interpoladas”. Contudo, a jurisprudência (TRC 19/09/2024) indica que a mera ocorrência de cinco faltas consecutivas **não constitui automaticamente** justa causa; requer‑se demonstração de prejuízo ou risco grave, o que falta nos autos. |
-| **Pedido de reintegração ou indemnização (artigos 389.º, 390.º, 391.º do CT)** | **Média** | Caso o tribunal declare o despedimento ilícito, a reintegração será a solução padrão, podendo o trabalhador optar por indemnização (mínimo de 3 meses de retribuição, artigo 391.º, n.º 3). A quantia da indemnização será calculada com base nos 8 anos de antiguidade (2018‑2026). |
+---
 
-## Riscos e pontos fracos
-1. **Nota de culpa suficientemente circunscrita?** – Se a nota de culpa enviada a 10 de setembro contiver descrição detalhada dos factos (por exemplo, indicar explicitamente as cinco faltas e a inexistência de justificação escrita), o tribunal considerará o requisito do artigo 353.º cumprido, reduzindo a força do argumento de vício formal.  
-2. **Prazo de resposta à nota de culpa** – O trabalhador tem 10 dias úteis para responder (artigo 355.º). Não constam nos autos a data da resposta; se o trabalhador não respondeu dentro desse prazo, o procedimento pode ser considerado válido.  
-3. **Decisão de despedimento dentro de 30 dias** – O empregador tem 30 dias para decidir (artigo 357.º, n.º 1). Deve‑se comprovar a data de comunicação da decisão (20 de outubro). Se a decisão foi comunicada naquele dia, o prazo está respeitado; caso contrário, pode‑se invocar caducidade do direito de despedimento.  
-4. **Justa causa material** – Ainda que a jurisprudência reconheça que cinco faltas consecutivas não são, por si, suficientes, o empregador pode argumentar que a falta de justificação escrita e a ausência de comprovação médica constituem “falsas declarações relativas à justificação de faltas” (artigo 351.º, n.º f) ou violação do dever de assiduidade (artigo 256.º).  
-5. **Prescrição de créditos** – Eventuais créditos de salários ou indenizações por cessação do contrato prescrevem em 1 ano (artigo 337.º). Como o despedimento ocorreu em outubro de 2026, a pretensão de créditos até à data da ação ainda está dentro do prazo.  
+## Avaliação de cada pedido ou pretensão  
 
-## O que corrigir antes de avançar
-1. **Obter e analisar a nota de culpa integral** – Verificar se contém a descrição circunstanciada exigida (artigo 353.º) e se está em formato escrito e assinado.  
-2. **Certificar a data e o teor da resposta do trabalhador à nota de culpa** – Se inexistente, preparar prova de que o trabalhador não respondeu no prazo legal, sustentando a nulidade do procedimento.  
-3. **Comprovar a data de comunicação da decisão de despedimento** – Necessário para confirmar ou refutar o cumprimento do prazo de 30 dias (artigo 357.º, n.º 1).  
-4. **Reunir documentos médicos ou outros justificativos** – Mesmo que não tenha sido entregue escrito, obter a prova de doença do filho (ex.: atestado médico) para demonstrar que a falta poderia ser justificada nos termos do artigo 249.º, n.º d).  
-5. **Preparar argumentação jurisprudencial** – Destacar o TRC 19/09/2024 (não automática justa causa) e o TRC 16/09/2026 (exigência de descrição suficiente na nota de culpa), contrapondo‑os ao enquadramento do artigo 351.º, n.º g).  
-6. **Calcular a indemnização mínima (3 meses) e preparar pedido subsidiário de reintegração** – Apresentar, no requerimento inicial, ambos os pedidos, com fundamentos legais (artigos 389.º, 391.º).  
-7. **Verificar eventual possibilidade de suspensão preventiva** – Caso o trabalhador pretenda proteção urgente (artigo 386.º), avaliar se há fundamento para requerer medida cautelar antes da ação principal.  
+| Pedido / Pretensão | Probabilidade de êxito | Razão resumida |
+|--------------------|------------------------|----------------|
+| **Impugnação do despedimento por inexistência de justa causa** | **Alta** | A jurisprudência (TRC 15/12/2021; TRC 27/06/2025; TRC 16/09/2026) reconhece que **cinco faltas seguidas não constituem, isoladamente, justa causa** e que a decisão deve limitar‑se aos factos constantes da nota de culpa. A falta de justificação escrita e a ausência de prova da doença do filho tornam a falta “injustificada”, mas o número de faltas não atinge o limiar de 10 interpoladas nem demonstra prejuízo grave. |
+| **Pedido de suspensão preventiva do despedimento (artigo 386.º do CT)** | **Média‑Alta** | O trabalhador tem cinco dias úteis a contar da recepção da comunicação (20 / 10) para requerer a medida (até 27 / 10). Se o requerimento for apresentado dentro desse prazo, o tribunal costuma conceder a medida na fase cautelar, sobretudo quando existam dúvidas sobre a validade do procedimento disciplinar. |
+| **Reintegração no posto de trabalho** | **Média** | Caso o tribunal declare o despedimento ilícito, a reintegração é a solução padrão (artigo 389.º, n.º 1). Contudo, a empresa pode invocar, nos termos do artigo 392.º, circunstâncias que tornem o regresso gravemente prejudicial; a avaliação dependerá de argumentos da empresa, que ainda não foram antecipados. |
+| **Indemnização substitutiva (artigo 391.º do CT)** | **Alta** (se a reintegração for impossível ou recusada) | O tribunal fixará o valor entre 15 e 45 dias de retribuição base por cada ano completo de antiguidade, não podendo ser inferior a três meses de retribuição. O trabalhador tem mais de oito anos de serviço (desde 2018), o que gera indemnização substancial. |
+| **Pedido de pagamento de salários e demais créditos laborais (artigo 390.º do CT)** | **Alta** | Os créditos laborais não prescrevem antes de um ano após a cessação (artigo 337.º). Como o despedimento ocorreu em outubro de 2026, ainda estão dentro do prazo. |
+
+---
+
+## Riscos e pontos fracos  
+
+1. **Formalidades do procedimento disciplinar** – É essencial comprovar que a empresa enviou a **nota de culpa escrita** (artigo 353.º) a 10 / 9, que o trabalhador foi comunicado dos seus direitos e que ele respondeu dentro do prazo de 10 dias úteis (artigo 355.º). A ausência de resposta escrita ou de prova da comunicação poderia ser usada contra a validade do despedimento, mas se a empresa demonstrar a regularidade, o risco diminui.  
+
+2. **Descrição insuficiente dos factos na nota de culpa** – Se a nota não contiver a *descrição circunstanciada* dos factos (artigo 353.º, n.º 1) ou se mencionar factos que não constam na decisão final (artigo 382.º, n.º 2‑c), o procedimento será considerado inválido, mas a empresa pode argumentar que a descrição foi suficiente.  
+
+3. **Prazo de impugnação** – O prazo de 60 dias começa na data de recepção da comunicação (20 / 10). É imprescindível que a ação seja proposta **antes de 19 / 12 / 2026**; qualquer atraso excluirá o direito de impugnação.  
+
+4. **Prova das faltas justificadas** – O trabalhador informou o superior por telefone, mas não entregou justificação escrita. A jurisprudência aceita a justificação por escrito ou por outros meios idóneos (artigo 249.º, n.º 2‑e). Se não houver documento que comprove a doença do filho, a alegação pode ser considerada insuficiente.  
+
+5. **Possibilidade de recurso da empresa** – Embora o valor ultrapasse a alçada da 1.ª instância, o recurso será para a Relação (artigo 629.º, CPC). A empresa pode alegar incompetência ou violação de regras de competência, o que poderia prolongar o processo.  
+
+---
+
+## O que corrigir antes de avançar  
+
+1. **Recolher documentos que comprovem a doença do filho** – Certificado médico, declaração de dispensação ou comprovativo de prestação de cuidados. Caso não exista, solicitar ao trabalhador a produção de prova testemunhal (por exemplo, depoimento de um familiar ou de um médico).  
+
+2. **Verificar a existência e o teor da nota de culpa escrita** – Obter cópia da nota enviada a 10 / 9 / 2026, bem como a prova de entrega (correio registado, email com confirmação de leitura, etc.). Se a nota não existir ou for informal, alegar violação do artigo 353.º, n.º 1.  
+
+3. **Confirmar a resposta do trabalhador à nota de culpa** – Obter a data e o conteúdo da resposta (se houve). Caso não exista resposta, o prazo de 10 dias úteis (artigo 355.º) pode ter decorrido sem manifestação, configurando nova violação.  
+
+4. **Preparar o requerimento de suspensão preventiva** – Redigir e apresentar o pedido ao juízo competente **até 27 / 10 / 2026**, indicando claramente os vícios do procedimento e a probabilidade de ilicitude. 
+
+5. **Elaborar o articulado de impugnação (formulário do artigo 387.º)** – Incluir: (i) indicação dos factos controvertidos; (ii) demonstração de que as cinco faltas não atingem o limiar legal (artigo 351.º, n.º g) nem geram prejuízo grave; (iii) pedido de suspensão preventiva; (iv) pedido de reintegração ou indemnização; (v) pedido de pagamento de salários e demais créditos.  
+
+6. **Antecipar argumentos da empresa quanto à reintegração** – Preparar fundamentos para contestar eventual invocação do artigo 392.º (exclusão da reintegração), demonstrando que não há risco grave de perturbação da empresa.  
+
+7. **Calcular a indemnização mínima** – Com base na antiguidade (≈ 8 anos) e na retribuição base de 1 500 €, estimar o montante provável (≥ 3 meses) para informar o cliente e para fundamentar o pedido de condenação.  
 
 ---
 
@@ -197,14 +220,15 @@ Pesquisa na DGSI a partir do tema: «despedimento por justa causa faltas injusti
 Cada artigo foi procurado no texto consolidado do Diário da República e cada processo na DGSI.
 ### Existem, mas o conteúdo atribuído não corresponde: confirmar (1)
 - Artigo 4.º do RCP: O artigo existe (Isenções), mas o que o texto lhe atribui não corresponde ao seu conteúdo. Confirme antes de usar.
-### Confirmadas (16)
+### Confirmadas (20)
+- Artigo 351.º do CT: Noção de justa causa de despedimento
+- Artigo 387.º do CT: Apreciação judicial do despedimento
 - Artigo 126.º da LOSJ: Competência cível
 - Artigo 629.º do CPC: Decisões que admitem recurso
 - Artigo 44.º da LOSJ: Alçadas
 - Artigo 79.º do CPT: Decisões que admitem sempre recurso
 - Artigo 6.º do RCP: Regras gerais
 - Artigo 7.º do RCP: Regras especiais
-- Artigo 387.º do CT: Apreciação judicial do despedimento
 - Artigo 386.º do CT: Suspensão de despedimento
 - Artigo 337.º do CT: Prescrição e prova de crédito
 - Artigo 323.º do CC: Interrupção promovida pelo titular
@@ -214,14 +238,20 @@ Cada artigo foi procurado no texto consolidado do Diário da República e cada p
 - Processo 2048/23.8T8BRG.G1
 - Processo 1421/24.9T8CVL.C1
 - Processo 2556/25.6T8CBR.C1
+- Artigo 329.º do CT: Procedimento disciplinar e prescrição
+- Artigo 391.º do CT: Indemnização em substituição de reintegração a pedido do trabalhador
+- Artigo 390.º do CT: Compensação em caso de despedimento ilícito
 
 ### Síntese para a equipa
-- **Alto risco de sucesso** se a nota de culpa for insuficiente ou se houver falha no cumprimento dos prazos de resposta/decisão.  
-- **Média‑alta probabilidade** de ver a falta de cinco dias como não justificativa de justa causa, apoiando‑se na jurisprudência.  
-- Priorizar a obtenção da nota de culpa, da resposta (ou sua ausência) e da data de comunicação da decisão; anexar prova médica do filho para reforçar a falta justificada.
+- O despedimento tem alta probabilidade de ser considerado ilícito, pois cinco faltas não constituem justa causa segundo a jurisprudência.  
+- É crucial comprovar a falta de nota de culpa ou a sua insuficiência e recolher prova da doença do filho.  
+- Apresentar o pedido de suspensão preventiva até 27 / 10/2026 e a ação de impugnação antes de 19 / 12/2026.  
+- Preparar argumentos sólidos para reintegração ou indemnização, antecipando a possível defesa da empresa.
 
 ---
 # VERIFICAÇÃO
+- confirmada: CT 351 (Triagem e Estratégia)
+- confirmada: CT 387 (Triagem e Estratégia, Prazos e Custas, Jurisprudência e Lei)
 - confirmada: LOSJ 126 (Prazos e Custas)
 - confirmada: CPC 629 (Prazos e Custas)
 - confirmada: LOSJ 44 (Prazos e Custas)
@@ -229,8 +259,7 @@ Cada artigo foi procurado no texto consolidado do Diário da República e cada p
 - conteudo-duvidoso: RCP 4 (Prazos e Custas)
 - confirmada: RCP 6 (Prazos e Custas)
 - confirmada: RCP 7 (Prazos e Custas)
-- confirmada: CT 387 (Prazos e Custas, Jurisprudência e Lei, Juiz Revisor)
-- confirmada: CT 386 (Prazos e Custas)
+- confirmada: CT 386 (Prazos e Custas, Juiz Revisor)
 - confirmada: CT 337 (Prazos e Custas)
 - confirmada: CC 323 (Prazos e Custas)
 - confirmada: CT 392 (Jurisprudência e Lei)
@@ -239,6 +268,9 @@ Cada artigo foi procurado no texto consolidado do Diário da República e cada p
 - confirmada: 2048/23.8T8BRG.G1 (Jurisprudência e Lei)
 - confirmada: 1421/24.9T8CVL.C1 (Jurisprudência e Lei)
 - confirmada: 2556/25.6T8CBR.C1 (Jurisprudência e Lei)
+- confirmada: CT 329 (Juiz Revisor)
+- confirmada: CT 391 (Juiz Revisor)
+- confirmada: CT 390 (Juiz Revisor)
 
 Erros JS: nenhum
 
