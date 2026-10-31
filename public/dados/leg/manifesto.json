@@ -1,6 +1,6 @@
 {
- "gerado": "2026-10-30T10:59:51.098Z",
- "total": 172016,
+ "gerado": "2026-10-31T10:30:40.118Z",
+ "total": 172023,
  "ficheiros": [
   {
    "grupo": "principal",
@@ -23,7 +23,7 @@
   {
    "grupo": "principal",
    "nome": "principal-4.json",
-   "n": 980,
+   "n": 979,
    "mb": 0.65
   },
   {
@@ -66,19 +66,19 @@
    "grupo": "outros",
    "nome": "outros-7.json",
    "n": 15000,
-   "mb": 8.86
+   "mb": 8.87
   },
   {
    "grupo": "outros",
    "nome": "outros-8.json",
-   "n": 10803,
-   "mb": 6.79
+   "n": 10811,
+   "mb": 6.8
   },
   {
    "grupo": "recentes",
    "nome": "recentes.json",
-   "n": 8913,
-   "mb": 6.61
+   "n": 8874,
+   "mb": 6.59
   },
   {
    "grupo": "juris",
@@ -89,7 +89,7 @@
   {
    "grupo": "versoes",
    "nome": "versoes/",
-   "n": 172016,
+   "n": 172023,
    "pastas": 179
   }
  ],
@@ -113,7 +113,7 @@
   "decreto-lei|expired": 34,
   "resolucao-conselho-ministros-para-assuntos-economicos|in_force": 1,
   "lei-constitucional|in_force": 8,
-  "resolucao-conselho-ministros|in_force": 3689,
+  "resolucao-conselho-ministros|in_force": 3690,
   "resolucao|repealed": 70,
   "lei|expired": 13,
   "resolucao-conselho-ministros|repealed": 253,
@@ -124,8 +124,8 @@
   "decreto-regulamentar|repealed": 679,
   "despacho-normativo|partially_repealed": 11,
   "decreto-regulamentar|partially_repealed": 60,
-  "decreto-presidente-republica|in_force": 5594,
-  "resolucao-assembleia-republica|in_force": 4747,
+  "decreto-presidente-republica|in_force": 5598,
+  "resolucao-assembleia-republica|in_force": 4749,
   "decreto-governo|in_force": 271,
   "decreto-presidente-republica|repealed": 327,
   "decreto-governo|repealed": 22,
