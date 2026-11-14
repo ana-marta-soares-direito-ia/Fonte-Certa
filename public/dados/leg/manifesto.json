@@ -1,6 +1,6 @@
 {
- "gerado": "2026-11-13T12:19:09.721Z",
- "total": 179054,
+ "gerado": "2026-11-14T11:35:05.723Z",
+ "total": 179057,
  "ficheiros": [
   {
    "grupo": "principal",
@@ -77,13 +77,13 @@
   {
    "grupo": "outros",
    "nome": "outros-9.json",
-   "n": 2018,
+   "n": 2021,
    "mb": 1.28
   },
   {
    "grupo": "recentes",
    "nome": "recentes.json",
-   "n": 8936,
+   "n": 8937,
    "mb": 6.65
   },
   {
@@ -95,14 +95,14 @@
   {
    "grupo": "versoes",
    "nome": "versoes/",
-   "n": 179054,
+   "n": 179057,
    "pastas": 179
   }
  ],
  "porTipoEstado": {
   "decreto|in_force": 8346,
   "decreto-lei|in_force": 12611,
-  "portaria|in_force": 77818,
+  "portaria|in_force": 77820,
   "portaria|repealed": 8894,
   "lei|in_force": 3677,
   "lei|repealed": 499,
@@ -209,7 +209,7 @@
   "resolucao-assembleia-legislativa-regional|in_force": 498,
   "resolucao-assembleia-legislativa-regional|repealed": 10,
   "resolucao-assembleia-legislativa-regional-acores|in_force": 3,
-  "resolucao-assembleia-legislativa-regiao-autonoma-acores|in_force": 609,
+  "resolucao-assembleia-legislativa-regiao-autonoma-acores|in_force": 610,
   "resolucao-assembleia-legislativa-regiao-autonoma-acores|repealed": 2,
   "despacho-extrato|in_force": 1,
   "resolucao-assembleia-regional|in_force": 1,
