@@ -1,6 +1,6 @@
 {
- "gerado": "2026-11-14T11:35:05.723Z",
- "total": 179057,
+ "gerado": "2026-11-15T12:04:33.321Z",
+ "total": 179058,
  "ficheiros": [
   {
    "grupo": "principal",
@@ -54,7 +54,7 @@
    "grupo": "outros",
    "nome": "outros-5.json",
    "n": 15000,
-   "mb": 8.69
+   "mb": 8.68
   },
   {
    "grupo": "outros",
@@ -77,14 +77,14 @@
   {
    "grupo": "outros",
    "nome": "outros-9.json",
-   "n": 2021,
+   "n": 2022,
    "mb": 1.28
   },
   {
    "grupo": "recentes",
    "nome": "recentes.json",
-   "n": 8937,
-   "mb": 6.65
+   "n": 8931,
+   "mb": 6.64
   },
   {
    "grupo": "juris",
@@ -95,14 +95,14 @@
   {
    "grupo": "versoes",
    "nome": "versoes/",
-   "n": 179057,
+   "n": 179058,
    "pastas": 179
   }
  ],
  "porTipoEstado": {
   "decreto|in_force": 8346,
   "decreto-lei|in_force": 12611,
-  "portaria|in_force": 77820,
+  "portaria|in_force": 77821,
   "portaria|repealed": 8894,
   "lei|in_force": 3677,
   "lei|repealed": 499,
