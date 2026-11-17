@@ -1,6 +1,6 @@
 {
- "gerado": "2026-11-16T12:52:12.204Z",
- "total": 179058,
+ "gerado": "2026-11-17T13:33:20.522Z",
+ "total": 179062,
  "ficheiros": [
   {
    "grupo": "principal",
@@ -23,7 +23,7 @@
   {
    "grupo": "principal",
    "nome": "principal-4.json",
-   "n": 1117,
+   "n": 1120,
    "mb": 0.74
   },
   {
@@ -77,25 +77,25 @@
   {
    "grupo": "outros",
    "nome": "outros-9.json",
-   "n": 2022,
+   "n": 2023,
    "mb": 1.28
   },
   {
    "grupo": "recentes",
    "nome": "recentes.json",
-   "n": 8928,
+   "n": 8926,
    "mb": 6.64
   },
   {
    "grupo": "juris",
    "nome": "jurisprudencia-dr.json",
-   "n": 768,
+   "n": 769,
    "mb": 0.63
   },
   {
    "grupo": "versoes",
    "nome": "versoes/",
-   "n": 179058,
+   "n": 179062,
    "pastas": 179
   }
  ],
@@ -104,7 +104,7 @@
   "decreto-lei|in_force": 12611,
   "portaria|in_force": 77821,
   "portaria|repealed": 8894,
-  "lei|in_force": 3677,
+  "lei|in_force": 3680,
   "lei|repealed": 499,
   "resolucao-assembleia-nacional|in_force": 35,
   "acordao-doutrinario|in_force": 60,
@@ -169,7 +169,7 @@
   "despacho-normativo-extracto|in_force": 9,
   "regimento-assembleia-republica|repealed": 4,
   "decreto-representante-republica-para-regiao-autonoma-madeira|in_force": 34,
-  "acordao-supremo-tribunal-justica|in_force": 212,
+  "acordao-supremo-tribunal-justica|in_force": 213,
   "decreto-representante-republica-para-regiao-autonoma-acores|in_force": 24,
   "acordao-tribunal-constitucional|in_force": 168,
   "acordo-colectivo-trabalho|in_force": 1,
