@@ -1,12 +1,12 @@
 {
- "gerado": "2026-11-17T13:33:20.522Z",
- "total": 179062,
+ "gerado": "2026-11-18T13:09:18.423Z",
+ "total": 179064,
  "ficheiros": [
   {
    "grupo": "principal",
    "nome": "principal-1.json",
    "n": 15000,
-   "mb": 12.62
+   "mb": 12.58
   },
   {
    "grupo": "principal",
@@ -23,8 +23,8 @@
   {
    "grupo": "principal",
    "nome": "principal-4.json",
-   "n": 1120,
-   "mb": 0.74
+   "n": 1136,
+   "mb": 0.75
   },
   {
    "grupo": "outros",
@@ -54,7 +54,7 @@
    "grupo": "outros",
    "nome": "outros-5.json",
    "n": 15000,
-   "mb": 8.68
+   "mb": 8.69
   },
   {
    "grupo": "outros",
@@ -77,13 +77,13 @@
   {
    "grupo": "outros",
    "nome": "outros-9.json",
-   "n": 2023,
-   "mb": 1.28
+   "n": 2011,
+   "mb": 1.27
   },
   {
    "grupo": "recentes",
    "nome": "recentes.json",
-   "n": 8926,
+   "n": 8928,
    "mb": 6.64
   },
   {
@@ -95,20 +95,20 @@
   {
    "grupo": "versoes",
    "nome": "versoes/",
-   "n": 179062,
+   "n": 179064,
    "pastas": 179
   }
  ],
  "porTipoEstado": {
   "decreto|in_force": 8346,
-  "decreto-lei|in_force": 12611,
-  "portaria|in_force": 77821,
-  "portaria|repealed": 8894,
+  "decreto-lei|in_force": 12608,
+  "portaria|in_force": 77817,
+  "portaria|repealed": 8899,
   "lei|in_force": 3680,
   "lei|repealed": 499,
   "resolucao-assembleia-nacional|in_force": 35,
   "acordao-doutrinario|in_force": 60,
-  "decreto-lei|repealed": 10852,
+  "decreto-lei|repealed": 10855,
   "decreto|repealed": 489,
   "decreto-lei|partially_repealed": 154,
   "portaria|expired": 22,
@@ -125,9 +125,9 @@
   "lei|expired": 13,
   "despacho-normativo|in_force": 5717,
   "decreto-aprovacao-constituicao|in_force": 1,
-  "decreto-regulamentar|in_force": 1193,
+  "decreto-regulamentar|in_force": 1192,
   "despacho-normativo|repealed": 849,
-  "decreto-regulamentar|repealed": 679,
+  "decreto-regulamentar|repealed": 680,
   "despacho-normativo|partially_repealed": 11,
   "decreto-regulamentar|partially_repealed": 60,
   "decreto-presidente-republica|in_force": 5705,
@@ -140,8 +140,8 @@
   "regimento|repealed": 2,
   "resolucao-assembleia-republica|repealed": 44,
   "declaracao-rectificacao|in_force": 10939,
-  "decreto-legislativo-regional|repealed": 581,
-  "decreto-regulamentar-regional|in_force": 1385,
+  "decreto-legislativo-regional|repealed": 582,
+  "decreto-regulamentar-regional|in_force": 1384,
   "aviso|in_force": 34,
   "declaracao-rectificacao|repealed": 39,
   "declaracao-rectificacao|partially_repealed": 6,
@@ -202,7 +202,7 @@
   "aviso-extrato|in_force": 1,
   "decreto-regional|repealed": 111,
   "decreto-regional|in_force": 169,
-  "decreto-regulamentar-regional|repealed": 1136,
+  "decreto-regulamentar-regional|repealed": 1137,
   "decreto-regulamentar-regional|partially_repealed": 80,
   "decreto-legislativo-regional|in_force": 1800,
   "decreto-legislativo-regional|partially_repealed": 55,
