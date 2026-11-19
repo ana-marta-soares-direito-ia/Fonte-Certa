@@ -1,6 +1,6 @@
 {
- "gerado": "2026-11-18T13:09:18.423Z",
- "total": 179064,
+ "gerado": "2026-11-19T13:12:29.187Z",
+ "total": 179069,
  "ficheiros": [
   {
    "grupo": "principal",
@@ -23,7 +23,7 @@
   {
    "grupo": "principal",
    "nome": "principal-4.json",
-   "n": 1136,
+   "n": 1137,
    "mb": 0.75
   },
   {
@@ -77,13 +77,13 @@
   {
    "grupo": "outros",
    "nome": "outros-9.json",
-   "n": 2011,
-   "mb": 1.27
+   "n": 2015,
+   "mb": 1.28
   },
   {
    "grupo": "recentes",
    "nome": "recentes.json",
-   "n": 8928,
+   "n": 8933,
    "mb": 6.64
   },
   {
@@ -95,16 +95,16 @@
   {
    "grupo": "versoes",
    "nome": "versoes/",
-   "n": 179064,
+   "n": 179069,
    "pastas": 179
   }
  ],
  "porTipoEstado": {
   "decreto|in_force": 8346,
   "decreto-lei|in_force": 12608,
-  "portaria|in_force": 77817,
+  "portaria|in_force": 77819,
   "portaria|repealed": 8899,
-  "lei|in_force": 3680,
+  "lei|in_force": 3681,
   "lei|repealed": 499,
   "resolucao-assembleia-nacional|in_force": 35,
   "acordao-doutrinario|in_force": 60,
@@ -118,7 +118,7 @@
   "resolucao|in_force": 3528,
   "decreto-lei|expired": 35,
   "resolucao-conselho-ministros-para-assuntos-economicos|in_force": 1,
-  "resolucao-conselho-ministros|in_force": 6497,
+  "resolucao-conselho-ministros|in_force": 6499,
   "resolucao-conselho-ministros|repealed": 508,
   "lei-constitucional|in_force": 8,
   "resolucao|repealed": 70,
