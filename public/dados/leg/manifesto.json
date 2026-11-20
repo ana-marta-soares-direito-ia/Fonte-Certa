@@ -1,6 +1,6 @@
 {
- "gerado": "2026-11-19T13:12:29.187Z",
- "total": 179069,
+ "gerado": "2026-11-20T13:00:29.465Z",
+ "total": 179087,
  "ficheiros": [
   {
    "grupo": "principal",
@@ -23,7 +23,7 @@
   {
    "grupo": "principal",
    "nome": "principal-4.json",
-   "n": 1137,
+   "n": 1138,
    "mb": 0.75
   },
   {
@@ -36,7 +36,7 @@
    "grupo": "outros",
    "nome": "outros-2.json",
    "n": 15000,
-   "mb": 11.21
+   "mb": 11.22
   },
   {
    "grupo": "outros",
@@ -48,13 +48,13 @@
    "grupo": "outros",
    "nome": "outros-4.json",
    "n": 15000,
-   "mb": 8.9
+   "mb": 8.91
   },
   {
    "grupo": "outros",
    "nome": "outros-5.json",
    "n": 15000,
-   "mb": 8.69
+   "mb": 8.68
   },
   {
    "grupo": "outros",
@@ -77,14 +77,14 @@
   {
    "grupo": "outros",
    "nome": "outros-9.json",
-   "n": 2015,
-   "mb": 1.28
+   "n": 2032,
+   "mb": 1.29
   },
   {
    "grupo": "recentes",
    "nome": "recentes.json",
-   "n": 8933,
-   "mb": 6.64
+   "n": 8949,
+   "mb": 6.65
   },
   {
    "grupo": "juris",
@@ -95,14 +95,14 @@
   {
    "grupo": "versoes",
    "nome": "versoes/",
-   "n": 179069,
+   "n": 179087,
    "pastas": 179
   }
  ],
  "porTipoEstado": {
   "decreto|in_force": 8346,
   "decreto-lei|in_force": 12608,
-  "portaria|in_force": 77819,
+  "portaria|in_force": 77836,
   "portaria|repealed": 8899,
   "lei|in_force": 3681,
   "lei|repealed": 499,
@@ -204,7 +204,7 @@
   "decreto-regional|in_force": 169,
   "decreto-regulamentar-regional|repealed": 1137,
   "decreto-regulamentar-regional|partially_repealed": 80,
-  "decreto-legislativo-regional|in_force": 1800,
+  "decreto-legislativo-regional|in_force": 1801,
   "decreto-legislativo-regional|partially_repealed": 55,
   "resolucao-assembleia-legislativa-regional|in_force": 498,
   "resolucao-assembleia-legislativa-regional|repealed": 10,
