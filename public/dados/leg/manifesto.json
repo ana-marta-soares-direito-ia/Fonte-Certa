@@ -1,6 +1,6 @@
 {
- "gerado": "2026-11-20T13:00:29.465Z",
- "total": 179087,
+ "gerado": "2026-11-21T12:46:31.501Z",
+ "total": 179094,
  "ficheiros": [
   {
    "grupo": "principal",
@@ -23,7 +23,7 @@
   {
    "grupo": "principal",
    "nome": "principal-4.json",
-   "n": 1138,
+   "n": 1139,
    "mb": 0.75
   },
   {
@@ -77,7 +77,7 @@
   {
    "grupo": "outros",
    "nome": "outros-9.json",
-   "n": 2032,
+   "n": 2038,
    "mb": 1.29
   },
   {
@@ -95,14 +95,14 @@
   {
    "grupo": "versoes",
    "nome": "versoes/",
-   "n": 179087,
+   "n": 179094,
    "pastas": 179
   }
  ],
  "porTipoEstado": {
   "decreto|in_force": 8346,
   "decreto-lei|in_force": 12608,
-  "portaria|in_force": 77836,
+  "portaria|in_force": 77842,
   "portaria|repealed": 8899,
   "lei|in_force": 3681,
   "lei|repealed": 499,
@@ -204,7 +204,7 @@
   "decreto-regional|in_force": 169,
   "decreto-regulamentar-regional|repealed": 1137,
   "decreto-regulamentar-regional|partially_repealed": 80,
-  "decreto-legislativo-regional|in_force": 1801,
+  "decreto-legislativo-regional|in_force": 1802,
   "decreto-legislativo-regional|partially_repealed": 55,
   "resolucao-assembleia-legislativa-regional|in_force": 498,
   "resolucao-assembleia-legislativa-regional|repealed": 10,
