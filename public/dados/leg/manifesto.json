@@ -1,6 +1,6 @@
 {
- "gerado": "2026-11-25T14:29:10.122Z",
- "total": 179101,
+ "gerado": "2026-11-26T14:02:00.596Z",
+ "total": 179117,
  "ficheiros": [
   {
    "grupo": "principal",
@@ -23,7 +23,7 @@
   {
    "grupo": "principal",
    "nome": "principal-4.json",
-   "n": 1140,
+   "n": 1143,
    "mb": 0.75
   },
   {
@@ -42,7 +42,7 @@
    "grupo": "outros",
    "nome": "outros-3.json",
    "n": 15000,
-   "mb": 9.83
+   "mb": 9.82
   },
   {
    "grupo": "outros",
@@ -60,7 +60,7 @@
    "grupo": "outros",
    "nome": "outros-6.json",
    "n": 15000,
-   "mb": 11.13
+   "mb": 11.12
   },
   {
    "grupo": "outros",
@@ -77,14 +77,14 @@
   {
    "grupo": "outros",
    "nome": "outros-9.json",
-   "n": 2044,
+   "n": 2057,
    "mb": 1.3
   },
   {
    "grupo": "recentes",
    "nome": "recentes.json",
-   "n": 8927,
-   "mb": 6.64
+   "n": 8943,
+   "mb": 6.66
   },
   {
    "grupo": "juris",
@@ -95,14 +95,14 @@
   {
    "grupo": "versoes",
    "nome": "versoes/",
-   "n": 179101,
+   "n": 179117,
    "pastas": 179
   }
  ],
  "porTipoEstado": {
   "decreto|in_force": 8346,
-  "decreto-lei|in_force": 12608,
-  "portaria|in_force": 77846,
+  "decreto-lei|in_force": 12610,
+  "portaria|in_force": 77849,
   "portaria|repealed": 8900,
   "lei|in_force": 3682,
   "lei|repealed": 499,
@@ -118,7 +118,7 @@
   "resolucao|in_force": 3528,
   "decreto-lei|expired": 35,
   "resolucao-conselho-ministros-para-assuntos-economicos|in_force": 1,
-  "resolucao-conselho-ministros|in_force": 6499,
+  "resolucao-conselho-ministros|in_force": 6505,
   "resolucao-conselho-ministros|repealed": 508,
   "lei-constitucional|in_force": 8,
   "resolucao|repealed": 70,
@@ -204,12 +204,12 @@
   "decreto-regional|in_force": 169,
   "decreto-regulamentar-regional|repealed": 1137,
   "decreto-regulamentar-regional|partially_repealed": 80,
-  "decreto-legislativo-regional|in_force": 1802,
+  "decreto-legislativo-regional|in_force": 1803,
   "decreto-legislativo-regional|partially_repealed": 55,
   "resolucao-assembleia-legislativa-regional|in_force": 498,
   "resolucao-assembleia-legislativa-regional|repealed": 10,
   "resolucao-assembleia-legislativa-regional-acores|in_force": 3,
-  "resolucao-assembleia-legislativa-regiao-autonoma-acores|in_force": 610,
+  "resolucao-assembleia-legislativa-regiao-autonoma-acores|in_force": 614,
   "resolucao-assembleia-legislativa-regiao-autonoma-acores|repealed": 2,
   "despacho-extrato|in_force": 1,
   "resolucao-assembleia-regional|in_force": 1,
