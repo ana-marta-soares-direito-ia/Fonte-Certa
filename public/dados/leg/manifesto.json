@@ -1,6 +1,6 @@
 {
- "gerado": "2026-11-26T14:02:00.596Z",
- "total": 179117,
+ "gerado": "2026-11-27T13:57:42.425Z",
+ "total": 179121,
  "ficheiros": [
   {
    "grupo": "principal",
@@ -23,7 +23,7 @@
   {
    "grupo": "principal",
    "nome": "principal-4.json",
-   "n": 1143,
+   "n": 1145,
    "mb": 0.75
   },
   {
@@ -36,7 +36,7 @@
    "grupo": "outros",
    "nome": "outros-2.json",
    "n": 15000,
-   "mb": 11.22
+   "mb": 11.23
   },
   {
    "grupo": "outros",
@@ -60,7 +60,7 @@
    "grupo": "outros",
    "nome": "outros-6.json",
    "n": 15000,
-   "mb": 11.12
+   "mb": 11.13
   },
   {
    "grupo": "outros",
@@ -77,13 +77,13 @@
   {
    "grupo": "outros",
    "nome": "outros-9.json",
-   "n": 2057,
-   "mb": 1.3
+   "n": 2059,
+   "mb": 1.31
   },
   {
    "grupo": "recentes",
    "nome": "recentes.json",
-   "n": 8943,
+   "n": 8942,
    "mb": 6.66
   },
   {
@@ -95,14 +95,14 @@
   {
    "grupo": "versoes",
    "nome": "versoes/",
-   "n": 179117,
+   "n": 179121,
    "pastas": 179
   }
  ],
  "porTipoEstado": {
   "decreto|in_force": 8346,
-  "decreto-lei|in_force": 12610,
-  "portaria|in_force": 77849,
+  "decreto-lei|in_force": 12612,
+  "portaria|in_force": 77850,
   "portaria|repealed": 8900,
   "lei|in_force": 3682,
   "lei|repealed": 499,
@@ -177,7 +177,7 @@
   "declaracao-rectificacao-extracto|in_force": 1,
   "decreto-representante-republica-para-regiao-autonoma-madeira|repealed": 11,
   "declaracao-retificacao|repealed": 7,
-  "declaracao-retificacao|in_force": 5875,
+  "declaracao-retificacao|in_force": 5876,
   "portaria-extrato|in_force": 14,
   "despacho|in_force": 8,
   "declaracao-retificacao-extrato|in_force": 7,
