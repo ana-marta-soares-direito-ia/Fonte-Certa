@@ -1,6 +1,6 @@
 {
- "gerado": "2026-11-27T13:57:42.425Z",
- "total": 179121,
+ "gerado": "2026-11-28T13:06:53.217Z",
+ "total": 179130,
  "ficheiros": [
   {
    "grupo": "principal",
@@ -42,7 +42,7 @@
    "grupo": "outros",
    "nome": "outros-3.json",
    "n": 15000,
-   "mb": 9.82
+   "mb": 9.83
   },
   {
    "grupo": "outros",
@@ -77,13 +77,13 @@
   {
    "grupo": "outros",
    "nome": "outros-9.json",
-   "n": 2059,
+   "n": 2068,
    "mb": 1.31
   },
   {
    "grupo": "recentes",
    "nome": "recentes.json",
-   "n": 8942,
+   "n": 8948,
    "mb": 6.66
   },
   {
@@ -95,14 +95,14 @@
   {
    "grupo": "versoes",
    "nome": "versoes/",
-   "n": 179121,
+   "n": 179130,
    "pastas": 179
   }
  ],
  "porTipoEstado": {
   "decreto|in_force": 8346,
   "decreto-lei|in_force": 12612,
-  "portaria|in_force": 77850,
+  "portaria|in_force": 77856,
   "portaria|repealed": 8900,
   "lei|in_force": 3682,
   "lei|repealed": 499,
@@ -125,9 +125,9 @@
   "lei|expired": 13,
   "despacho-normativo|in_force": 5717,
   "decreto-aprovacao-constituicao|in_force": 1,
-  "decreto-regulamentar|in_force": 1192,
+  "decreto-regulamentar|in_force": 1191,
   "despacho-normativo|repealed": 849,
-  "decreto-regulamentar|repealed": 680,
+  "decreto-regulamentar|repealed": 681,
   "despacho-normativo|partially_repealed": 11,
   "decreto-regulamentar|partially_repealed": 60,
   "decreto-presidente-republica|in_force": 5705,
@@ -162,7 +162,7 @@
   "regimento-conselho-estado|in_force": 2,
   "aviso-banco-portugal|in_force": 2,
   "aviso|partially_repealed": 1,
-  "declaracao|in_force": 12,
+  "declaracao|in_force": 13,
   "portaria-extracto|in_force": 6,
   "aviso-banco-portugal|repealed": 2,
   "portaria-extracto|repealed": 1,
@@ -177,7 +177,7 @@
   "declaracao-rectificacao-extracto|in_force": 1,
   "decreto-representante-republica-para-regiao-autonoma-madeira|repealed": 11,
   "declaracao-retificacao|repealed": 7,
-  "declaracao-retificacao|in_force": 5876,
+  "declaracao-retificacao|in_force": 5878,
   "portaria-extrato|in_force": 14,
   "despacho|in_force": 8,
   "declaracao-retificacao-extrato|in_force": 7,
